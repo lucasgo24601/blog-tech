@@ -436,6 +436,8 @@
             
             <tag> packeage.json </tag>
             
+            <tag> WebPack </tag>
+            
             <tag> Mocha </tag>
             
             <tag> 單元測試 </tag>
@@ -443,8 +445,6 @@
             <tag> CI/CD </tag>
             
             <tag> CI </tag>
-            
-            <tag> WebPack </tag>
             
         </tags>
       

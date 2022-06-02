@@ -4,79 +4,6 @@
   
     
     <entry>
-      <title>通訊P.05 - 資料鏈結層</title>
-      <link href="/2022/06/02/%E9%80%9A%E8%A8%8AP.05%20-%20%E8%B3%87%E6%96%99%E9%8F%88%E7%B5%90%E5%B1%A4/"/>
-      <url>/2022/06/02/%E9%80%9A%E8%A8%8AP.05%20-%20%E8%B3%87%E6%96%99%E9%8F%88%E7%B5%90%E5%B1%A4/</url>
-      
-        <content type="html"><![CDATA[<h1 id="資料鏈結層："><a href="#資料鏈結層：" class="headerlink" title="資料鏈結層："></a>資料鏈結層：</h1><p>資料聯結層(Data link layer)這一層是比較特殊的一個階層，因為底下是實體的定義，而上層則是軟體的定義。因此第二層又分兩個子層。偏向硬體的子層稱為MAC，偏向軟體的子層稱為LLC，而這些子層業務分別是產生表頭2和表尾2</p><p>所以資料鏈結層可以分為兩個層，其細分結果如下：<br>OSI 第三層 -&gt; OSI 第二層 的 LLC 層 -&gt; OSI 第二層的 MAC層 -&gt; OSI 第一層</p><h2 id="MAC："><a href="#MAC：" class="headerlink" title="MAC："></a>MAC：</h2><p>該層主要提供兩個業務，尋址機制和通道訪問控制機制，就像是：<br>假設今天你和你哥都用同一台中華電信ADSL，你們的IP就是一樣的，那麼今天老媽在外面要傳送一封信給你，可是你們IP位置一樣，那ADSL是怎麼知道這個封包要傳給你還是你哥，其實很簡單，就是這個封包到你家的ADSL，之後再根據MACAddress去判斷是要給誰(尋址機制要找到的對象)，但因為你和你哥都用同一台ADSL，也就說明外面資料連到ADSL的線只有一條，那麼就必須檢查這個通道是否被正被其他人占用(通道訪問控制機制)，如果該通道正確就傳遞出去(實體層)。</p><h3 id="尋址機制："><a href="#尋址機制：" class="headerlink" title="尋址機制："></a>尋址機制：</h3><p>由上述例子可以知道要找的地址叫做MACAddress，而MACAddress是什麼</p><h4 id="MACAddress："><a href="#MACAddress：" class="headerlink" title="MACAddress："></a>MACAddress：</h4><p>每一台具有連線功能裝置(藍芽、Wifi)的門牌號，每張網卡在出貨時，都自帶全球唯一的MACAddress(門牌號)，意味著理論上整個地球不可能會有重複的MAC地址，其MAC地址透過嚴格控管，才具有該效果，以下範例MAC地址的格式：</p><p>38-BA-F8-12-19-AC</p><p>這是我筆電藍芽的MAC地址，其中</p><ul><li><p>38-BA-F8這是由IEEE控管，必須花錢申請，才能獲得得編號(前24 bit)，而這個編號是廠商 Intel跟IEEE申請的地址</p></li><li><p>12-19-AC這是由生產網卡的廠商自行產生，該廠商必須嚴格紀錄哪些位址被使用了，絕對不能生產出MAC地址重複的地址</p></li></ul><p><a href="https://i.imgur.com/7UG6IrH.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/7UG6IrH.png" src="/img/loading.gif" class="lazyload"></a><br>在知道MACAddress的概念後，資料鏈結層的業務會產生表頭2，而表頭2的資訊就是上面的圖片格式。</p><h6 id="雖說不能重複，但其實還是能透過人工修改來重複，也有可能廠商生產紀律很鬆散，但根據OSI-通訊模型可知只要相同MAC網卡裝置，不處在同一個路由器-OSI模型定義的-第三層-網路層-就不會有問題發生。"><a href="#雖說不能重複，但其實還是能透過人工修改來重複，也有可能廠商生產紀律很鬆散，但根據OSI-通訊模型可知只要相同MAC網卡裝置，不處在同一個路由器-OSI模型定義的-第三層-網路層-就不會有問題發生。" class="headerlink" title="雖說不能重複，但其實還是能透過人工修改來重複，也有可能廠商生產紀律很鬆散，但根據OSI 通訊模型可知只要相同MAC網卡裝置，不處在同一個路由器(OSI模型定義的 第三層 網路層)就不會有問題發生。"></a>雖說不能重複，但其實還是能透過人工修改來重複，也有可能廠商生產紀律很鬆散，但根據OSI 通訊模型可知只要相同MAC網卡裝置，不處在同一個路由器(OSI模型定義的 第三層 網路層)就不會有問題發生。</h6><h4 id="WiFi探針："><a href="#WiFi探針：" class="headerlink" title="WiFi探針："></a>WiFi探針：</h4><p>因為MACAddress只用於網卡傳輸，並不屬於隱私裝置，所以有Wifi探針這產品，這是一種能夠蒐集範圍內開啟Wifi功能的裝置，其設備訊息的裝置，其中就有MACAddress和強度，主要用於搜尋範圍內可以連的Wifi有什麼以及強度是什麼，以此來提供連線選擇</p><h4 id="行為監控："><a href="#行為監控：" class="headerlink" title="行為監控："></a>行為監控：</h4><p>但是有心人士利用這缺陷，在商場、百貨公司等等設立這些裝置，每隔幾秒搜尋一次，根據強度來判斷用戶的位置(真實位置，經緯度的那種)，以此來判斷該用戶是不是常客、最喜歡逛哪一區、在哪一區停留最久等等。以此資料為參考，判斷這個MACAddress的用戶，最喜歡哪些商品，逛的是不是高檔區，財力應該很豐富等等，以此進行廣告行銷、詐騙等等都有可能。</p><h4 id="廣告投射和詐騙資料："><a href="#廣告投射和詐騙資料：" class="headerlink" title="廣告投射和詐騙資料："></a>廣告投射和詐騙資料：</h4><p>雖然只能知道MACAddress，不知道這個人的真實信號，但是如果我把這資料整理後販售，APP開發商可以去購買此資料，之後通過APP安裝權限知道你的MACAddress，兩者進行比對，MAC資料告訴我38-BA-F8-12-19-AC經常在高檔內衣區逛，APP資料告訴安裝此APP的用戶是 38-BA-F8-12-19-AC，於是我就可以進行廣告行銷，獲取真實資料，0975-XXX-XXX 黃先生 在某天某地逛高檔內衣區，他很有錢，只在高級內衣區看，之後再把這訊息賣給詐騙集團或是進行廣告投射，詐騙集團就可以謊稱 XXX 請問你是不是在某天某地 購買高檔內衣 之類的詐騙。</p><h4 id="人流監控："><a href="#人流監控：" class="headerlink" title="人流監控："></a>人流監控：</h4><p>當然也可以運用在其他地方，像是這個區域的人都去哪，人數多不多，101煙火是否要進行人流疏導等等之類的，也可以運用特殊地方監控，像是國安地方，某個MACAddress一直在總統府前面徘迴，每天固定時間都來一次，那麼這個人是否有什麼特殊計畫，是要暗殺總統? ，如果在銀行一直徘迴，是要搶劫進行探勘?</p><h4 id="定位輔助："><a href="#定位輔助：" class="headerlink" title="定位輔助："></a>定位輔助：</h4><p>因為開啟WIFI，可以偵測到周圍的WIFI強度，而根據強度可以進行三角定位，就知道你的位置精準到哪，像是UBer，必須依靠非常精準的位置來進行收費，如果位置不精準，收費就不標準。</p><h4 id="資安保護："><a href="#資安保護：" class="headerlink" title="資安保護："></a>資安保護：</h4><p>今天如果要用網路下單，一些金融操作，可以透過MACAddress來加強保障，因為這東西理論上是全球唯一，那麼你常用的電腦應該就只有一台，我就把我MAC地址傳給銀行，每次下單時候銀行都會比對MAC地址，如果不一致可能就是帳密外流，讓別人在異地用其他電腦登入。</p><p>由上述介紹，想必你對MACAddress有更多的了解，那麼我再繼續介紹，要怎麼找到這些MACAddress，位址解析協定(ARP)</p><h4 id="ARP："><a href="#ARP：" class="headerlink" title="ARP："></a>ARP：</h4><p>ARP的功能就是通過解析IP地址得到MAC地址，但是對於他的層級區分是很尷尬的存在，這問題就像是世界上最好的程式語言是什麼? <del>PHP</del><br><a href="https://i.imgur.com/mqgDFJd.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/mqgDFJd.png" src="/img/loading.gif" class="lazyload"></a><br>哎呀，放錯張圖了，下面這張才是，上圖是PHP官方某次更新文檔的說明<br><a href="https://i.imgur.com/6kkXWff.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/6kkXWff.png" src="/img/loading.gif" class="lazyload"></a></p><p>如果使用暴力區分：<br>不知道MAC為實體層<br>知道MAC為資料鏈結層<br>知道IP為網路層</p><p>那麼ARP就屬於網路層，但是ARP功能是獲取到MACAddress，所以功能性應該屬於資料鏈結層，顧此處以資料鏈結層為標準。 <del>反正IPv4才用ARP，現在IP也快用完了，IPv6不使用ARP，管他去死</del></p><p>ARP為了實現IP地址與MAC地址的查詢與轉換，ARP協議引入了ARP緩存表的概念，每台主機或路由器在維護著一個ARP緩存表（ARP table），這個表包含IP地址到MAC地址的映射關係，如下<br><a href="https://i.imgur.com/TzvBFHs.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/TzvBFHs.png" src="/img/loading.gif" class="lazyload"></a><br>通常每個Items都會有自己的壽命，默認是10分鐘，就是10分鐘刷新一次的意思</p><p>假設今天</p><p>主機A的IP地址為192.168.1.1，MAC地址為0A-11-22-33-44-01；<br>主機B的IP地址為192.168.1.2，MAC地址為0A-11-22-33-44-02；</p><ol><li>A根據自己的ARP表查詢是否有匹配B的IP</li><li>如果沒有，A就會發送ARP請求(目標MAC地址為FF-FF-FF-FF-FF-FF)到該WIFI內的所有主機，其格式如下：<br><a href="https://i.imgur.com/UuEXffW.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/UuEXffW.png" src="/img/loading.gif" class="lazyload"></a></li><li>每個主機都會檢查，這個ARP請求裡面的IP是不是再說我?而B主機發現請求的IP就是在說我，於是B主機就會把自己的MAC地址和IP填寫好成一個新的ARP表</li><li>B將填寫好的ARP表，在發送回去給A</li><li>當A拿到新的ARP表，則可以利用上面的資訊進行溝通</li></ol><h4 id="ARP攻擊："><a href="#ARP攻擊：" class="headerlink" title="ARP攻擊："></a>ARP攻擊：</h4><p>因為ARP的缺陷，在接收其他電腦的ARP表時候，不會檢查正確就直接引用，所以如果今天我創立一個假的ARP表，192.168.1.1 的MAC地址被我竄改，然後把這個ARP表廣播給同WIFI全部主機，大家都會接受，於是當有人要傳給192.168.1.1時候因為表裡面已經存在了，所以那個人就拿到MAC地址，也不用再發廣播誰是192.168.1.1，之後透過我造假的MAC地址傳送資料，於是就導致192.168.1.1的真實主機拿不到資料，而他的資料全部傳到一個假的MAC地址，那麼如果我很討厭192.168.1.50，我就先獲取他的正確MAC地址，把所有人的MAC地址都改成IP 50的MAC地址，於是一下子，30幾台電腦的資料都塞爆他，同時30幾台的資料都不會正確接收。</p><h3 id="通道訪問控制："><a href="#通道訪問控制：" class="headerlink" title="通道訪問控制："></a>通道訪問控制：</h3><p>上述講了同一個WIFI內要如何尋找到正確的MAC位址，那麼我們來談，因為同一個WIFI，並且該WIFI是非全雙工的形式，所以通道只有一個，同一時間只能一人使用，那麼我要如何有效、公平的使用，可能有人會回答多工，確實，多工是其中一種解決方案，但是因為多工實施起來成本高、複雜高，那就沒必要使用多工技術，所以多工只運用在大項目，像是實體層 Wifi要怎麼傳輸，很明顯這關連到整個使用WIFI的人(因為頻譜無法重複利用)，也就是全世界的人，所以才需要多工，反而是都在同一個區域網路內，因為有時候只有你一個人在家，有時候兩個人在家，再少人時候，多工反而更拖累效能，故我們使用Access control策略，而不是多工策略，其中最出名的方案為CSMA系列</p><p>今天如果不使用多工，那麼就代表一個人占用共用通道，因為區域網路不是每個時候都必須共用，但也因此，如果你佔用了頻道，別人此時要使用，就會發生”碰撞”，發生碰撞後應該等待占用的人使用完畢再換你使用，就像廁所一樣，並且發生了碰撞會影響到傳送速度，所以使用一些協定來降低碰撞的發生，並且可以適時的利用頻譜通道，像是CSMA/CD、CSMA/CS。</p><h4 id="碰撞："><a href="#碰撞：" class="headerlink" title="碰撞："></a>碰撞：</h4><p>搶廁所就是一種碰撞，當A在廁所，其他人直接打開廁所門發現A在裡面(碰撞)，於是A就必須重新醞釀情緒，就拉長上廁所的時間(碰撞後的影響)，那麼我們知道碰撞的概念了，接下來我們要細分碰撞的Case，這樣我們才能設計出降低碰撞發生的方法。</p><ol><li>A先到家並上廁所，後來B到家，打開廁所門發現A在裡面，此時就發生了碰撞</li><li>A和B同時到家，A和B同時想上廁所，此時就發生了碰撞</li></ol><p>針對第1點，科學家們使用CSMA技術來解決，第2點使用CD技術來解決</p><h4 id="載波偵測多重存取-CSMA-："><a href="#載波偵測多重存取-CSMA-：" class="headerlink" title="載波偵測多重存取(CSMA)："></a>載波偵測多重存取(CSMA)：</h4><p>載波偵測(Carrier Sense，CS)：是指資料傳送之前必須先偵測傳輸通道是否有其他主機在使用，如果無人使用，則立刻傳送資料；如果有人使用，則等候一段「隨機時間」之後再傳送資料，簡單說就是會先敲廁所門。以此來達到多重存取(Multiple Access，MA)。</p><h4 id="碰撞偵測-CD-："><a href="#碰撞偵測-CD-：" class="headerlink" title="碰撞偵測(CD)："></a>碰撞偵測(CD)：</h4><p>其實A和B同時發生碰撞，是無法避免的，我們只能設計出發生這問題時該如何善後，以此降低第二次碰撞的發生，當發生A和B同時碰撞時候，此時根據發生碰撞的位置，如果位置距離A比較近，A就發出一個壅塞訊號(Jam Signal)，通知所有電腦現在發生碰撞拉，請大家暫緩傳送一下，並且把A和B的請求蓋掉，告訴A和B：你們剛剛發的請求，我當作沒聽到，你們再等待N秒後在進行傳送一次，此時就要有個演算法(Binary Exponential Backoff Algorithm)，來告訴A你要等1秒，B你等0.5秒，這樣就不會發生碰撞了。使用該技術最出名的：乙太網路系統，也就是有線網路。</p><h4 id="碰撞避免-CA-："><a href="#碰撞避免-CA-：" class="headerlink" title="碰撞避免(CA)："></a>碰撞避免(CA)：</h4><p>對於具有實體介質(網路線)的網路可以偵測訊號碰撞，但是沒有實體介質的無線網路要偵測訊號碰撞極為困難，因此科學家發明了「碰撞避免(CA：Collision Avoidance)」來取代「碰撞偵測(CD：Collision Detection)」，此種方案採用主動避免碰撞而非被動偵測的方式來解決碰撞問題。可以滿足那些不易準確偵測是否有碰撞發生的需求。</p><p>假設A和B要同時傳送封包</p><ol><li>A產生隨機的延遲時間為DT_A(假設0.1秒)，B也產生隨機的延遲時間為DT_B(假設0.2秒)</li><li>A在DT_A時間內發現頻道忙碌的話，就會停止倒數計時DT_A，直到確定通道是空的才會繼續計時</li><li>當DT_A時間到了，A會發出RTS訊號，此時通道被RTS塞滿，DT_B就會停止倒數</li><li>當WIFI AP接收到RTS訊號，就會回應CTS訊號回去，此時通道又被CTS塞滿，DT_B又會停止倒數</li><li>當A收到CTS訊號，就會把資料傳送出去，通道又被A佔據，DT_B又會停止倒數</li><li>當DT_B時間到了，B就會延續上面的步驟。<br>上述仍會發生A和B因為同時時間到了，導致通道內會有多個RTS或CTS等等資料進行碰撞，但是這是請求封包的碰撞，這個請求往往都比資料小上好多倍，碰撞也不會讓資料本體造成干擾，所以讓傳送變得更可靠。</li></ol><h2 id="LLC-Logical-Link-Control-："><a href="#LLC-Logical-Link-Control-：" class="headerlink" title="LLC(Logical Link Control)："></a>LLC(Logical Link Control)：</h2><p>上述主要講說，LLC是偏向軟體方面，讓較高層次的通訊軟體使用，使得那些較高層次的通訊軟體只要透過 LLC 層就可以存取網路，而不用去考慮所連接的網路型態。也就是說你可以把它當作工具人，這個工具人負責叫LLC負責幫你存取網路。</p><h3 id="LLC的多工"><a href="#LLC的多工" class="headerlink" title="LLC的多工"></a>LLC的多工</h3><p>LLC 提供若干個『邏輯鏈路』(Logical Link)，讓多個應用程式同時使用。假設今天A工作站有很多隻程式，而每個程式都跟不同的工作站通訊：<br>A 的 P1 -&gt; B 的 P4<br>A 的 P2 -&gt; C 的 P5<br>A 的 P3 -&gt; D 的 P6<br>由上面情況可知，A的工作站一次開啟多個程式，但是每個程式都要占用網卡的通道，來傳達資料，那麼LLC是必要提供所謂的多工服務。</p><p>想想今天某個人，一次寫5封要送信給A，但是A在美國，那麼作為郵局的我們，勢必要派出5個郵差去接洽，讓每一封信都順利的到國際信封中心進行轉交給美國的A，<br>而國際信封中心只有一間，而且它們入口很窄，一次只能讓一個人送，並且不是只有台灣有在用，世界上上百個國家都要送到這個國際中心，於是國際信封中心訂了個規則，一個人有10秒的時間，10秒到了就從國際中心的出口出來，再換下一個人(同理，台灣 -&gt; 國際信封中心 這個流程也是相同於 國際信封中心 -&gt; 美國)。</p><p>5個封信就是5個程式，每個程式都會有對應的郵差窗口，就叫做『服務存取點』（Service Access Point, SAP），一個人10秒時間，就是TDMA多工來實作，但是實際情況還是依靠作業系統決定，作業系統就是國際信封中心。</p><h3 id="LLC的封包協議："><a href="#LLC的封包協議：" class="headerlink" title="LLC的封包協議："></a>LLC的封包協議：</h3><p>上述送信遊戲可以知道，LLC的扮演角色是什麼，而信封都有固定的格式，這樣才能知道你誰，要寄到哪邊去，LLC同樣也有固定的格式，LLC-PDU可以當作信封的意思。</p><ol><li>『目的地服務存取點點』（Destination Service Access Point, DSAP）：DSAP是為了能夠辨認出LLC通訊協定間傳送的資料到底是屬於誰的，在DSAP欄位標明對方工作站的服務存取點，也表示銜接到對方通訊應用程式。</li><li>『原始服務存取點點』（Source Service Access Point, SSAP）：傳送端LLC的服務存取點，亦表示連接傳送端本身的應用程式。</li><li>控制欄：告訴對方本 LLC-PDU的意義，是傳送資料(由上層傳送下來)，或是雙方的控制訊息，控制欄主要作為雙方協議溝通使用。</li><li>訊息欄：如果由控制欄位知道該封包做為傳送資料之用，則訊息欄是負責接受上層（或網路層）的資料，再包裝成LLC-PDU。如果控制欄表示本封包是作為連線交談用，則訊息欄是作為交談訊息存放用，對方由訊息欄可知道溝通的內容。</li></ol><p>有了上述這些功能後，就可以順利的把MAC表頭2包在封包內送給實體層來實作，但是理想上這些資料是不會產生問題的，但是萬一受到雜訊干擾的話，那資料傳送就失敗了，也因為實體層不需要加入表頭，這一層是最後一層，所以在最後一層這邊，資料鏈結層還會進行一些偵錯處理，把一些偵錯的處理放在最後面，也就是表尾2的內容。</p><h3 id="循環冗餘檢查碼-CRC-："><a href="#循環冗餘檢查碼-CRC-：" class="headerlink" title="循環冗餘檢查碼(CRC)："></a>循環冗餘檢查碼(CRC)：</h3><p>還記得之前在說數位和類比的差別嗎，為什麼1G通話是使用類比，2G就廢棄改用數位嗎，其原因是數位有太多好處，可以進行偵錯、除錯、加密、壓縮等等，而CRC就是用於除錯的。</p><p>假設今天我要傳送資料叫做 10001，那們CRC進行加法運算，1+0+0+0+1 = 2，並將2轉成2進制為10，之後把10塞到表尾。</p><p>當接收端拿到資料後，會把先讀取表尾，表尾告訴我CRC結果是10，那我去解析資料，資料因為雜訊干擾，變成10000，我自己計算出該筆資料CRC結果是1，但是傳送端的CRC結果告訴我應該是要10而不是1，所以我可以斷定這資料是有誤的，這就是一種偵錯方式。</p><p>當然如果是 10001 被干擾成 10100，這樣加起來還是10，於是判定為通過CRC偵錯，但是結果很明顯是錯誤的，所以CRC檢查不會用加法這種簡單數學演算法，而是用更複雜的多項式，並且也僅支援錯一部分的偵錯。</p><h6 id="數學的偵錯有很多種，像是台灣身分證，A123456789，A代表台北市，1代表男生，於是數學家們將12345678這些數字套入，台灣身分證產生公式，可以得出-121-這個數字，之後除以10餘1，因此10-1-9，所以A12345678這個檢查碼應該是9，所以這是一個合法的身分證字號。"><a href="#數學的偵錯有很多種，像是台灣身分證，A123456789，A代表台北市，1代表男生，於是數學家們將12345678這些數字套入，台灣身分證產生公式，可以得出-121-這個數字，之後除以10餘1，因此10-1-9，所以A12345678這個檢查碼應該是9，所以這是一個合法的身分證字號。" class="headerlink" title="數學的偵錯有很多種，像是台灣身分證，A123456789，A代表台北市，1代表男生，於是數學家們將12345678這些數字套入，台灣身分證產生公式，可以得出 121 這個數字，之後除以10餘1，因此10-1 = 9，所以A12345678這個檢查碼應該是9，所以這是一個合法的身分證字號。"></a>數學的偵錯有很多種，像是台灣身分證，A123456789，A代表台北市，1代表男生，於是數學家們將12345678這些數字套入，台灣身分證產生公式，可以得出 121 這個數字，之後除以10餘1，因此10-1 = 9，所以A12345678這個檢查碼應該是9，所以這是一個合法的身分證字號。</h6><h6 id="A123456789-是符合台灣身分證字號的規則，該身分證是台北內湖謝條根先生，他因為身分證太簡單，經常被冒用，經常上法院，涉及援交、台鐵訂票、公司逃漏稅、健保看病、詐騙集團申請信用卡、網拍帳號等。"><a href="#A123456789-是符合台灣身分證字號的規則，該身分證是台北內湖謝條根先生，他因為身分證太簡單，經常被冒用，經常上法院，涉及援交、台鐵訂票、公司逃漏稅、健保看病、詐騙集團申請信用卡、網拍帳號等。" class="headerlink" title="A123456789 是符合台灣身分證字號的規則，該身分證是台北內湖謝條根先生，他因為身分證太簡單，經常被冒用，經常上法院，涉及援交、台鐵訂票、公司逃漏稅、健保看病、詐騙集團申請信用卡、網拍帳號等。"></a>A123456789 是符合台灣身分證字號的規則，該身分證是台北內湖謝條根先生，他因為身分證太簡單，經常被冒用，經常上法院，涉及援交、台鐵訂票、公司逃漏稅、健保看病、詐騙集團申請信用卡、網拍帳號等。</h6>]]></content>
-      
-      
-      <categories>
-          
-          <category> 通訊協定系列 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> WebSocket </tag>
-            
-            <tag> 協定 </tag>
-            
-            <tag> OSI </tag>
-            
-            <tag> 資料鏈結層 </tag>
-            
-            <tag> TCP/IP協定 </tag>
-            
-            <tag> LLC </tag>
-            
-            <tag> MAC </tag>
-            
-            <tag> MACAddress </tag>
-            
-            <tag> WiFi探針 </tag>
-            
-            <tag> 行為監控 </tag>
-            
-            <tag> 廣告投射 </tag>
-            
-            <tag> 詐騙資料 </tag>
-            
-            <tag> 人流監控 </tag>
-            
-            <tag> 定位輔助 </tag>
-            
-            <tag> 資安保護 </tag>
-            
-            <tag> ARP </tag>
-            
-            <tag> ARP緩存表 </tag>
-            
-            <tag> ARP攻擊 </tag>
-            
-            <tag> 通道訪問控制 </tag>
-            
-            <tag> CSMA/CD </tag>
-            
-            <tag> CSMA/CS </tag>
-            
-            <tag> DSAP </tag>
-            
-            <tag> SSAP </tag>
-            
-            <tag> CRC </tag>
-            
-            <tag> 身分證 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>通訊P.04 - 實體層、傳輸技術</title>
       <link href="/2022/06/02/%E9%80%9A%E8%A8%8AP.04%20-%20%E5%AF%A6%E9%AB%94%E5%B1%A4%E3%80%81%E5%82%B3%E8%BC%B8%E6%8A%80%E8%A1%93/"/>
       <url>/2022/06/02/%E9%80%9A%E8%A8%8AP.04%20-%20%E5%AF%A6%E9%AB%94%E5%B1%A4%E3%80%81%E5%82%B3%E8%BC%B8%E6%8A%80%E8%A1%93/</url>
@@ -97,12 +24,6 @@
             
             <tag> 協定 </tag>
             
-            <tag> OSI </tag>
-            
-            <tag> 實體層 </tag>
-            
-            <tag> TCP/IP協定 </tag>
-            
             <tag> 無線通訊 </tag>
             
             <tag> 有線通訊 </tag>
@@ -110,6 +31,12 @@
             <tag> 4G </tag>
             
             <tag> 5G </tag>
+            
+            <tag> OSI </tag>
+            
+            <tag> 實體層 </tag>
+            
+            <tag> TCP/IP協定 </tag>
             
             <tag> 電磁波 </tag>
             
@@ -184,6 +111,79 @@
     
     
     <entry>
+      <title>通訊P.05 - 資料鏈結層</title>
+      <link href="/2022/06/02/%E9%80%9A%E8%A8%8AP.05%20-%20%E8%B3%87%E6%96%99%E9%8F%88%E7%B5%90%E5%B1%A4/"/>
+      <url>/2022/06/02/%E9%80%9A%E8%A8%8AP.05%20-%20%E8%B3%87%E6%96%99%E9%8F%88%E7%B5%90%E5%B1%A4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="資料鏈結層："><a href="#資料鏈結層：" class="headerlink" title="資料鏈結層："></a>資料鏈結層：</h1><p>資料聯結層(Data link layer)這一層是比較特殊的一個階層，因為底下是實體的定義，而上層則是軟體的定義。因此第二層又分兩個子層。偏向硬體的子層稱為MAC，偏向軟體的子層稱為LLC，而這些子層業務分別是產生表頭2和表尾2</p><p>所以資料鏈結層可以分為兩個層，其細分結果如下：<br>OSI 第三層 -&gt; OSI 第二層 的 LLC 層 -&gt; OSI 第二層的 MAC層 -&gt; OSI 第一層</p><h2 id="MAC："><a href="#MAC：" class="headerlink" title="MAC："></a>MAC：</h2><p>該層主要提供兩個業務，尋址機制和通道訪問控制機制，就像是：<br>假設今天你和你哥都用同一台中華電信ADSL，你們的IP就是一樣的，那麼今天老媽在外面要傳送一封信給你，可是你們IP位置一樣，那ADSL是怎麼知道這個封包要傳給你還是你哥，其實很簡單，就是這個封包到你家的ADSL，之後再根據MACAddress去判斷是要給誰(尋址機制要找到的對象)，但因為你和你哥都用同一台ADSL，也就說明外面資料連到ADSL的線只有一條，那麼就必須檢查這個通道是否被正被其他人占用(通道訪問控制機制)，如果該通道正確就傳遞出去(實體層)。</p><h3 id="尋址機制："><a href="#尋址機制：" class="headerlink" title="尋址機制："></a>尋址機制：</h3><p>由上述例子可以知道要找的地址叫做MACAddress，而MACAddress是什麼</p><h4 id="MACAddress："><a href="#MACAddress：" class="headerlink" title="MACAddress："></a>MACAddress：</h4><p>每一台具有連線功能裝置(藍芽、Wifi)的門牌號，每張網卡在出貨時，都自帶全球唯一的MACAddress(門牌號)，意味著理論上整個地球不可能會有重複的MAC地址，其MAC地址透過嚴格控管，才具有該效果，以下範例MAC地址的格式：</p><p>38-BA-F8-12-19-AC</p><p>這是我筆電藍芽的MAC地址，其中</p><ul><li><p>38-BA-F8這是由IEEE控管，必須花錢申請，才能獲得得編號(前24 bit)，而這個編號是廠商 Intel跟IEEE申請的地址</p></li><li><p>12-19-AC這是由生產網卡的廠商自行產生，該廠商必須嚴格紀錄哪些位址被使用了，絕對不能生產出MAC地址重複的地址</p></li></ul><p><a href="https://i.imgur.com/7UG6IrH.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/7UG6IrH.png" src="/img/loading.gif" class="lazyload"></a><br>在知道MACAddress的概念後，資料鏈結層的業務會產生表頭2，而表頭2的資訊就是上面的圖片格式。</p><h6 id="雖說不能重複，但其實還是能透過人工修改來重複，也有可能廠商生產紀律很鬆散，但根據OSI-通訊模型可知只要相同MAC網卡裝置，不處在同一個路由器-OSI模型定義的-第三層-網路層-就不會有問題發生。"><a href="#雖說不能重複，但其實還是能透過人工修改來重複，也有可能廠商生產紀律很鬆散，但根據OSI-通訊模型可知只要相同MAC網卡裝置，不處在同一個路由器-OSI模型定義的-第三層-網路層-就不會有問題發生。" class="headerlink" title="雖說不能重複，但其實還是能透過人工修改來重複，也有可能廠商生產紀律很鬆散，但根據OSI 通訊模型可知只要相同MAC網卡裝置，不處在同一個路由器(OSI模型定義的 第三層 網路層)就不會有問題發生。"></a>雖說不能重複，但其實還是能透過人工修改來重複，也有可能廠商生產紀律很鬆散，但根據OSI 通訊模型可知只要相同MAC網卡裝置，不處在同一個路由器(OSI模型定義的 第三層 網路層)就不會有問題發生。</h6><h4 id="WiFi探針："><a href="#WiFi探針：" class="headerlink" title="WiFi探針："></a>WiFi探針：</h4><p>因為MACAddress只用於網卡傳輸，並不屬於隱私裝置，所以有Wifi探針這產品，這是一種能夠蒐集範圍內開啟Wifi功能的裝置，其設備訊息的裝置，其中就有MACAddress和強度，主要用於搜尋範圍內可以連的Wifi有什麼以及強度是什麼，以此來提供連線選擇</p><h4 id="行為監控："><a href="#行為監控：" class="headerlink" title="行為監控："></a>行為監控：</h4><p>但是有心人士利用這缺陷，在商場、百貨公司等等設立這些裝置，每隔幾秒搜尋一次，根據強度來判斷用戶的位置(真實位置，經緯度的那種)，以此來判斷該用戶是不是常客、最喜歡逛哪一區、在哪一區停留最久等等。以此資料為參考，判斷這個MACAddress的用戶，最喜歡哪些商品，逛的是不是高檔區，財力應該很豐富等等，以此進行廣告行銷、詐騙等等都有可能。</p><h4 id="廣告投射和詐騙資料："><a href="#廣告投射和詐騙資料：" class="headerlink" title="廣告投射和詐騙資料："></a>廣告投射和詐騙資料：</h4><p>雖然只能知道MACAddress，不知道這個人的真實信號，但是如果我把這資料整理後販售，APP開發商可以去購買此資料，之後通過APP安裝權限知道你的MACAddress，兩者進行比對，MAC資料告訴我38-BA-F8-12-19-AC經常在高檔內衣區逛，APP資料告訴安裝此APP的用戶是 38-BA-F8-12-19-AC，於是我就可以進行廣告行銷，獲取真實資料，0975-XXX-XXX 黃先生 在某天某地逛高檔內衣區，他很有錢，只在高級內衣區看，之後再把這訊息賣給詐騙集團或是進行廣告投射，詐騙集團就可以謊稱 XXX 請問你是不是在某天某地 購買高檔內衣 之類的詐騙。</p><h4 id="人流監控："><a href="#人流監控：" class="headerlink" title="人流監控："></a>人流監控：</h4><p>當然也可以運用在其他地方，像是這個區域的人都去哪，人數多不多，101煙火是否要進行人流疏導等等之類的，也可以運用特殊地方監控，像是國安地方，某個MACAddress一直在總統府前面徘迴，每天固定時間都來一次，那麼這個人是否有什麼特殊計畫，是要暗殺總統? ，如果在銀行一直徘迴，是要搶劫進行探勘?</p><h4 id="定位輔助："><a href="#定位輔助：" class="headerlink" title="定位輔助："></a>定位輔助：</h4><p>因為開啟WIFI，可以偵測到周圍的WIFI強度，而根據強度可以進行三角定位，就知道你的位置精準到哪，像是UBer，必須依靠非常精準的位置來進行收費，如果位置不精準，收費就不標準。</p><h4 id="資安保護："><a href="#資安保護：" class="headerlink" title="資安保護："></a>資安保護：</h4><p>今天如果要用網路下單，一些金融操作，可以透過MACAddress來加強保障，因為這東西理論上是全球唯一，那麼你常用的電腦應該就只有一台，我就把我MAC地址傳給銀行，每次下單時候銀行都會比對MAC地址，如果不一致可能就是帳密外流，讓別人在異地用其他電腦登入。</p><p>由上述介紹，想必你對MACAddress有更多的了解，那麼我再繼續介紹，要怎麼找到這些MACAddress，位址解析協定(ARP)</p><h4 id="ARP："><a href="#ARP：" class="headerlink" title="ARP："></a>ARP：</h4><p>ARP的功能就是通過解析IP地址得到MAC地址，但是對於他的層級區分是很尷尬的存在，這問題就像是世界上最好的程式語言是什麼? <del>PHP</del><br><a href="https://i.imgur.com/mqgDFJd.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/mqgDFJd.png" src="/img/loading.gif" class="lazyload"></a><br>哎呀，放錯張圖了，下面這張才是，上圖是PHP官方某次更新文檔的說明<br><a href="https://i.imgur.com/6kkXWff.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/6kkXWff.png" src="/img/loading.gif" class="lazyload"></a></p><p>如果使用暴力區分：<br>不知道MAC為實體層<br>知道MAC為資料鏈結層<br>知道IP為網路層</p><p>那麼ARP就屬於網路層，但是ARP功能是獲取到MACAddress，所以功能性應該屬於資料鏈結層，顧此處以資料鏈結層為標準。 <del>反正IPv4才用ARP，現在IP也快用完了，IPv6不使用ARP，管他去死</del></p><p>ARP為了實現IP地址與MAC地址的查詢與轉換，ARP協議引入了ARP緩存表的概念，每台主機或路由器在維護著一個ARP緩存表（ARP table），這個表包含IP地址到MAC地址的映射關係，如下<br><a href="https://i.imgur.com/TzvBFHs.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/TzvBFHs.png" src="/img/loading.gif" class="lazyload"></a><br>通常每個Items都會有自己的壽命，默認是10分鐘，就是10分鐘刷新一次的意思</p><p>假設今天</p><p>主機A的IP地址為192.168.1.1，MAC地址為0A-11-22-33-44-01；<br>主機B的IP地址為192.168.1.2，MAC地址為0A-11-22-33-44-02；</p><ol><li>A根據自己的ARP表查詢是否有匹配B的IP</li><li>如果沒有，A就會發送ARP請求(目標MAC地址為FF-FF-FF-FF-FF-FF)到該WIFI內的所有主機，其格式如下：<br><a href="https://i.imgur.com/UuEXffW.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/UuEXffW.png" src="/img/loading.gif" class="lazyload"></a></li><li>每個主機都會檢查，這個ARP請求裡面的IP是不是再說我?而B主機發現請求的IP就是在說我，於是B主機就會把自己的MAC地址和IP填寫好成一個新的ARP表</li><li>B將填寫好的ARP表，在發送回去給A</li><li>當A拿到新的ARP表，則可以利用上面的資訊進行溝通</li></ol><h4 id="ARP攻擊："><a href="#ARP攻擊：" class="headerlink" title="ARP攻擊："></a>ARP攻擊：</h4><p>因為ARP的缺陷，在接收其他電腦的ARP表時候，不會檢查正確就直接引用，所以如果今天我創立一個假的ARP表，192.168.1.1 的MAC地址被我竄改，然後把這個ARP表廣播給同WIFI全部主機，大家都會接受，於是當有人要傳給192.168.1.1時候因為表裡面已經存在了，所以那個人就拿到MAC地址，也不用再發廣播誰是192.168.1.1，之後透過我造假的MAC地址傳送資料，於是就導致192.168.1.1的真實主機拿不到資料，而他的資料全部傳到一個假的MAC地址，那麼如果我很討厭192.168.1.50，我就先獲取他的正確MAC地址，把所有人的MAC地址都改成IP 50的MAC地址，於是一下子，30幾台電腦的資料都塞爆他，同時30幾台的資料都不會正確接收。</p><h3 id="通道訪問控制："><a href="#通道訪問控制：" class="headerlink" title="通道訪問控制："></a>通道訪問控制：</h3><p>上述講了同一個WIFI內要如何尋找到正確的MAC位址，那麼我們來談，因為同一個WIFI，並且該WIFI是非全雙工的形式，所以通道只有一個，同一時間只能一人使用，那麼我要如何有效、公平的使用，可能有人會回答多工，確實，多工是其中一種解決方案，但是因為多工實施起來成本高、複雜高，那就沒必要使用多工技術，所以多工只運用在大項目，像是實體層 Wifi要怎麼傳輸，很明顯這關連到整個使用WIFI的人(因為頻譜無法重複利用)，也就是全世界的人，所以才需要多工，反而是都在同一個區域網路內，因為有時候只有你一個人在家，有時候兩個人在家，再少人時候，多工反而更拖累效能，故我們使用Access control策略，而不是多工策略，其中最出名的方案為CSMA系列</p><p>今天如果不使用多工，那麼就代表一個人占用共用通道，因為區域網路不是每個時候都必須共用，但也因此，如果你佔用了頻道，別人此時要使用，就會發生”碰撞”，發生碰撞後應該等待占用的人使用完畢再換你使用，就像廁所一樣，並且發生了碰撞會影響到傳送速度，所以使用一些協定來降低碰撞的發生，並且可以適時的利用頻譜通道，像是CSMA/CD、CSMA/CS。</p><h4 id="碰撞："><a href="#碰撞：" class="headerlink" title="碰撞："></a>碰撞：</h4><p>搶廁所就是一種碰撞，當A在廁所，其他人直接打開廁所門發現A在裡面(碰撞)，於是A就必須重新醞釀情緒，就拉長上廁所的時間(碰撞後的影響)，那麼我們知道碰撞的概念了，接下來我們要細分碰撞的Case，這樣我們才能設計出降低碰撞發生的方法。</p><ol><li>A先到家並上廁所，後來B到家，打開廁所門發現A在裡面，此時就發生了碰撞</li><li>A和B同時到家，A和B同時想上廁所，此時就發生了碰撞</li></ol><p>針對第1點，科學家們使用CSMA技術來解決，第2點使用CD技術來解決</p><h4 id="載波偵測多重存取-CSMA-："><a href="#載波偵測多重存取-CSMA-：" class="headerlink" title="載波偵測多重存取(CSMA)："></a>載波偵測多重存取(CSMA)：</h4><p>載波偵測(Carrier Sense，CS)：是指資料傳送之前必須先偵測傳輸通道是否有其他主機在使用，如果無人使用，則立刻傳送資料；如果有人使用，則等候一段「隨機時間」之後再傳送資料，簡單說就是會先敲廁所門。以此來達到多重存取(Multiple Access，MA)。</p><h4 id="碰撞偵測-CD-："><a href="#碰撞偵測-CD-：" class="headerlink" title="碰撞偵測(CD)："></a>碰撞偵測(CD)：</h4><p>其實A和B同時發生碰撞，是無法避免的，我們只能設計出發生這問題時該如何善後，以此降低第二次碰撞的發生，當發生A和B同時碰撞時候，此時根據發生碰撞的位置，如果位置距離A比較近，A就發出一個壅塞訊號(Jam Signal)，通知所有電腦現在發生碰撞拉，請大家暫緩傳送一下，並且把A和B的請求蓋掉，告訴A和B：你們剛剛發的請求，我當作沒聽到，你們再等待N秒後在進行傳送一次，此時就要有個演算法(Binary Exponential Backoff Algorithm)，來告訴A你要等1秒，B你等0.5秒，這樣就不會發生碰撞了。使用該技術最出名的：乙太網路系統，也就是有線網路。</p><h4 id="碰撞避免-CA-："><a href="#碰撞避免-CA-：" class="headerlink" title="碰撞避免(CA)："></a>碰撞避免(CA)：</h4><p>對於具有實體介質(網路線)的網路可以偵測訊號碰撞，但是沒有實體介質的無線網路要偵測訊號碰撞極為困難，因此科學家發明了「碰撞避免(CA：Collision Avoidance)」來取代「碰撞偵測(CD：Collision Detection)」，此種方案採用主動避免碰撞而非被動偵測的方式來解決碰撞問題。可以滿足那些不易準確偵測是否有碰撞發生的需求。</p><p>假設A和B要同時傳送封包</p><ol><li>A產生隨機的延遲時間為DT_A(假設0.1秒)，B也產生隨機的延遲時間為DT_B(假設0.2秒)</li><li>A在DT_A時間內發現頻道忙碌的話，就會停止倒數計時DT_A，直到確定通道是空的才會繼續計時</li><li>當DT_A時間到了，A會發出RTS訊號，此時通道被RTS塞滿，DT_B就會停止倒數</li><li>當WIFI AP接收到RTS訊號，就會回應CTS訊號回去，此時通道又被CTS塞滿，DT_B又會停止倒數</li><li>當A收到CTS訊號，就會把資料傳送出去，通道又被A佔據，DT_B又會停止倒數</li><li>當DT_B時間到了，B就會延續上面的步驟。<br>上述仍會發生A和B因為同時時間到了，導致通道內會有多個RTS或CTS等等資料進行碰撞，但是這是請求封包的碰撞，這個請求往往都比資料小上好多倍，碰撞也不會讓資料本體造成干擾，所以讓傳送變得更可靠。</li></ol><h2 id="LLC-Logical-Link-Control-："><a href="#LLC-Logical-Link-Control-：" class="headerlink" title="LLC(Logical Link Control)："></a>LLC(Logical Link Control)：</h2><p>上述主要講說，LLC是偏向軟體方面，讓較高層次的通訊軟體使用，使得那些較高層次的通訊軟體只要透過 LLC 層就可以存取網路，而不用去考慮所連接的網路型態。也就是說你可以把它當作工具人，這個工具人負責叫LLC負責幫你存取網路。</p><h3 id="LLC的多工"><a href="#LLC的多工" class="headerlink" title="LLC的多工"></a>LLC的多工</h3><p>LLC 提供若干個『邏輯鏈路』(Logical Link)，讓多個應用程式同時使用。假設今天A工作站有很多隻程式，而每個程式都跟不同的工作站通訊：<br>A 的 P1 -&gt; B 的 P4<br>A 的 P2 -&gt; C 的 P5<br>A 的 P3 -&gt; D 的 P6<br>由上面情況可知，A的工作站一次開啟多個程式，但是每個程式都要占用網卡的通道，來傳達資料，那麼LLC是必要提供所謂的多工服務。</p><p>想想今天某個人，一次寫5封要送信給A，但是A在美國，那麼作為郵局的我們，勢必要派出5個郵差去接洽，讓每一封信都順利的到國際信封中心進行轉交給美國的A，<br>而國際信封中心只有一間，而且它們入口很窄，一次只能讓一個人送，並且不是只有台灣有在用，世界上上百個國家都要送到這個國際中心，於是國際信封中心訂了個規則，一個人有10秒的時間，10秒到了就從國際中心的出口出來，再換下一個人(同理，台灣 -&gt; 國際信封中心 這個流程也是相同於 國際信封中心 -&gt; 美國)。</p><p>5個封信就是5個程式，每個程式都會有對應的郵差窗口，就叫做『服務存取點』（Service Access Point, SAP），一個人10秒時間，就是TDMA多工來實作，但是實際情況還是依靠作業系統決定，作業系統就是國際信封中心。</p><h3 id="LLC的封包協議："><a href="#LLC的封包協議：" class="headerlink" title="LLC的封包協議："></a>LLC的封包協議：</h3><p>上述送信遊戲可以知道，LLC的扮演角色是什麼，而信封都有固定的格式，這樣才能知道你誰，要寄到哪邊去，LLC同樣也有固定的格式，LLC-PDU可以當作信封的意思。</p><ol><li>『目的地服務存取點點』（Destination Service Access Point, DSAP）：DSAP是為了能夠辨認出LLC通訊協定間傳送的資料到底是屬於誰的，在DSAP欄位標明對方工作站的服務存取點，也表示銜接到對方通訊應用程式。</li><li>『原始服務存取點點』（Source Service Access Point, SSAP）：傳送端LLC的服務存取點，亦表示連接傳送端本身的應用程式。</li><li>控制欄：告訴對方本 LLC-PDU的意義，是傳送資料(由上層傳送下來)，或是雙方的控制訊息，控制欄主要作為雙方協議溝通使用。</li><li>訊息欄：如果由控制欄位知道該封包做為傳送資料之用，則訊息欄是負責接受上層（或網路層）的資料，再包裝成LLC-PDU。如果控制欄表示本封包是作為連線交談用，則訊息欄是作為交談訊息存放用，對方由訊息欄可知道溝通的內容。</li></ol><p>有了上述這些功能後，就可以順利的把MAC表頭2包在封包內送給實體層來實作，但是理想上這些資料是不會產生問題的，但是萬一受到雜訊干擾的話，那資料傳送就失敗了，也因為實體層不需要加入表頭，這一層是最後一層，所以在最後一層這邊，資料鏈結層還會進行一些偵錯處理，把一些偵錯的處理放在最後面，也就是表尾2的內容。</p><h3 id="循環冗餘檢查碼-CRC-："><a href="#循環冗餘檢查碼-CRC-：" class="headerlink" title="循環冗餘檢查碼(CRC)："></a>循環冗餘檢查碼(CRC)：</h3><p>還記得之前在說數位和類比的差別嗎，為什麼1G通話是使用類比，2G就廢棄改用數位嗎，其原因是數位有太多好處，可以進行偵錯、除錯、加密、壓縮等等，而CRC就是用於除錯的。</p><p>假設今天我要傳送資料叫做 10001，那們CRC進行加法運算，1+0+0+0+1 = 2，並將2轉成2進制為10，之後把10塞到表尾。</p><p>當接收端拿到資料後，會把先讀取表尾，表尾告訴我CRC結果是10，那我去解析資料，資料因為雜訊干擾，變成10000，我自己計算出該筆資料CRC結果是1，但是傳送端的CRC結果告訴我應該是要10而不是1，所以我可以斷定這資料是有誤的，這就是一種偵錯方式。</p><p>當然如果是 10001 被干擾成 10100，這樣加起來還是10，於是判定為通過CRC偵錯，但是結果很明顯是錯誤的，所以CRC檢查不會用加法這種簡單數學演算法，而是用更複雜的多項式，並且也僅支援錯一部分的偵錯。</p><h6 id="數學的偵錯有很多種，像是台灣身分證，A123456789，A代表台北市，1代表男生，於是數學家們將12345678這些數字套入，台灣身分證產生公式，可以得出-121-這個數字，之後除以10餘1，因此10-1-9，所以A12345678這個檢查碼應該是9，所以這是一個合法的身分證字號。"><a href="#數學的偵錯有很多種，像是台灣身分證，A123456789，A代表台北市，1代表男生，於是數學家們將12345678這些數字套入，台灣身分證產生公式，可以得出-121-這個數字，之後除以10餘1，因此10-1-9，所以A12345678這個檢查碼應該是9，所以這是一個合法的身分證字號。" class="headerlink" title="數學的偵錯有很多種，像是台灣身分證，A123456789，A代表台北市，1代表男生，於是數學家們將12345678這些數字套入，台灣身分證產生公式，可以得出 121 這個數字，之後除以10餘1，因此10-1 = 9，所以A12345678這個檢查碼應該是9，所以這是一個合法的身分證字號。"></a>數學的偵錯有很多種，像是台灣身分證，A123456789，A代表台北市，1代表男生，於是數學家們將12345678這些數字套入，台灣身分證產生公式，可以得出 121 這個數字，之後除以10餘1，因此10-1 = 9，所以A12345678這個檢查碼應該是9，所以這是一個合法的身分證字號。</h6><h6 id="A123456789-是符合台灣身分證字號的規則，該身分證是台北內湖謝條根先生，他因為身分證太簡單，經常被冒用，經常上法院，涉及援交、台鐵訂票、公司逃漏稅、健保看病、詐騙集團申請信用卡、網拍帳號等。"><a href="#A123456789-是符合台灣身分證字號的規則，該身分證是台北內湖謝條根先生，他因為身分證太簡單，經常被冒用，經常上法院，涉及援交、台鐵訂票、公司逃漏稅、健保看病、詐騙集團申請信用卡、網拍帳號等。" class="headerlink" title="A123456789 是符合台灣身分證字號的規則，該身分證是台北內湖謝條根先生，他因為身分證太簡單，經常被冒用，經常上法院，涉及援交、台鐵訂票、公司逃漏稅、健保看病、詐騙集團申請信用卡、網拍帳號等。"></a>A123456789 是符合台灣身分證字號的規則，該身分證是台北內湖謝條根先生，他因為身分證太簡單，經常被冒用，經常上法院，涉及援交、台鐵訂票、公司逃漏稅、健保看病、詐騙集團申請信用卡、網拍帳號等。</h6>]]></content>
+      
+      
+      <categories>
+          
+          <category> 通訊協定系列 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> WebSocket </tag>
+            
+            <tag> 協定 </tag>
+            
+            <tag> OSI </tag>
+            
+            <tag> 資料鏈結層 </tag>
+            
+            <tag> TCP/IP協定 </tag>
+            
+            <tag> LLC </tag>
+            
+            <tag> MAC </tag>
+            
+            <tag> MACAddress </tag>
+            
+            <tag> WiFi探針 </tag>
+            
+            <tag> 行為監控 </tag>
+            
+            <tag> 廣告投射 </tag>
+            
+            <tag> 詐騙資料 </tag>
+            
+            <tag> 人流監控 </tag>
+            
+            <tag> 定位輔助 </tag>
+            
+            <tag> 資安保護 </tag>
+            
+            <tag> ARP </tag>
+            
+            <tag> ARP緩存表 </tag>
+            
+            <tag> ARP攻擊 </tag>
+            
+            <tag> 通道訪問控制 </tag>
+            
+            <tag> CSMA/CD </tag>
+            
+            <tag> CSMA/CS </tag>
+            
+            <tag> DSAP </tag>
+            
+            <tag> SSAP </tag>
+            
+            <tag> CRC </tag>
+            
+            <tag> 身分證 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>通訊P.02 - OSI七層模型</title>
       <link href="/2022/06/02/%E9%80%9A%E8%A8%8AP.02%20-%20OSI%E4%B8%83%E5%B1%A4%E6%A8%A1%E5%9E%8B/"/>
       <url>/2022/06/02/%E9%80%9A%E8%A8%8AP.02%20-%20OSI%E4%B8%83%E5%B1%A4%E6%A8%A1%E5%9E%8B/</url>
@@ -203,6 +203,10 @@
             <tag> WebSocket </tag>
             
             <tag> 協定 </tag>
+            
+            <tag> 無線通訊 </tag>
+            
+            <tag> 有線通訊 </tag>
             
             <tag> ISO </tag>
             
@@ -225,10 +229,6 @@
             <tag> ARPA </tag>
             
             <tag> TCP/IP協定 </tag>
-            
-            <tag> 無線通訊 </tag>
-            
-            <tag> 有線通訊 </tag>
             
         </tags>
       
@@ -257,15 +257,15 @@
             
             <tag> 協定 </tag>
             
+            <tag> 無線通訊 </tag>
+            
+            <tag> 有線通訊 </tag>
+            
             <tag> OSI </tag>
             
             <tag> 實體層 </tag>
             
             <tag> TCP/IP協定 </tag>
-            
-            <tag> 無線通訊 </tag>
-            
-            <tag> 有線通訊 </tag>
             
             <tag> 介質 </tag>
             
@@ -336,17 +336,17 @@
             
             <tag> 協定 </tag>
             
-            <tag> ISO </tag>
+            <tag> ITU </tag>
+            
+            <tag> 國際電信聯盟 </tag>
             
             <tag> 無線通訊 </tag>
             
             <tag> 有線通訊 </tag>
             
-            <tag> ITU </tag>
-            
-            <tag> 國際電信聯盟 </tag>
-            
             <tag> CCITT </tag>
+            
+            <tag> ISO </tag>
             
             <tag> 時間 </tag>
             
@@ -436,6 +436,8 @@
             
             <tag> packeage.json </tag>
             
+            <tag> WebPack </tag>
+            
             <tag> Mocha </tag>
             
             <tag> 單元測試 </tag>
@@ -443,47 +445,6 @@
             <tag> CI/CD </tag>
             
             <tag> CI </tag>
-            
-            <tag> WebPack </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>前端P.12 - NodeJS</title>
-      <link href="/2022/06/02/%E5%89%8D%E7%AB%AFP.12%20-%20NodeJS/"/>
-      <url>/2022/06/02/%E5%89%8D%E7%AB%AFP.12%20-%20NodeJS/</url>
-      
-        <content type="html"><![CDATA[<h1 id="NodeJS："><a href="#NodeJS：" class="headerlink" title="NodeJS："></a>NodeJS：</h1><ul><li>NodeJS對於後端來說可以當作Server</li><li>NodeJS對於前端來說可以當作開發環境</li></ul><p>首先要解釋NodeJS，我們必須在簡單介紹一下V8引擎，V8除了对JavaScript性能的大幅提升，還提供了”嵌入”的功能，簡單說就是能夠使用JavaScript語言來實現C++功能，其中包含讀取本地文件功能。<br>而NodeJS就是使用V8來實作，對於後端可以當作Server但是此處不討論，此處我們討論很多人使用NodeJS開發初一些特出的工具，而這些工具是什麼？要怎麼下載？要怎麼呼叫？ … 等等一系列問題。</p><h2 id="NVM："><a href="#NVM：" class="headerlink" title="NVM："></a>NVM：</h2><p>首先NodeJS一直改版，所以如果使團隊開發的話我們必須統一使用什麼版本，所以有種工具應運而生NVM。<br>NVM開源庫：<a href="https://github.com/nvm-sh/nvm" target="_blank" rel="noopener">https://github.com/nvm-sh/nvm</a><br>NVM Windows版本的Release：<a href="https://github.com/coreybutler/nvm-windows/releases" target="_blank" rel="noopener">https://github.com/coreybutler/nvm-windows/releases</a><br>使用者可以去NVM Windows版本的Release下載該工具的安裝程式，根據Git Hub說明進行操作：</p><p><a href="https://i.imgur.com/3t5I8FB.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/3t5I8FB.png" src="/img/loading.gif" class="lazyload"></a></p><p>根據團隊規定要使用哪種版本，輸入nvm install 版本號。即可。</p><h2 id="如何初始化和安裝工具："><a href="#如何初始化和安裝工具：" class="headerlink" title="如何初始化和安裝工具："></a>如何初始化和安裝工具：</h2><p>安裝完NodeJS後，NodeJS對於我們前端就是一個開發環境，所以我們先創立任意資料夾，之後於command line 形式輸入 npm init -y<br><a href="https://i.imgur.com/pWUEvJ0.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/pWUEvJ0.png" src="/img/loading.gif" class="lazyload"></a><br>輸入完後會自動創立一個packeage.json的檔案，該檔案紀載了當前你創立專案的詳細資料。</p><p>那麼NodeJS專案能夠提供給我們什麼幫助？<br>因為NodeJS是個能夠讓JavaScript脫離瀏覽器還能執行的環境，所以很多大老基於NodeJS寫了很好用的工具，這些工具可以說讓前端更容易的運維、部屬，更容易的實現CI/CD，而這些工具要如何下載和使用呢？答案：NPM(熟悉Python的人可以把它當作pip、熟悉C#的人可以把它當作NuGet)。<br>一樣使用command line，</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install XXXXX：就可以下載你要的工具，但是通常我們還會增加一些參數。</span><br><span class="line">npm install -d XXXX：代表我下載的工具是局部的，只能在我的專案資料夾工作。</span><br><span class="line">npm install -g XXXX：代表我下載的工具是全域的，能夠在任何資料夾工作。</span><br><span class="line">XXXX就是工具註冊NPM的空間名稱，詳情可以去https:&#x2F;&#x2F;www.npmjs.com&#x2F; 搜尋或是看看什麼工具最多人用</span><br></pre></td></tr></table></figure></div><p>其中 npm install -d 是能夠把你下載的工具紀載到package.json裏頭，所以下次要給別人你的專案時後只用給他，你寫的程式碼 + package.json，不用給他這些工具的下載位置等等。收到的人只要用 npm install 就可以自動把你使用的工具還原到電腦裡。</p><h2 id="如何使用工具："><a href="#如何使用工具：" class="headerlink" title="如何使用工具："></a>如何使用工具：</h2><p>知道如何下載工具後我當然要知道怎麼使用工具，而TypeScript其實也是一種工具，根據官網我們也知道該如何下載他，那我要怎麼讓tsc將TypeScript轉換成JavaScript呢？<br><a href="https://i.imgur.com/WgrltXC.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/WgrltXC.png" src="/img/loading.gif" class="lazyload"></a><br>上圖這是package.json的內容，其中script裡的成員你可以把它當作一個任務，一個task，在預設中有個任務叫做test，這個任務是去呼叫echo 之後丟入一些文字，所以可以知道這個test的任務就是輸出”Error： no test …”在畫面上，所以我們也可以新增自己的任務。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;build&quot; : &quot;tsc&quot;,</span><br><span class="line">&quot;watch&quot; : &quot;tsc -w&quot;</span><br></pre></td></tr></table></figure></div><p>上述功能就是新增一個任務叫做<br>build：執行一次tsc，而tsc會根據tsConfig.json去選擇要編譯的TS檔案在哪<br>watch：偵測tsConfig.json紀載的要編譯TS檔案，如果其中一個檔案被修改並儲存就會自動幫你編譯，你就不用修改-&gt;儲存-&gt;tsc 一次，因為你按下儲存瞬間tsc就會自動執行了。<br>好了我們定義了任務，而根據不同的任務會呼叫不同的tsc功能，那怎麼呼叫任務呢？</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run build</span><br></pre></td></tr></table></figure></div><p>以上就是如何透過NodeJS去需叫工具的使用，那麼這邊推薦一些好用的工具。</p><h1 id="Bable："><a href="#Bable：" class="headerlink" title="Bable："></a>Bable：</h1><p>此處提供一些非常好用的工具，Bable就是其中一個，JavaScript有很多ES版本，每次改版都會推出非常好用和簡潔的API使用方法，但是如果今天我使用ES6版本來開發，很多瀏覽器都支援，但要是使用者用IE這個不支援ES6的瀏覽器造訪你的網頁，不就看不了嗎，於是Bable能夠幫你把ES6版本轉換成IE能看得懂的版本，故與聖經中的巴別塔同名。 詳細使用教學以後會補充。</p><h1 id="Uglify"><a href="#Uglify" class="headerlink" title="Uglify:"></a>Uglify:</h1><p>詳細使用教學以後會補充。</p><h1 id="TypeScript-NPM-："><a href="#TypeScript-NPM-：" class="headerlink" title="TypeScript(NPM) ："></a>TypeScript(NPM) ：</h1><p>今天因為NodeJS的發明，以至於我們可以直接使用npm 下載tsc編譯器，就不用去官網gitHub下載。 在安裝時後可以選擇npm i -g typescript，將它安裝成全域的工具，這樣你在任何地方寫的TS都可以直接被編譯。 詳細使用教學以後會補充。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 前端系列 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> TypeScript </tag>
-            
-            <tag> V8 </tag>
-            
-            <tag> NodeJS </tag>
-            
-            <tag> NVM </tag>
-            
-            <tag> npm </tag>
-            
-            <tag> packeage.json </tag>
-            
-            <tag> Bable </tag>
-            
-            <tag> Uglify </tag>
             
         </tags>
       
@@ -529,11 +490,11 @@
     
     
     <entry>
-      <title>前端P.11 - 模組</title>
-      <link href="/2022/06/02/%E5%89%8D%E7%AB%AFP.11%20-%20%E6%A8%A1%E7%B5%84/"/>
-      <url>/2022/06/02/%E5%89%8D%E7%AB%AFP.11%20-%20%E6%A8%A1%E7%B5%84/</url>
+      <title>前端P.12 - NodeJS</title>
+      <link href="/2022/06/02/%E5%89%8D%E7%AB%AFP.12%20-%20NodeJS/"/>
+      <url>/2022/06/02/%E5%89%8D%E7%AB%AFP.12%20-%20NodeJS/</url>
       
-        <content type="html"><![CDATA[<h1 id="模組："><a href="#模組：" class="headerlink" title="模組："></a>模組：</h1><p>在污染變數那一章中，我們提到使用別人的模組亂操作的下場，所以應該使用閉包來避免讓別人亂操作，但是模組這東西在JavaScript又是個災難。<br>因為在ES6之前還沒有模組化標準給大家用，在ES6之前都是如果你include兩份JS模組：</p><p>第一份為SayHello模組宣告了 temp 在window這個作用域上<br>第二份為SayHell 模組宣告了 temp 在window這個作用域上</p><p>根據上述作用域問題我們知道需叫 temp.Say();，原本預計會是Hello，但是你不知道第二份模組物件名稱衝突了，於是變成Hell。<br>所以呢在ES6之前熱心的JavaScript社群們提出一些模組化加載方案，主要可以分為兩派：CommonJS  和 AMD 流派，而ES6之後推出官方標準，所以我們當前JavaScript在加載模組時候有三種標準(1個官方、兩個野雞自幹派)，但是ES6是後來官方才推出的標準所以實現了完全取代CommonJS 和 AMD流派，並且ES6官方設計能夠達到靜態優化。</p><h2 id="模組化的歷史："><a href="#模組化的歷史：" class="headerlink" title="模組化的歷史："></a>模組化的歷史：</h2><p>大概在2009年當時有個社群叫做CommonJS，該社群有很多大佬，這群大佬推出了 ServerJS 的規範，用於處理模塊加載，這個規範在NodeJS上實踐了並且效果不錯，於是這群大佬又推出了新版本，並且要讓這規範能夠支援瀏覽器，所以把 ServerJS 改名為 CommonJS ，這次新版本不是那麼順利，內部爭議不斷於是分歧就產生了。</p><p>分歧產生了 Modules/Async 流派，這個流派提議，當前瀏覽器特徵不應該直接使用這個規範，並提出自己的規範，但是該規範被受社群內部爭議，於是這個流派被CommonJS社群獨立出去了，該流派的人把規範取名為同名AMD並且自創了一個社群同名AMD社群，就是第二個流派的規範，他們的runtime 是 RequireJS，當然這其中還有一些爭議，像是CommonJS說你不能在說明文檔打著CommonJS的名號或標誌。</p><p>分歧產生了 Modules/2.0 流派，這個流派跟AMD那夥人差不多但是應該盡可能與舊版規範保持一致。所以該派也獨立了，成立CMD規範，但很可惜當時 RequireJS 非常火，被打敗了。其中作者把GitHub和官網清空，只留下一句話「我會回來的，帶著更好的東西」，就此消失。這句話給一個工程師有很大的影響，於是那個人將CMD實做在seaJS。</p><p>上述歷史中總共有三個野雞流派，但是只有一人生存至今，CommonJS負責Sever的NodeJS部分，而後續官方推出的ES6模塊標準則負責瀏覽器端。故以下我們用這兩者進行比對和範例。</p><h2 id="靜態優化："><a href="#靜態優化：" class="headerlink" title="靜態優化："></a>靜態優化：</h2><p>首先CommonJS 和 AMD 在加載模組時候都只能在運行時才能確定這些東西，舉個範例：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">let &#123; stat, exists, readFile &#125; &#x3D; require(&#39;.&#x2F;fs&#39;);</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 等同於以下操作</span><br><span class="line">let _fs &#x3D; require(&#39;fs&#39;);</span><br><span class="line">let stat &#x3D; _fs.stat;</span><br><span class="line">let exists &#x3D; _fs.exists;</span><br><span class="line">let readfile &#x3D; _fs.readfile;</span><br></pre></td></tr></table></figure></div><p>這種加載方式會有個問題，只有運行到時候才能得到這個物件，導致沒辦法在編譯階段進行優化，簡稱無法進行靜態優化。<br>那麼ES6官方版的模組化加載方案是如何做到：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">這是ES6官方版本的模塊加載方案：</span><br><span class="line">import &#123; stat, exists, readFile &#125; from &#39;fs&#39;;</span><br></pre></td></tr></table></figure></div><p>上面的程式碼是直接去fs模組加載這三個函數，而其他沒指定的函數就不會進行加載，這種方式可以實現在編譯時後就進行編譯，就導致模組加載的效率會比CommonJS快，因為不是執行到那行時候才加載。</p><h2 id="CommonJS："><a href="#CommonJS：" class="headerlink" title="CommonJS："></a>CommonJS：</h2><p>該規範主要運用於服務器端，也就是NodeJS，他新增了一個函數叫做：「require」 以及 「exports」這個物件，對應了導入和導出功能。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; Math.js</span><br><span class="line">exports.add &#x3D; function(a,b) &#123;return a + b&#125;;</span><br></pre></td></tr></table></figure></div><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; Main.js</span><br><span class="line">var MathObj &#x3D; require(&#39;.&#x2F;Math&#39;);</span><br><span class="line">console.log(MathObj.add(2,3));</span><br></pre></td></tr></table></figure></div><p>而以上就是CommonJS這個規範所制定的模組加載部分，而規範就是規範，還是要有人實做，於是NodeJS跳出來說我將實現這個規範，於是我們可以在NodeJS這個runtime實現該規範的加載方案。<br>而在模組部分，CommonJS 輸出的是一個值的拷貝，並且是運行時加載。</p><h3 id="快取緩存值的問題："><a href="#快取緩存值的問題：" class="headerlink" title="快取緩存值的問題："></a>快取緩存值的問題：</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; lib.js</span><br><span class="line">var counter &#x3D; 3;</span><br><span class="line">function incCounter() &#123; counter++; &#125;</span><br><span class="line">module.exports &#x3D; &#123;</span><br><span class="line">  counter: counter,</span><br><span class="line">  incCounter: incCounter,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></div><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">var mod &#x3D; require(&#39;.&#x2F;lib&#39;);</span><br><span class="line"></span><br><span class="line">console.log(mod.counter);  &#x2F;&#x2F; 3</span><br><span class="line">mod.incCounter();</span><br><span class="line">console.log(mod.counter); &#x2F;&#x2F; 3</span><br></pre></td></tr></table></figure></div><p>理論上應該要是被累加輸出成4，但是因為他是拷貝，mod.counter在一開始require時後就被快取緩存下來了，所以不受到內部影響，因為這邊是獲取緩存的結果，這是因為這是個值而不是函數，所以被快取下來。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; lib.js</span><br><span class="line">var counter &#x3D; 3;</span><br><span class="line">function incCounter() &#123; counter++; &#125;</span><br><span class="line">module.exports &#x3D; &#123;</span><br><span class="line">  get counter() &#123; return counter &#125;,</span><br><span class="line">  incCounter: incCounter,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></div><p>我們將 mod.counter 對外導出，並且是個存取子是個函數，無法被快取，就可以獲得正確被累加的結果。</p><h3 id="CommonJS如何實現在瀏覽器端？"><a href="#CommonJS如何實現在瀏覽器端？" class="headerlink" title="CommonJS如何實現在瀏覽器端？"></a>CommonJS如何實現在瀏覽器端？</h3><p>由上述歷史和例子我們可以知道，今天如果你專案採用CommonJS來加載模組，那麼你的runtime不就只能在NodeJS嗎？ 瀏覽器只認得ES標準，誰會處理CommonJS這個野雞派的規範，於是有人利用NodeJS開發一個工具叫做 Babel 同名於 聖經中的巴別塔，其用法後續會介紹。</p><p>利用Babel 可以把CommonJS的模塊加載改成瀏覽器認得的 ES6模塊加載規則，而Babel 功能不只如此，不然怎麼敢跟巴別塔同名的膽子，他還可以把高版本的ES轉成低版本的ES，也就是我不用管瀏覽器支援哪個版本，我一慮用ES10爽爽寫，Babel 會幫我翻譯成瀏覽器能認得的ES版本。</p><h2 id="ES6模組標準："><a href="#ES6模組標準：" class="headerlink" title="ES6模組標準："></a>ES6模組標準：</h2><p>該規範主要運用於瀏覽器端，他新增了兩個函數叫做：「import」 以及 「export」，對應了導入和導出功能。</p><h3 id="export："><a href="#export：" class="headerlink" title="export："></a>export：</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; profile.js</span><br><span class="line">export var firstName &#x3D; &#39;Michael&#39;;</span><br><span class="line">export var lastName &#x3D; &#39;Jackson&#39;;</span><br><span class="line">export var year &#x3D; 1958;</span><br><span class="line">export function sayHello() &#123; console.log(&quot;hello&quot;)&#125;</span><br></pre></td></tr></table></figure></div><p>以上寫法等價於下方寫法：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; profile.js</span><br><span class="line">var firstName &#x3D; &#39;Michael&#39;;</span><br><span class="line">var lastName &#x3D; &#39;Jackson&#39;;</span><br><span class="line">var year &#x3D; 1958;</span><br><span class="line">function sayHello() &#123; console.log(&quot;hello&quot;) &#125;</span><br><span class="line"></span><br><span class="line">export &#123; firstName, lastName, year, sayHello &#125;;</span><br></pre></td></tr></table></figure></div><p>以上寫法等價於下方寫法：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; profile.js</span><br><span class="line">var firstName &#x3D; &#39;Michael&#39;;</span><br><span class="line">var lastName &#x3D; &#39;Jackson&#39;;</span><br><span class="line">var year &#x3D; 1958;</span><br><span class="line">function sayHello() &#123; console.log(&quot;hello&quot;) &#125;</span><br><span class="line"></span><br><span class="line">export &#123;</span><br><span class="line">    firstName as FName,</span><br><span class="line">    lastName as LName,</span><br><span class="line">    year as Year,</span><br><span class="line">    sayHello as LogHello</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></div><p>第四種 export default 寫法：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; profile.js</span><br><span class="line">var firstName &#x3D; &#39;Michael&#39;;</span><br><span class="line">var lastName &#x3D; &#39;Jackson&#39;;</span><br><span class="line">var year &#x3D; 1958;</span><br><span class="line">function sayHello() &#123; console.log(&quot;hello&quot;) &#125;</span><br><span class="line">export default &#123;</span><br><span class="line">    firstName,</span><br><span class="line">    lastName,</span><br><span class="line">    year,</span><br><span class="line">    sayHello</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p>以上就是export 的寫法，而ES6 export 不像是 CommonJS 的 exports 會有快取緩存問題</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">export var foo &#x3D; &#39;bar&#39;;</span><br><span class="line">setTimeout(() &#x3D;&gt; foo &#x3D; &#39;baz&#39;, 500);  &#x2F;&#x2F; 該行功能是一開始是bar 經過0.5 秒後會真的變成baz</span><br></pre></td></tr></table></figure></div><h3 id="import："><a href="#import：" class="headerlink" title="import："></a>import：</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; main.js 對應於第一、二、三種export方法</span><br><span class="line">import &#123; firstName, lastName, year , sayHello&#125; from &#39;.&#x2F;profile.js&#39;;</span><br><span class="line">sayHello();</span><br></pre></td></tr></table></figure></div><p>其中import的變數名稱必須跟export一模一樣，如果只想導入其中一個並且想改名可以使用以下方法：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; main.js 對應於第一、二、三種export方法</span><br><span class="line">import &#123; sayHello as sayMyName&#125; from &#39;.&#x2F;profile.js&#39;;</span><br><span class="line">sayMyName();</span><br></pre></td></tr></table></figure></div><p>而如果想import所有項目的話可以使用以下方法：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; main.js</span><br><span class="line">import * as Obj_profile from &#39;.&#x2F;profile&#39;;</span><br><span class="line">Obj_profile.sayHello();</span><br></pre></td></tr></table></figure></div><p>而第四種export 方式 可以使用以下import 方式使用：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; main.js</span><br><span class="line">import Obj_profile from &quot;.&#x2F;profile&quot;; &#x2F;&#x2F; 引入了profile.js</span><br><span class="line">Obj_profile.sayHello();</span><br></pre></td></tr></table></figure></div><h3 id="ES6模組標準如何實現在NodeJS？"><a href="#ES6模組標準如何實現在NodeJS？" class="headerlink" title="ES6模組標準如何實現在NodeJS？"></a>ES6模組標準如何實現在NodeJS？</h3><p>NodeJS改版後也開始支援ES6模塊語法，但是原本NodeJS就有自己的模塊標準 CommonJS ，現在還要相容另一種 ES6模塊標準，所以NodeJS要求</p><p>在package.json 未開啟type或 type為commonjs的情況，採用ES6標準模組的檔案必須命名為 .mjs ，並且會自動開啟嚴格模式。<br>在package.json 未開啟type或 type為commonjs的情況，採用CommonJS的檔案必須命名為 .js。</p><p>在package.json 開啟type為module的情況，採用ES6標準模組的檔案必須命名為 .js。<br>在package.json 開啟type為module的情況，採用CommonJS的檔案必須命名為 .cjs。</p><p>這樣NodeJS就會採取不同的模組標準去解釋該文件，而 commonjs 和 ES6混用 為不推薦做法，因為兩者在靜態優化的差異，可能會有BUG</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="NodeJS："><a href="#NodeJS：" class="headerlink" title="NodeJS："></a>NodeJS：</h1><ul><li>NodeJS對於後端來說可以當作Server</li><li>NodeJS對於前端來說可以當作開發環境</li></ul><p>首先要解釋NodeJS，我們必須在簡單介紹一下V8引擎，V8除了对JavaScript性能的大幅提升，還提供了”嵌入”的功能，簡單說就是能夠使用JavaScript語言來實現C++功能，其中包含讀取本地文件功能。<br>而NodeJS就是使用V8來實作，對於後端可以當作Server但是此處不討論，此處我們討論很多人使用NodeJS開發初一些特出的工具，而這些工具是什麼？要怎麼下載？要怎麼呼叫？ … 等等一系列問題。</p><h2 id="NVM："><a href="#NVM：" class="headerlink" title="NVM："></a>NVM：</h2><p>首先NodeJS一直改版，所以如果使團隊開發的話我們必須統一使用什麼版本，所以有種工具應運而生NVM。<br>NVM開源庫：<a href="https://github.com/nvm-sh/nvm" target="_blank" rel="noopener">https://github.com/nvm-sh/nvm</a><br>NVM Windows版本的Release：<a href="https://github.com/coreybutler/nvm-windows/releases" target="_blank" rel="noopener">https://github.com/coreybutler/nvm-windows/releases</a><br>使用者可以去NVM Windows版本的Release下載該工具的安裝程式，根據Git Hub說明進行操作：</p><p><a href="https://i.imgur.com/3t5I8FB.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/3t5I8FB.png" src="/img/loading.gif" class="lazyload"></a></p><p>根據團隊規定要使用哪種版本，輸入nvm install 版本號。即可。</p><h2 id="如何初始化和安裝工具："><a href="#如何初始化和安裝工具：" class="headerlink" title="如何初始化和安裝工具："></a>如何初始化和安裝工具：</h2><p>安裝完NodeJS後，NodeJS對於我們前端就是一個開發環境，所以我們先創立任意資料夾，之後於command line 形式輸入 npm init -y<br><a href="https://i.imgur.com/pWUEvJ0.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/pWUEvJ0.png" src="/img/loading.gif" class="lazyload"></a><br>輸入完後會自動創立一個packeage.json的檔案，該檔案紀載了當前你創立專案的詳細資料。</p><p>那麼NodeJS專案能夠提供給我們什麼幫助？<br>因為NodeJS是個能夠讓JavaScript脫離瀏覽器還能執行的環境，所以很多大老基於NodeJS寫了很好用的工具，這些工具可以說讓前端更容易的運維、部屬，更容易的實現CI/CD，而這些工具要如何下載和使用呢？答案：NPM(熟悉Python的人可以把它當作pip、熟悉C#的人可以把它當作NuGet)。<br>一樣使用command line，</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install XXXXX：就可以下載你要的工具，但是通常我們還會增加一些參數。</span><br><span class="line">npm install -d XXXX：代表我下載的工具是局部的，只能在我的專案資料夾工作。</span><br><span class="line">npm install -g XXXX：代表我下載的工具是全域的，能夠在任何資料夾工作。</span><br><span class="line">XXXX就是工具註冊NPM的空間名稱，詳情可以去https:&#x2F;&#x2F;www.npmjs.com&#x2F; 搜尋或是看看什麼工具最多人用</span><br></pre></td></tr></table></figure></div><p>其中 npm install -d 是能夠把你下載的工具紀載到package.json裏頭，所以下次要給別人你的專案時後只用給他，你寫的程式碼 + package.json，不用給他這些工具的下載位置等等。收到的人只要用 npm install 就可以自動把你使用的工具還原到電腦裡。</p><h2 id="如何使用工具："><a href="#如何使用工具：" class="headerlink" title="如何使用工具："></a>如何使用工具：</h2><p>知道如何下載工具後我當然要知道怎麼使用工具，而TypeScript其實也是一種工具，根據官網我們也知道該如何下載他，那我要怎麼讓tsc將TypeScript轉換成JavaScript呢？<br><a href="https://i.imgur.com/WgrltXC.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/WgrltXC.png" src="/img/loading.gif" class="lazyload"></a><br>上圖這是package.json的內容，其中script裡的成員你可以把它當作一個任務，一個task，在預設中有個任務叫做test，這個任務是去呼叫echo 之後丟入一些文字，所以可以知道這個test的任務就是輸出”Error： no test …”在畫面上，所以我們也可以新增自己的任務。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;build&quot; : &quot;tsc&quot;,</span><br><span class="line">&quot;watch&quot; : &quot;tsc -w&quot;</span><br></pre></td></tr></table></figure></div><p>上述功能就是新增一個任務叫做<br>build：執行一次tsc，而tsc會根據tsConfig.json去選擇要編譯的TS檔案在哪<br>watch：偵測tsConfig.json紀載的要編譯TS檔案，如果其中一個檔案被修改並儲存就會自動幫你編譯，你就不用修改-&gt;儲存-&gt;tsc 一次，因為你按下儲存瞬間tsc就會自動執行了。<br>好了我們定義了任務，而根據不同的任務會呼叫不同的tsc功能，那怎麼呼叫任務呢？</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run build</span><br></pre></td></tr></table></figure></div><p>以上就是如何透過NodeJS去需叫工具的使用，那麼這邊推薦一些好用的工具。</p><h1 id="Bable："><a href="#Bable：" class="headerlink" title="Bable："></a>Bable：</h1><p>此處提供一些非常好用的工具，Bable就是其中一個，JavaScript有很多ES版本，每次改版都會推出非常好用和簡潔的API使用方法，但是如果今天我使用ES6版本來開發，很多瀏覽器都支援，但要是使用者用IE這個不支援ES6的瀏覽器造訪你的網頁，不就看不了嗎，於是Bable能夠幫你把ES6版本轉換成IE能看得懂的版本，故與聖經中的巴別塔同名。 詳細使用教學以後會補充。</p><h1 id="Uglify"><a href="#Uglify" class="headerlink" title="Uglify:"></a>Uglify:</h1><p>詳細使用教學以後會補充。</p><h1 id="TypeScript-NPM-："><a href="#TypeScript-NPM-：" class="headerlink" title="TypeScript(NPM) ："></a>TypeScript(NPM) ：</h1><p>今天因為NodeJS的發明，以至於我們可以直接使用npm 下載tsc編譯器，就不用去官網gitHub下載。 在安裝時後可以選擇npm i -g typescript，將它安裝成全域的工具，這樣你在任何地方寫的TS都可以直接被編譯。 詳細使用教學以後會補充。</p>]]></content>
       
       
       <categories>
@@ -545,37 +506,21 @@
       
         <tags>
             
-            <tag> JavaScript </tag>
+            <tag> TypeScript </tag>
             
-            <tag> runtime </tag>
+            <tag> V8 </tag>
             
             <tag> NodeJS </tag>
             
-            <tag> ES6 </tag>
+            <tag> npm </tag>
             
-            <tag> ES5 </tag>
+            <tag> packeage.json </tag>
             
-            <tag> ServerJS </tag>
+            <tag> Bable </tag>
             
-            <tag> CommonJS </tag>
+            <tag> Uglify </tag>
             
-            <tag> AMD </tag>
-            
-            <tag> RequireJS </tag>
-            
-            <tag> CMD </tag>
-            
-            <tag> seaJS </tag>
-            
-            <tag> 靜態優化 </tag>
-            
-            <tag> require </tag>
-            
-            <tag> exports </tag>
-            
-            <tag> import </tag>
-            
-            <tag> export </tag>
+            <tag> NVM </tag>
             
         </tags>
       
@@ -631,6 +576,61 @@
             <tag> 汙染變數 </tag>
             
             <tag> 閉包 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>前端P.11 - 模組</title>
+      <link href="/2022/06/02/%E5%89%8D%E7%AB%AFP.11%20-%20%E6%A8%A1%E7%B5%84/"/>
+      <url>/2022/06/02/%E5%89%8D%E7%AB%AFP.11%20-%20%E6%A8%A1%E7%B5%84/</url>
+      
+        <content type="html"><![CDATA[<h1 id="模組："><a href="#模組：" class="headerlink" title="模組："></a>模組：</h1><p>在污染變數那一章中，我們提到使用別人的模組亂操作的下場，所以應該使用閉包來避免讓別人亂操作，但是模組這東西在JavaScript又是個災難。<br>因為在ES6之前還沒有模組化標準給大家用，在ES6之前都是如果你include兩份JS模組：</p><p>第一份為SayHello模組宣告了 temp 在window這個作用域上<br>第二份為SayHell 模組宣告了 temp 在window這個作用域上</p><p>根據上述作用域問題我們知道需叫 temp.Say();，原本預計會是Hello，但是你不知道第二份模組物件名稱衝突了，於是變成Hell。<br>所以呢在ES6之前熱心的JavaScript社群們提出一些模組化加載方案，主要可以分為兩派：CommonJS  和 AMD 流派，而ES6之後推出官方標準，所以我們當前JavaScript在加載模組時候有三種標準(1個官方、兩個野雞自幹派)，但是ES6是後來官方才推出的標準所以實現了完全取代CommonJS 和 AMD流派，並且ES6官方設計能夠達到靜態優化。</p><h2 id="模組化的歷史："><a href="#模組化的歷史：" class="headerlink" title="模組化的歷史："></a>模組化的歷史：</h2><p>大概在2009年當時有個社群叫做CommonJS，該社群有很多大佬，這群大佬推出了 ServerJS 的規範，用於處理模塊加載，這個規範在NodeJS上實踐了並且效果不錯，於是這群大佬又推出了新版本，並且要讓這規範能夠支援瀏覽器，所以把 ServerJS 改名為 CommonJS ，這次新版本不是那麼順利，內部爭議不斷於是分歧就產生了。</p><p>分歧產生了 Modules/Async 流派，這個流派提議，當前瀏覽器特徵不應該直接使用這個規範，並提出自己的規範，但是該規範被受社群內部爭議，於是這個流派被CommonJS社群獨立出去了，該流派的人把規範取名為同名AMD並且自創了一個社群同名AMD社群，就是第二個流派的規範，他們的runtime 是 RequireJS，當然這其中還有一些爭議，像是CommonJS說你不能在說明文檔打著CommonJS的名號或標誌。</p><p>分歧產生了 Modules/2.0 流派，這個流派跟AMD那夥人差不多但是應該盡可能與舊版規範保持一致。所以該派也獨立了，成立CMD規範，但很可惜當時 RequireJS 非常火，被打敗了。其中作者把GitHub和官網清空，只留下一句話「我會回來的，帶著更好的東西」，就此消失。這句話給一個工程師有很大的影響，於是那個人將CMD實做在seaJS。</p><p>上述歷史中總共有三個野雞流派，但是只有一人生存至今，CommonJS負責Sever的NodeJS部分，而後續官方推出的ES6模塊標準則負責瀏覽器端。故以下我們用這兩者進行比對和範例。</p><h2 id="靜態優化："><a href="#靜態優化：" class="headerlink" title="靜態優化："></a>靜態優化：</h2><p>首先CommonJS 和 AMD 在加載模組時候都只能在運行時才能確定這些東西，舉個範例：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">let &#123; stat, exists, readFile &#125; &#x3D; require(&#39;.&#x2F;fs&#39;);</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 等同於以下操作</span><br><span class="line">let _fs &#x3D; require(&#39;fs&#39;);</span><br><span class="line">let stat &#x3D; _fs.stat;</span><br><span class="line">let exists &#x3D; _fs.exists;</span><br><span class="line">let readfile &#x3D; _fs.readfile;</span><br></pre></td></tr></table></figure></div><p>這種加載方式會有個問題，只有運行到時候才能得到這個物件，導致沒辦法在編譯階段進行優化，簡稱無法進行靜態優化。<br>那麼ES6官方版的模組化加載方案是如何做到：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">這是ES6官方版本的模塊加載方案：</span><br><span class="line">import &#123; stat, exists, readFile &#125; from &#39;fs&#39;;</span><br></pre></td></tr></table></figure></div><p>上面的程式碼是直接去fs模組加載這三個函數，而其他沒指定的函數就不會進行加載，這種方式可以實現在編譯時後就進行編譯，就導致模組加載的效率會比CommonJS快，因為不是執行到那行時候才加載。</p><h2 id="CommonJS："><a href="#CommonJS：" class="headerlink" title="CommonJS："></a>CommonJS：</h2><p>該規範主要運用於服務器端，也就是NodeJS，他新增了一個函數叫做：「require」 以及 「exports」這個物件，對應了導入和導出功能。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; Math.js</span><br><span class="line">exports.add &#x3D; function(a,b) &#123;return a + b&#125;;</span><br></pre></td></tr></table></figure></div><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; Main.js</span><br><span class="line">var MathObj &#x3D; require(&#39;.&#x2F;Math&#39;);</span><br><span class="line">console.log(MathObj.add(2,3));</span><br></pre></td></tr></table></figure></div><p>而以上就是CommonJS這個規範所制定的模組加載部分，而規範就是規範，還是要有人實做，於是NodeJS跳出來說我將實現這個規範，於是我們可以在NodeJS這個runtime實現該規範的加載方案。<br>而在模組部分，CommonJS 輸出的是一個值的拷貝，並且是運行時加載。</p><h3 id="快取緩存值的問題："><a href="#快取緩存值的問題：" class="headerlink" title="快取緩存值的問題："></a>快取緩存值的問題：</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; lib.js</span><br><span class="line">var counter &#x3D; 3;</span><br><span class="line">function incCounter() &#123; counter++; &#125;</span><br><span class="line">module.exports &#x3D; &#123;</span><br><span class="line">  counter: counter,</span><br><span class="line">  incCounter: incCounter,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></div><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">var mod &#x3D; require(&#39;.&#x2F;lib&#39;);</span><br><span class="line"></span><br><span class="line">console.log(mod.counter);  &#x2F;&#x2F; 3</span><br><span class="line">mod.incCounter();</span><br><span class="line">console.log(mod.counter); &#x2F;&#x2F; 3</span><br></pre></td></tr></table></figure></div><p>理論上應該要是被累加輸出成4，但是因為他是拷貝，mod.counter在一開始require時後就被快取緩存下來了，所以不受到內部影響，因為這邊是獲取緩存的結果，這是因為這是個值而不是函數，所以被快取下來。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; lib.js</span><br><span class="line">var counter &#x3D; 3;</span><br><span class="line">function incCounter() &#123; counter++; &#125;</span><br><span class="line">module.exports &#x3D; &#123;</span><br><span class="line">  get counter() &#123; return counter &#125;,</span><br><span class="line">  incCounter: incCounter,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></div><p>我們將 mod.counter 對外導出，並且是個存取子是個函數，無法被快取，就可以獲得正確被累加的結果。</p><h3 id="CommonJS如何實現在瀏覽器端？"><a href="#CommonJS如何實現在瀏覽器端？" class="headerlink" title="CommonJS如何實現在瀏覽器端？"></a>CommonJS如何實現在瀏覽器端？</h3><p>由上述歷史和例子我們可以知道，今天如果你專案採用CommonJS來加載模組，那麼你的runtime不就只能在NodeJS嗎？ 瀏覽器只認得ES標準，誰會處理CommonJS這個野雞派的規範，於是有人利用NodeJS開發一個工具叫做 Babel 同名於 聖經中的巴別塔，其用法後續會介紹。</p><p>利用Babel 可以把CommonJS的模塊加載改成瀏覽器認得的 ES6模塊加載規則，而Babel 功能不只如此，不然怎麼敢跟巴別塔同名的膽子，他還可以把高版本的ES轉成低版本的ES，也就是我不用管瀏覽器支援哪個版本，我一慮用ES10爽爽寫，Babel 會幫我翻譯成瀏覽器能認得的ES版本。</p><h2 id="ES6模組標準："><a href="#ES6模組標準：" class="headerlink" title="ES6模組標準："></a>ES6模組標準：</h2><p>該規範主要運用於瀏覽器端，他新增了兩個函數叫做：「import」 以及 「export」，對應了導入和導出功能。</p><h3 id="export："><a href="#export：" class="headerlink" title="export："></a>export：</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; profile.js</span><br><span class="line">export var firstName &#x3D; &#39;Michael&#39;;</span><br><span class="line">export var lastName &#x3D; &#39;Jackson&#39;;</span><br><span class="line">export var year &#x3D; 1958;</span><br><span class="line">export function sayHello() &#123; console.log(&quot;hello&quot;)&#125;</span><br></pre></td></tr></table></figure></div><p>以上寫法等價於下方寫法：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; profile.js</span><br><span class="line">var firstName &#x3D; &#39;Michael&#39;;</span><br><span class="line">var lastName &#x3D; &#39;Jackson&#39;;</span><br><span class="line">var year &#x3D; 1958;</span><br><span class="line">function sayHello() &#123; console.log(&quot;hello&quot;) &#125;</span><br><span class="line"></span><br><span class="line">export &#123; firstName, lastName, year, sayHello &#125;;</span><br></pre></td></tr></table></figure></div><p>以上寫法等價於下方寫法：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; profile.js</span><br><span class="line">var firstName &#x3D; &#39;Michael&#39;;</span><br><span class="line">var lastName &#x3D; &#39;Jackson&#39;;</span><br><span class="line">var year &#x3D; 1958;</span><br><span class="line">function sayHello() &#123; console.log(&quot;hello&quot;) &#125;</span><br><span class="line"></span><br><span class="line">export &#123;</span><br><span class="line">    firstName as FName,</span><br><span class="line">    lastName as LName,</span><br><span class="line">    year as Year,</span><br><span class="line">    sayHello as LogHello</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></div><p>第四種 export default 寫法：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; profile.js</span><br><span class="line">var firstName &#x3D; &#39;Michael&#39;;</span><br><span class="line">var lastName &#x3D; &#39;Jackson&#39;;</span><br><span class="line">var year &#x3D; 1958;</span><br><span class="line">function sayHello() &#123; console.log(&quot;hello&quot;) &#125;</span><br><span class="line">export default &#123;</span><br><span class="line">    firstName,</span><br><span class="line">    lastName,</span><br><span class="line">    year,</span><br><span class="line">    sayHello</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p>以上就是export 的寫法，而ES6 export 不像是 CommonJS 的 exports 會有快取緩存問題</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">export var foo &#x3D; &#39;bar&#39;;</span><br><span class="line">setTimeout(() &#x3D;&gt; foo &#x3D; &#39;baz&#39;, 500);  &#x2F;&#x2F; 該行功能是一開始是bar 經過0.5 秒後會真的變成baz</span><br></pre></td></tr></table></figure></div><h3 id="import："><a href="#import：" class="headerlink" title="import："></a>import：</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; main.js 對應於第一、二、三種export方法</span><br><span class="line">import &#123; firstName, lastName, year , sayHello&#125; from &#39;.&#x2F;profile.js&#39;;</span><br><span class="line">sayHello();</span><br></pre></td></tr></table></figure></div><p>其中import的變數名稱必須跟export一模一樣，如果只想導入其中一個並且想改名可以使用以下方法：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; main.js 對應於第一、二、三種export方法</span><br><span class="line">import &#123; sayHello as sayMyName&#125; from &#39;.&#x2F;profile.js&#39;;</span><br><span class="line">sayMyName();</span><br></pre></td></tr></table></figure></div><p>而如果想import所有項目的話可以使用以下方法：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; main.js</span><br><span class="line">import * as Obj_profile from &#39;.&#x2F;profile&#39;;</span><br><span class="line">Obj_profile.sayHello();</span><br></pre></td></tr></table></figure></div><p>而第四種export 方式 可以使用以下import 方式使用：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; main.js</span><br><span class="line">import Obj_profile from &quot;.&#x2F;profile&quot;; &#x2F;&#x2F; 引入了profile.js</span><br><span class="line">Obj_profile.sayHello();</span><br></pre></td></tr></table></figure></div><h3 id="ES6模組標準如何實現在NodeJS？"><a href="#ES6模組標準如何實現在NodeJS？" class="headerlink" title="ES6模組標準如何實現在NodeJS？"></a>ES6模組標準如何實現在NodeJS？</h3><p>NodeJS改版後也開始支援ES6模塊語法，但是原本NodeJS就有自己的模塊標準 CommonJS ，現在還要相容另一種 ES6模塊標準，所以NodeJS要求</p><p>在package.json 未開啟type或 type為commonjs的情況，採用ES6標準模組的檔案必須命名為 .mjs ，並且會自動開啟嚴格模式。<br>在package.json 未開啟type或 type為commonjs的情況，採用CommonJS的檔案必須命名為 .js。</p><p>在package.json 開啟type為module的情況，採用ES6標準模組的檔案必須命名為 .js。<br>在package.json 開啟type為module的情況，採用CommonJS的檔案必須命名為 .cjs。</p><p>這樣NodeJS就會採取不同的模組標準去解釋該文件，而 commonjs 和 ES6混用 為不推薦做法，因為兩者在靜態優化的差異，可能會有BUG</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端系列 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> runtime </tag>
+            
+            <tag> ES6 </tag>
+            
+            <tag> ES5 </tag>
+            
+            <tag> ServerJS </tag>
+            
+            <tag> CommonJS </tag>
+            
+            <tag> NodeJS </tag>
+            
+            <tag> AMD </tag>
+            
+            <tag> RequireJS </tag>
+            
+            <tag> CMD </tag>
+            
+            <tag> seaJS </tag>
+            
+            <tag> 靜態優化 </tag>
+            
+            <tag> require </tag>
+            
+            <tag> exports </tag>
+            
+            <tag> import </tag>
+            
+            <tag> export </tag>
             
         </tags>
       

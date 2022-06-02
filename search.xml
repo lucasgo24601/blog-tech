@@ -26,9 +26,9 @@
             
             <tag> OSI </tag>
             
-            <tag> TCP/IP協定 </tag>
-            
             <tag> 資料鏈結層 </tag>
+            
+            <tag> TCP/IP協定 </tag>
             
             <tag> LLC </tag>
             
@@ -184,6 +184,59 @@
     
     
     <entry>
+      <title>通訊P.02 - OSI七層模型</title>
+      <link href="/2022/06/02/%E9%80%9A%E8%A8%8AP.02%20-%20OSI%E4%B8%83%E5%B1%A4%E6%A8%A1%E5%9E%8B/"/>
+      <url>/2022/06/02/%E9%80%9A%E8%A8%8AP.02%20-%20OSI%E4%B8%83%E5%B1%A4%E6%A8%A1%E5%9E%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="通訊協定模型-OSI模型："><a href="#通訊協定模型-OSI模型：" class="headerlink" title="通訊協定模型 OSI模型："></a>通訊協定模型 OSI模型：</h1><p>以上的舉例，時間定義、嘟聲定義，都是平日生活的協定，但是整個通訊傳輸(包含網路傳輸)的協定，都是基於一個模型而制定的，包含802系列的協定<br>制定模型的單位是ISO組織，該模型大概長這樣<br><a href="https://i.imgur.com/ArHN2ev.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/ArHN2ev.png" src="/img/loading.gif" class="lazyload"></a></p><p>其實在這個模型制定前，就已經存在通訊傳輸了，最早的網路是由美國國防高等研究計劃署(ARPA)制定，ARPA制定的是TCP/IP協定模型，之後通訊傳輸民用化(跟GPS一樣)，於是ISO組織以TCP/IP協定模型為框架模型，制定出OSI 7層抽象模型</p><p>今天我要傳遞資料給別人，就必須經過這七層，而這七層，每層都會進行特別處理，就像是日常生活，假設我是A公司的老闆，我要寫信給B公司，就會經過七層進行處理，每層都會進行各自的業務，情況如下</p><h6 id="請注意，OSI各層的處理業務，並非圖中所表，該圖只是說明-分層負責-的概念，每層都會負責自己的業務"><a href="#請注意，OSI各層的處理業務，並非圖中所表，該圖只是說明-分層負責-的概念，每層都會負責自己的業務" class="headerlink" title="請注意，OSI各層的處理業務，並非圖中所表，該圖只是說明 分層負責 的概念，每層都會負責自己的業務"></a>請注意，OSI各層的處理業務，並非圖中所表，該圖只是說明 分層負責 的概念，每層都會負責自己的業務</h6><p><a href="https://i.imgur.com/GbhyzYd.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/GbhyzYd.png" src="/img/loading.gif" class="lazyload"></a></p><p>所以可以從上圖得知，OSI七層都有自己要做的事情，而每層要做的事情，如下圖：</p><p><a href="https://i.imgur.com/oowsynu.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/oowsynu.png" src="/img/loading.gif" class="lazyload"></a></p><p>所以可以把七層視為七隻程式或產品，每隻程式或產品要做的事情都不一樣，而今天我要傳送一封信，那麼信的內容就叫做封包，而每層處理完自己的業務，都會把業務成果放在封包前後(除了實體層，因為實體層業務是傳輸)，放置於前面的叫做表頭，放置於後面的叫做表尾</p><p>就像是</p><ul><li>老闆寫完信後，放入信封，給予總經理寫建議</li><li>總經理寫完後，又拿個信封包起來，給予部長寫風險評估</li><li>部長寫完後，又拿個信封包起來….etc </li></ul><p><strong>最後傳到B公司，B公司在一層一層的拆開，而</strong></p><ul><li>只有B公司部長能拆A公司部長的信封</li><li>只有B公司總經理能拆A公司總經理的信封</li><li>只有B公司老闆能拆A公司老闆的信封</li></ul><h6 id="以下給予編號，以便知道這個表頭和表尾是誰給的"><a href="#以下給予編號，以便知道這個表頭和表尾是誰給的" class="headerlink" title="以下給予編號，以便知道這個表頭和表尾是誰給的"></a>以下給予編號，以便知道這個表頭和表尾是誰給的</h6><p><a href="https://i.imgur.com/IuNtIlH.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/IuNtIlH.png" src="/img/loading.gif" class="lazyload"></a></p><p>下一章進行各層詳細敘述以及特殊運用。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 通訊協定系列 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> WebSocket </tag>
+            
+            <tag> 協定 </tag>
+            
+            <tag> ISO </tag>
+            
+            <tag> OSI </tag>
+            
+            <tag> 應用層 </tag>
+            
+            <tag> 表現層 </tag>
+            
+            <tag> 會議層 </tag>
+            
+            <tag> 傳輸層 </tag>
+            
+            <tag> 網路層 </tag>
+            
+            <tag> 資料鏈結層 </tag>
+            
+            <tag> 實體層 </tag>
+            
+            <tag> ARPA </tag>
+            
+            <tag> TCP/IP協定 </tag>
+            
+            <tag> 無線通訊 </tag>
+            
+            <tag> 有線通訊 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>通訊P.03 - 實體層、介質</title>
       <link href="/2022/06/02/%E9%80%9A%E8%A8%8AP.03%20-%20%E5%AF%A6%E9%AB%94%E5%B1%A4%E3%80%81%E4%BB%8B%E8%B3%AA/"/>
       <url>/2022/06/02/%E9%80%9A%E8%A8%8AP.03%20-%20%E5%AF%A6%E9%AB%94%E5%B1%A4%E3%80%81%E4%BB%8B%E8%B3%AA/</url>
@@ -263,59 +316,6 @@
     
     
     <entry>
-      <title>通訊P.02 - OSI七層模型</title>
-      <link href="/2022/06/02/%E9%80%9A%E8%A8%8AP.02%20-%20OSI%E4%B8%83%E5%B1%A4%E6%A8%A1%E5%9E%8B/"/>
-      <url>/2022/06/02/%E9%80%9A%E8%A8%8AP.02%20-%20OSI%E4%B8%83%E5%B1%A4%E6%A8%A1%E5%9E%8B/</url>
-      
-        <content type="html"><![CDATA[<h1 id="通訊協定模型-OSI模型："><a href="#通訊協定模型-OSI模型：" class="headerlink" title="通訊協定模型 OSI模型："></a>通訊協定模型 OSI模型：</h1><p>以上的舉例，時間定義、嘟聲定義，都是平日生活的協定，但是整個通訊傳輸(包含網路傳輸)的協定，都是基於一個模型而制定的，包含802系列的協定<br>制定模型的單位是ISO組織，該模型大概長這樣<br><a href="https://i.imgur.com/ArHN2ev.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/ArHN2ev.png" src="/img/loading.gif" class="lazyload"></a></p><p>其實在這個模型制定前，就已經存在通訊傳輸了，最早的網路是由美國國防高等研究計劃署(ARPA)制定，ARPA制定的是TCP/IP協定模型，之後通訊傳輸民用化(跟GPS一樣)，於是ISO組織以TCP/IP協定模型為框架模型，制定出OSI 7層抽象模型</p><p>今天我要傳遞資料給別人，就必須經過這七層，而這七層，每層都會進行特別處理，就像是日常生活，假設我是A公司的老闆，我要寫信給B公司，就會經過七層進行處理，每層都會進行各自的業務，情況如下</p><h6 id="請注意，OSI各層的處理業務，並非圖中所表，該圖只是說明-分層負責-的概念，每層都會負責自己的業務"><a href="#請注意，OSI各層的處理業務，並非圖中所表，該圖只是說明-分層負責-的概念，每層都會負責自己的業務" class="headerlink" title="請注意，OSI各層的處理業務，並非圖中所表，該圖只是說明 分層負責 的概念，每層都會負責自己的業務"></a>請注意，OSI各層的處理業務，並非圖中所表，該圖只是說明 分層負責 的概念，每層都會負責自己的業務</h6><p><a href="https://i.imgur.com/GbhyzYd.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/GbhyzYd.png" src="/img/loading.gif" class="lazyload"></a></p><p>所以可以從上圖得知，OSI七層都有自己要做的事情，而每層要做的事情，如下圖：</p><p><a href="https://i.imgur.com/oowsynu.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/oowsynu.png" src="/img/loading.gif" class="lazyload"></a></p><p>所以可以把七層視為七隻程式或產品，每隻程式或產品要做的事情都不一樣，而今天我要傳送一封信，那麼信的內容就叫做封包，而每層處理完自己的業務，都會把業務成果放在封包前後(除了實體層，因為實體層業務是傳輸)，放置於前面的叫做表頭，放置於後面的叫做表尾</p><p>就像是</p><ul><li>老闆寫完信後，放入信封，給予總經理寫建議</li><li>總經理寫完後，又拿個信封包起來，給予部長寫風險評估</li><li>部長寫完後，又拿個信封包起來….etc </li></ul><p><strong>最後傳到B公司，B公司在一層一層的拆開，而</strong></p><ul><li>只有B公司部長能拆A公司部長的信封</li><li>只有B公司總經理能拆A公司總經理的信封</li><li>只有B公司老闆能拆A公司老闆的信封</li></ul><h6 id="以下給予編號，以便知道這個表頭和表尾是誰給的"><a href="#以下給予編號，以便知道這個表頭和表尾是誰給的" class="headerlink" title="以下給予編號，以便知道這個表頭和表尾是誰給的"></a>以下給予編號，以便知道這個表頭和表尾是誰給的</h6><p><a href="https://i.imgur.com/IuNtIlH.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/IuNtIlH.png" src="/img/loading.gif" class="lazyload"></a></p><p>下一章進行各層詳細敘述以及特殊運用。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 通訊協定系列 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> WebSocket </tag>
-            
-            <tag> 協定 </tag>
-            
-            <tag> OSI </tag>
-            
-            <tag> 實體層 </tag>
-            
-            <tag> TCP/IP協定 </tag>
-            
-            <tag> 無線通訊 </tag>
-            
-            <tag> 有線通訊 </tag>
-            
-            <tag> ISO </tag>
-            
-            <tag> 應用層 </tag>
-            
-            <tag> 表現層 </tag>
-            
-            <tag> 會議層 </tag>
-            
-            <tag> 傳輸層 </tag>
-            
-            <tag> 網路層 </tag>
-            
-            <tag> 資料鏈結層 </tag>
-            
-            <tag> ARPA </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>讀書P.01 - 人類簡史</title>
       <link href="/2022/06/02/%E8%AE%80%E6%9B%B8P.01%20-%20%E4%BA%BA%E9%A1%9E%E7%B0%A1%E5%8F%B2/"/>
       <url>/2022/06/02/%E8%AE%80%E6%9B%B8P.01%20-%20%E4%BA%BA%E9%A1%9E%E7%B0%A1%E5%8F%B2/</url>
@@ -367,6 +367,8 @@
             
             <tag> 協定 </tag>
             
+            <tag> ISO </tag>
+            
             <tag> 無線通訊 </tag>
             
             <tag> 有線通訊 </tag>
@@ -376,8 +378,6 @@
             <tag> 國際電信聯盟 </tag>
             
             <tag> CCITT </tag>
-            
-            <tag> ISO </tag>
             
             <tag> 時間 </tag>
             
@@ -436,8 +436,6 @@
             
             <tag> packeage.json </tag>
             
-            <tag> WebPack </tag>
-            
             <tag> Mocha </tag>
             
             <tag> 單元測試 </tag>
@@ -445,6 +443,47 @@
             <tag> CI/CD </tag>
             
             <tag> CI </tag>
+            
+            <tag> WebPack </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>前端P.12 - NodeJS</title>
+      <link href="/2022/06/02/%E5%89%8D%E7%AB%AFP.12%20-%20NodeJS/"/>
+      <url>/2022/06/02/%E5%89%8D%E7%AB%AFP.12%20-%20NodeJS/</url>
+      
+        <content type="html"><![CDATA[<h1 id="NodeJS："><a href="#NodeJS：" class="headerlink" title="NodeJS："></a>NodeJS：</h1><ul><li>NodeJS對於後端來說可以當作Server</li><li>NodeJS對於前端來說可以當作開發環境</li></ul><p>首先要解釋NodeJS，我們必須在簡單介紹一下V8引擎，V8除了对JavaScript性能的大幅提升，還提供了”嵌入”的功能，簡單說就是能夠使用JavaScript語言來實現C++功能，其中包含讀取本地文件功能。<br>而NodeJS就是使用V8來實作，對於後端可以當作Server但是此處不討論，此處我們討論很多人使用NodeJS開發初一些特出的工具，而這些工具是什麼？要怎麼下載？要怎麼呼叫？ … 等等一系列問題。</p><h2 id="NVM："><a href="#NVM：" class="headerlink" title="NVM："></a>NVM：</h2><p>首先NodeJS一直改版，所以如果使團隊開發的話我們必須統一使用什麼版本，所以有種工具應運而生NVM。<br>NVM開源庫：<a href="https://github.com/nvm-sh/nvm" target="_blank" rel="noopener">https://github.com/nvm-sh/nvm</a><br>NVM Windows版本的Release：<a href="https://github.com/coreybutler/nvm-windows/releases" target="_blank" rel="noopener">https://github.com/coreybutler/nvm-windows/releases</a><br>使用者可以去NVM Windows版本的Release下載該工具的安裝程式，根據Git Hub說明進行操作：</p><p><a href="https://i.imgur.com/3t5I8FB.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/3t5I8FB.png" src="/img/loading.gif" class="lazyload"></a></p><p>根據團隊規定要使用哪種版本，輸入nvm install 版本號。即可。</p><h2 id="如何初始化和安裝工具："><a href="#如何初始化和安裝工具：" class="headerlink" title="如何初始化和安裝工具："></a>如何初始化和安裝工具：</h2><p>安裝完NodeJS後，NodeJS對於我們前端就是一個開發環境，所以我們先創立任意資料夾，之後於command line 形式輸入 npm init -y<br><a href="https://i.imgur.com/pWUEvJ0.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/pWUEvJ0.png" src="/img/loading.gif" class="lazyload"></a><br>輸入完後會自動創立一個packeage.json的檔案，該檔案紀載了當前你創立專案的詳細資料。</p><p>那麼NodeJS專案能夠提供給我們什麼幫助？<br>因為NodeJS是個能夠讓JavaScript脫離瀏覽器還能執行的環境，所以很多大老基於NodeJS寫了很好用的工具，這些工具可以說讓前端更容易的運維、部屬，更容易的實現CI/CD，而這些工具要如何下載和使用呢？答案：NPM(熟悉Python的人可以把它當作pip、熟悉C#的人可以把它當作NuGet)。<br>一樣使用command line，</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install XXXXX：就可以下載你要的工具，但是通常我們還會增加一些參數。</span><br><span class="line">npm install -d XXXX：代表我下載的工具是局部的，只能在我的專案資料夾工作。</span><br><span class="line">npm install -g XXXX：代表我下載的工具是全域的，能夠在任何資料夾工作。</span><br><span class="line">XXXX就是工具註冊NPM的空間名稱，詳情可以去https:&#x2F;&#x2F;www.npmjs.com&#x2F; 搜尋或是看看什麼工具最多人用</span><br></pre></td></tr></table></figure></div><p>其中 npm install -d 是能夠把你下載的工具紀載到package.json裏頭，所以下次要給別人你的專案時後只用給他，你寫的程式碼 + package.json，不用給他這些工具的下載位置等等。收到的人只要用 npm install 就可以自動把你使用的工具還原到電腦裡。</p><h2 id="如何使用工具："><a href="#如何使用工具：" class="headerlink" title="如何使用工具："></a>如何使用工具：</h2><p>知道如何下載工具後我當然要知道怎麼使用工具，而TypeScript其實也是一種工具，根據官網我們也知道該如何下載他，那我要怎麼讓tsc將TypeScript轉換成JavaScript呢？<br><a href="https://i.imgur.com/WgrltXC.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/WgrltXC.png" src="/img/loading.gif" class="lazyload"></a><br>上圖這是package.json的內容，其中script裡的成員你可以把它當作一個任務，一個task，在預設中有個任務叫做test，這個任務是去呼叫echo 之後丟入一些文字，所以可以知道這個test的任務就是輸出”Error： no test …”在畫面上，所以我們也可以新增自己的任務。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;build&quot; : &quot;tsc&quot;,</span><br><span class="line">&quot;watch&quot; : &quot;tsc -w&quot;</span><br></pre></td></tr></table></figure></div><p>上述功能就是新增一個任務叫做<br>build：執行一次tsc，而tsc會根據tsConfig.json去選擇要編譯的TS檔案在哪<br>watch：偵測tsConfig.json紀載的要編譯TS檔案，如果其中一個檔案被修改並儲存就會自動幫你編譯，你就不用修改-&gt;儲存-&gt;tsc 一次，因為你按下儲存瞬間tsc就會自動執行了。<br>好了我們定義了任務，而根據不同的任務會呼叫不同的tsc功能，那怎麼呼叫任務呢？</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run build</span><br></pre></td></tr></table></figure></div><p>以上就是如何透過NodeJS去需叫工具的使用，那麼這邊推薦一些好用的工具。</p><h1 id="Bable："><a href="#Bable：" class="headerlink" title="Bable："></a>Bable：</h1><p>此處提供一些非常好用的工具，Bable就是其中一個，JavaScript有很多ES版本，每次改版都會推出非常好用和簡潔的API使用方法，但是如果今天我使用ES6版本來開發，很多瀏覽器都支援，但要是使用者用IE這個不支援ES6的瀏覽器造訪你的網頁，不就看不了嗎，於是Bable能夠幫你把ES6版本轉換成IE能看得懂的版本，故與聖經中的巴別塔同名。 詳細使用教學以後會補充。</p><h1 id="Uglify"><a href="#Uglify" class="headerlink" title="Uglify:"></a>Uglify:</h1><p>詳細使用教學以後會補充。</p><h1 id="TypeScript-NPM-："><a href="#TypeScript-NPM-：" class="headerlink" title="TypeScript(NPM) ："></a>TypeScript(NPM) ：</h1><p>今天因為NodeJS的發明，以至於我們可以直接使用npm 下載tsc編譯器，就不用去官網gitHub下載。 在安裝時後可以選擇npm i -g typescript，將它安裝成全域的工具，這樣你在任何地方寫的TS都可以直接被編譯。 詳細使用教學以後會補充。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端系列 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> V8 </tag>
+            
+            <tag> TypeScript </tag>
+            
+            <tag> NodeJS </tag>
+            
+            <tag> NVM </tag>
+            
+            <tag> npm </tag>
+            
+            <tag> packeage.json </tag>
+            
+            <tag> Bable </tag>
+            
+            <tag> Uglify </tag>
             
         </tags>
       
@@ -482,45 +521,6 @@
             <tag> Uglify </tag>
             
             <tag> WebPack </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>前端P.12 - NodeJS</title>
-      <link href="/2022/06/02/%E5%89%8D%E7%AB%AFP.12%20-%20NodeJS/"/>
-      <url>/2022/06/02/%E5%89%8D%E7%AB%AFP.12%20-%20NodeJS/</url>
-      
-        <content type="html"><![CDATA[<h1 id="NodeJS："><a href="#NodeJS：" class="headerlink" title="NodeJS："></a>NodeJS：</h1><ul><li>NodeJS對於後端來說可以當作Server</li><li>NodeJS對於前端來說可以當作開發環境</li></ul><p>首先要解釋NodeJS，我們必須在簡單介紹一下V8引擎，V8除了对JavaScript性能的大幅提升，還提供了”嵌入”的功能，簡單說就是能夠使用JavaScript語言來實現C++功能，其中包含讀取本地文件功能。<br>而NodeJS就是使用V8來實作，對於後端可以當作Server但是此處不討論，此處我們討論很多人使用NodeJS開發初一些特出的工具，而這些工具是什麼？要怎麼下載？要怎麼呼叫？ … 等等一系列問題。</p><h2 id="NVM："><a href="#NVM：" class="headerlink" title="NVM："></a>NVM：</h2><p>首先NodeJS一直改版，所以如果使團隊開發的話我們必須統一使用什麼版本，所以有種工具應運而生NVM。<br>NVM開源庫：<a href="https://github.com/nvm-sh/nvm" target="_blank" rel="noopener">https://github.com/nvm-sh/nvm</a><br>NVM Windows版本的Release：<a href="https://github.com/coreybutler/nvm-windows/releases" target="_blank" rel="noopener">https://github.com/coreybutler/nvm-windows/releases</a><br>使用者可以去NVM Windows版本的Release下載該工具的安裝程式，根據Git Hub說明進行操作：</p><p><a href="https://i.imgur.com/3t5I8FB.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/3t5I8FB.png" src="/img/loading.gif" class="lazyload"></a></p><p>根據團隊規定要使用哪種版本，輸入nvm install 版本號。即可。</p><h2 id="如何初始化和安裝工具："><a href="#如何初始化和安裝工具：" class="headerlink" title="如何初始化和安裝工具："></a>如何初始化和安裝工具：</h2><p>安裝完NodeJS後，NodeJS對於我們前端就是一個開發環境，所以我們先創立任意資料夾，之後於command line 形式輸入 npm init -y<br><a href="https://i.imgur.com/pWUEvJ0.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/pWUEvJ0.png" src="/img/loading.gif" class="lazyload"></a><br>輸入完後會自動創立一個packeage.json的檔案，該檔案紀載了當前你創立專案的詳細資料。</p><p>那麼NodeJS專案能夠提供給我們什麼幫助？<br>因為NodeJS是個能夠讓JavaScript脫離瀏覽器還能執行的環境，所以很多大老基於NodeJS寫了很好用的工具，這些工具可以說讓前端更容易的運維、部屬，更容易的實現CI/CD，而這些工具要如何下載和使用呢？答案：NPM(熟悉Python的人可以把它當作pip、熟悉C#的人可以把它當作NuGet)。<br>一樣使用command line，</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install XXXXX：就可以下載你要的工具，但是通常我們還會增加一些參數。</span><br><span class="line">npm install -d XXXX：代表我下載的工具是局部的，只能在我的專案資料夾工作。</span><br><span class="line">npm install -g XXXX：代表我下載的工具是全域的，能夠在任何資料夾工作。</span><br><span class="line">XXXX就是工具註冊NPM的空間名稱，詳情可以去https:&#x2F;&#x2F;www.npmjs.com&#x2F; 搜尋或是看看什麼工具最多人用</span><br></pre></td></tr></table></figure></div><p>其中 npm install -d 是能夠把你下載的工具紀載到package.json裏頭，所以下次要給別人你的專案時後只用給他，你寫的程式碼 + package.json，不用給他這些工具的下載位置等等。收到的人只要用 npm install 就可以自動把你使用的工具還原到電腦裡。</p><h2 id="如何使用工具："><a href="#如何使用工具：" class="headerlink" title="如何使用工具："></a>如何使用工具：</h2><p>知道如何下載工具後我當然要知道怎麼使用工具，而TypeScript其實也是一種工具，根據官網我們也知道該如何下載他，那我要怎麼讓tsc將TypeScript轉換成JavaScript呢？<br><a href="https://i.imgur.com/WgrltXC.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.imgur.com/WgrltXC.png" src="/img/loading.gif" class="lazyload"></a><br>上圖這是package.json的內容，其中script裡的成員你可以把它當作一個任務，一個task，在預設中有個任務叫做test，這個任務是去呼叫echo 之後丟入一些文字，所以可以知道這個test的任務就是輸出”Error： no test …”在畫面上，所以我們也可以新增自己的任務。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;build&quot; : &quot;tsc&quot;,</span><br><span class="line">&quot;watch&quot; : &quot;tsc -w&quot;</span><br></pre></td></tr></table></figure></div><p>上述功能就是新增一個任務叫做<br>build：執行一次tsc，而tsc會根據tsConfig.json去選擇要編譯的TS檔案在哪<br>watch：偵測tsConfig.json紀載的要編譯TS檔案，如果其中一個檔案被修改並儲存就會自動幫你編譯，你就不用修改-&gt;儲存-&gt;tsc 一次，因為你按下儲存瞬間tsc就會自動執行了。<br>好了我們定義了任務，而根據不同的任務會呼叫不同的tsc功能，那怎麼呼叫任務呢？</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run build</span><br></pre></td></tr></table></figure></div><p>以上就是如何透過NodeJS去需叫工具的使用，那麼這邊推薦一些好用的工具。</p><h1 id="Bable："><a href="#Bable：" class="headerlink" title="Bable："></a>Bable：</h1><p>此處提供一些非常好用的工具，Bable就是其中一個，JavaScript有很多ES版本，每次改版都會推出非常好用和簡潔的API使用方法，但是如果今天我使用ES6版本來開發，很多瀏覽器都支援，但要是使用者用IE這個不支援ES6的瀏覽器造訪你的網頁，不就看不了嗎，於是Bable能夠幫你把ES6版本轉換成IE能看得懂的版本，故與聖經中的巴別塔同名。 詳細使用教學以後會補充。</p><h1 id="Uglify"><a href="#Uglify" class="headerlink" title="Uglify:"></a>Uglify:</h1><p>詳細使用教學以後會補充。</p><h1 id="TypeScript-NPM-："><a href="#TypeScript-NPM-：" class="headerlink" title="TypeScript(NPM) ："></a>TypeScript(NPM) ：</h1><p>今天因為NodeJS的發明，以至於我們可以直接使用npm 下載tsc編譯器，就不用去官網gitHub下載。 在安裝時後可以選擇npm i -g typescript，將它安裝成全域的工具，這樣你在任何地方寫的TS都可以直接被編譯。 詳細使用教學以後會補充。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 前端系列 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> V8 </tag>
-            
-            <tag> TypeScript </tag>
-            
-            <tag> NodeJS </tag>
-            
-            <tag> npm </tag>
-            
-            <tag> packeage.json </tag>
-            
-            <tag> Bable </tag>
-            
-            <tag> Uglify </tag>
-            
-            <tag> NVM </tag>
             
         </tags>
       
@@ -604,6 +604,8 @@
             
             <tag> runtime </tag>
             
+            <tag> NodeJS </tag>
+            
             <tag> ES6 </tag>
             
             <tag> ES5 </tag>
@@ -611,8 +613,6 @@
             <tag> ServerJS </tag>
             
             <tag> CommonJS </tag>
-            
-            <tag> NodeJS </tag>
             
             <tag> AMD </tag>
             
@@ -916,11 +916,11 @@
             
             <tag> 解釋型 </tag>
             
+            <tag> WebAssembly </tag>
+            
             <tag> 弱型別 </tag>
             
             <tag> TypeScript </tag>
-            
-            <tag> WebAssembly </tag>
             
         </tags>
       

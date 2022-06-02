@@ -469,9 +469,9 @@
       
         <tags>
             
-            <tag> V8 </tag>
-            
             <tag> TypeScript </tag>
+            
+            <tag> V8 </tag>
             
             <tag> NodeJS </tag>
             
@@ -797,11 +797,11 @@
             
             <tag> JavaScript </tag>
             
+            <tag> 解釋型 </tag>
+            
             <tag> JIT </tag>
             
             <tag> V8 </tag>
-            
-            <tag> 解釋型 </tag>
             
             <tag> Google </tag>
             
@@ -912,13 +912,13 @@
             
             <tag> JavaScript </tag>
             
-            <tag> JIT </tag>
+            <tag> WebAssembly </tag>
             
             <tag> 解釋型 </tag>
             
-            <tag> WebAssembly </tag>
-            
             <tag> 弱型別 </tag>
+            
+            <tag> JIT </tag>
             
             <tag> TypeScript </tag>
             

@@ -57,9 +57,9 @@
             
             <tag> OSI </tag>
             
-            <tag> 資料鏈結層 </tag>
-            
             <tag> TCP/IP協定 </tag>
+            
+            <tag> 資料鏈結層 </tag>
             
             <tag> LLC </tag>
             
@@ -138,10 +138,6 @@
             
             <tag> 有線通訊 </tag>
             
-            <tag> 4G </tag>
-            
-            <tag> 5G </tag>
-            
             <tag> 電磁波 </tag>
             
             <tag> 調變 </tag>
@@ -165,6 +161,10 @@
             <tag> 2G </tag>
             
             <tag> 3G </tag>
+            
+            <tag> 4G </tag>
+            
+            <tag> 5G </tag>
             
             <tag> ASK </tag>
             
@@ -245,6 +245,8 @@
             
             <tag> 有線通訊 </tag>
             
+            <tag> 電磁波 </tag>
+            
             <tag> 介質 </tag>
             
             <tag> 雙絞銅線 </tag>
@@ -258,8 +260,6 @@
             <tag> 電視 </tag>
             
             <tag> 光纖 </tag>
-            
-            <tag> 電磁波 </tag>
             
             <tag> 厄斯特 </tag>
             
@@ -314,9 +314,17 @@
             
             <tag> 協定 </tag>
             
-            <tag> ISO </tag>
-            
             <tag> OSI </tag>
+            
+            <tag> 實體層 </tag>
+            
+            <tag> TCP/IP協定 </tag>
+            
+            <tag> 無線通訊 </tag>
+            
+            <tag> 有線通訊 </tag>
+            
+            <tag> ISO </tag>
             
             <tag> 應用層 </tag>
             
@@ -330,15 +338,7 @@
             
             <tag> 資料鏈結層 </tag>
             
-            <tag> 實體層 </tag>
-            
             <tag> ARPA </tag>
-            
-            <tag> TCP/IP協定 </tag>
-            
-            <tag> 無線通訊 </tag>
-            
-            <tag> 有線通訊 </tag>
             
         </tags>
       
@@ -367,11 +367,15 @@
             
             <tag> 協定 </tag>
             
-            <tag> ISO </tag>
-            
             <tag> 無線通訊 </tag>
             
             <tag> 有線通訊 </tag>
+            
+            <tag> 4G </tag>
+            
+            <tag> 5G </tag>
+            
+            <tag> ISO </tag>
             
             <tag> ITU </tag>
             
@@ -396,10 +400,6 @@
             <tag> WiFi </tag>
             
             <tag> 能階 </tag>
-            
-            <tag> 4G </tag>
-            
-            <tag> 5G </tag>
             
             <tag> 2.4G </tag>
             
@@ -436,6 +436,8 @@
             
             <tag> packeage.json </tag>
             
+            <tag> WebPack </tag>
+            
             <tag> Mocha </tag>
             
             <tag> 單元測試 </tag>
@@ -443,8 +445,6 @@
             <tag> CI/CD </tag>
             
             <tag> CI </tag>
-            
-            <tag> WebPack </tag>
             
         </tags>
       
@@ -506,9 +506,9 @@
       
         <tags>
             
-            <tag> V8 </tag>
-            
             <tag> TypeScript </tag>
+            
+            <tag> V8 </tag>
             
             <tag> NodeJS </tag>
             
@@ -797,9 +797,9 @@
             
             <tag> JavaScript </tag>
             
-            <tag> TypeScript </tag>
-            
             <tag> 弱型別 </tag>
+            
+            <tag> TypeScript </tag>
             
             <tag> 強型別 </tag>
             
@@ -838,11 +838,11 @@
             
             <tag> JavaScript </tag>
             
+            <tag> 解釋型 </tag>
+            
             <tag> JIT </tag>
             
             <tag> V8 </tag>
-            
-            <tag> 解釋型 </tag>
             
             <tag> Google </tag>
             
@@ -873,13 +873,13 @@
             
             <tag> JavaScript </tag>
             
-            <tag> JIT </tag>
-            
             <tag> 解釋型 </tag>
             
-            <tag> TypeScript </tag>
-            
             <tag> 弱型別 </tag>
+            
+            <tag> JIT </tag>
+            
+            <tag> TypeScript </tag>
             
             <tag> WebAssembly </tag>
             

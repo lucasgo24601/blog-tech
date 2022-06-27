@@ -351,6 +351,8 @@
             
             <tag> TCP/IP協定 </tag>
             
+            <tag> 資料鏈結層 </tag>
+            
             <tag> 應用層 </tag>
             
             <tag> 表現層 </tag>
@@ -360,8 +362,6 @@
             <tag> 傳輸層 </tag>
             
             <tag> 網路層 </tag>
-            
-            <tag> 資料鏈結層 </tag>
             
             <tag> ARPA </tag>
             
@@ -822,9 +822,9 @@
             
             <tag> JavaScript </tag>
             
-            <tag> TypeScript </tag>
-            
             <tag> 弱型別 </tag>
+            
+            <tag> TypeScript </tag>
             
             <tag> 強型別 </tag>
             
@@ -902,9 +902,9 @@
             
             <tag> 解釋型 </tag>
             
-            <tag> TypeScript </tag>
-            
             <tag> 弱型別 </tag>
+            
+            <tag> TypeScript </tag>
             
             <tag> WebAssembly </tag>
             

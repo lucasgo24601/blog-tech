@@ -82,9 +82,9 @@
             
             <tag> OSI </tag>
             
-            <tag> 資料鏈結層 </tag>
-            
             <tag> TCP/IP協定 </tag>
+            
+            <tag> 資料鏈結層 </tag>
             
             <tag> LLC </tag>
             
@@ -163,10 +163,6 @@
             
             <tag> 有線通訊 </tag>
             
-            <tag> 4G </tag>
-            
-            <tag> 5G </tag>
-            
             <tag> 電磁波 </tag>
             
             <tag> 調變 </tag>
@@ -190,6 +186,10 @@
             <tag> 2G </tag>
             
             <tag> 3G </tag>
+            
+            <tag> 4G </tag>
+            
+            <tag> 5G </tag>
             
             <tag> ASK </tag>
             
@@ -339,9 +339,17 @@
             
             <tag> 協定 </tag>
             
-            <tag> ISO </tag>
-            
             <tag> OSI </tag>
+            
+            <tag> 實體層 </tag>
+            
+            <tag> TCP/IP協定 </tag>
+            
+            <tag> 無線通訊 </tag>
+            
+            <tag> 有線通訊 </tag>
+            
+            <tag> ISO </tag>
             
             <tag> 應用層 </tag>
             
@@ -355,15 +363,7 @@
             
             <tag> 資料鏈結層 </tag>
             
-            <tag> 實體層 </tag>
-            
             <tag> ARPA </tag>
-            
-            <tag> TCP/IP協定 </tag>
-            
-            <tag> 無線通訊 </tag>
-            
-            <tag> 有線通訊 </tag>
             
         </tags>
       
@@ -392,11 +392,15 @@
             
             <tag> 協定 </tag>
             
-            <tag> ISO </tag>
-            
             <tag> 無線通訊 </tag>
             
             <tag> 有線通訊 </tag>
+            
+            <tag> ISO </tag>
+            
+            <tag> 4G </tag>
+            
+            <tag> 5G </tag>
             
             <tag> ITU </tag>
             
@@ -421,10 +425,6 @@
             <tag> WiFi </tag>
             
             <tag> 能階 </tag>
-            
-            <tag> 4G </tag>
-            
-            <tag> 5G </tag>
             
             <tag> 2.4G </tag>
             
@@ -461,8 +461,6 @@
             
             <tag> packeage.json </tag>
             
-            <tag> WebPack </tag>
-            
             <tag> Mocha </tag>
             
             <tag> 單元測試 </tag>
@@ -470,6 +468,8 @@
             <tag> CI/CD </tag>
             
             <tag> CI </tag>
+            
+            <tag> WebPack </tag>
             
         </tags>
       
@@ -715,9 +715,9 @@
       
         <tags>
             
-            <tag> W3C </tag>
-            
             <tag> JavaScript </tag>
+            
+            <tag> W3C </tag>
             
             <tag> jQuery </tag>
             
@@ -758,9 +758,9 @@
       
         <tags>
             
-            <tag> W3C </tag>
-            
             <tag> JavaScript </tag>
+            
+            <tag> W3C </tag>
             
             <tag> jQuery </tag>
             
@@ -933,11 +933,11 @@
             
             <tag> 前端歷史 </tag>
             
-            <tag> JavaScript </tag>
-            
             <tag> ECMA </tag>
             
             <tag> ECMAScript </tag>
+            
+            <tag> JavaScript </tag>
             
             <tag> 第一次瀏覽器大戰 </tag>
             
@@ -972,13 +972,13 @@
             
             <tag> 前端歷史 </tag>
             
+            <tag> JavaScript </tag>
+            
             <tag> W3C </tag>
             
             <tag> Html </tag>
             
             <tag> CSS </tag>
-            
-            <tag> JavaScript </tag>
             
             <tag> 瀏覽器 </tag>
             

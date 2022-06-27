@@ -537,8 +537,6 @@
             
             <tag> NodeJS </tag>
             
-            <tag> NVM </tag>
-            
             <tag> npm </tag>
             
             <tag> packeage.json </tag>
@@ -546,6 +544,8 @@
             <tag> Bable </tag>
             
             <tag> Uglify </tag>
+            
+            <tag> NVM </tag>
             
         </tags>
       
@@ -715,9 +715,9 @@
       
         <tags>
             
-            <tag> JavaScript </tag>
-            
             <tag> W3C </tag>
+            
+            <tag> JavaScript </tag>
             
             <tag> jQuery </tag>
             
@@ -758,9 +758,9 @@
       
         <tags>
             
-            <tag> JavaScript </tag>
-            
             <tag> W3C </tag>
+            
+            <tag> JavaScript </tag>
             
             <tag> jQuery </tag>
             
@@ -933,11 +933,11 @@
             
             <tag> 前端歷史 </tag>
             
+            <tag> JavaScript </tag>
+            
             <tag> ECMA </tag>
             
             <tag> ECMAScript </tag>
-            
-            <tag> JavaScript </tag>
             
             <tag> 第一次瀏覽器大戰 </tag>
             
@@ -972,13 +972,13 @@
             
             <tag> 前端歷史 </tag>
             
-            <tag> JavaScript </tag>
-            
             <tag> W3C </tag>
             
             <tag> Html </tag>
             
             <tag> CSS </tag>
+            
+            <tag> JavaScript </tag>
             
             <tag> 瀏覽器 </tag>
             

@@ -153,6 +153,12 @@
             
             <tag> 協定 </tag>
             
+            <tag> OSI </tag>
+            
+            <tag> 實體層 </tag>
+            
+            <tag> TCP/IP協定 </tag>
+            
             <tag> 無線通訊 </tag>
             
             <tag> 有線通訊 </tag>
@@ -160,12 +166,6 @@
             <tag> 4G </tag>
             
             <tag> 5G </tag>
-            
-            <tag> OSI </tag>
-            
-            <tag> 實體層 </tag>
-            
-            <tag> TCP/IP協定 </tag>
             
             <tag> 電磁波 </tag>
             
@@ -260,15 +260,15 @@
             
             <tag> 協定 </tag>
             
-            <tag> 無線通訊 </tag>
-            
-            <tag> 有線通訊 </tag>
-            
             <tag> OSI </tag>
             
             <tag> 實體層 </tag>
             
             <tag> TCP/IP協定 </tag>
+            
+            <tag> 無線通訊 </tag>
+            
+            <tag> 有線通訊 </tag>
             
             <tag> 介質 </tag>
             
@@ -339,10 +339,6 @@
             
             <tag> 協定 </tag>
             
-            <tag> 無線通訊 </tag>
-            
-            <tag> 有線通訊 </tag>
-            
             <tag> ISO </tag>
             
             <tag> OSI </tag>
@@ -364,6 +360,10 @@
             <tag> ARPA </tag>
             
             <tag> TCP/IP協定 </tag>
+            
+            <tag> 無線通訊 </tag>
+            
+            <tag> 有線通訊 </tag>
             
         </tags>
       
@@ -392,17 +392,17 @@
             
             <tag> 協定 </tag>
             
-            <tag> ITU </tag>
-            
-            <tag> 國際電信聯盟 </tag>
+            <tag> ISO </tag>
             
             <tag> 無線通訊 </tag>
             
             <tag> 有線通訊 </tag>
             
-            <tag> CCITT </tag>
+            <tag> ITU </tag>
             
-            <tag> ISO </tag>
+            <tag> 國際電信聯盟 </tag>
+            
+            <tag> CCITT </tag>
             
             <tag> 時間 </tag>
             
@@ -502,11 +502,11 @@
             
             <tag> packeage.json </tag>
             
-            <tag> WebPack </tag>
-            
             <tag> Bable </tag>
             
             <tag> Uglify </tag>
+            
+            <tag> WebPack </tag>
             
         </tags>
       
@@ -537,11 +537,11 @@
             
             <tag> NodeJS </tag>
             
+            <tag> NVM </tag>
+            
             <tag> npm </tag>
             
             <tag> packeage.json </tag>
-            
-            <tag> NVM </tag>
             
             <tag> Bable </tag>
             
@@ -822,9 +822,9 @@
             
             <tag> JavaScript </tag>
             
-            <tag> TypeScript </tag>
-            
             <tag> 弱型別 </tag>
+            
+            <tag> TypeScript </tag>
             
             <tag> 強型別 </tag>
             
@@ -898,15 +898,15 @@
             
             <tag> JavaScript </tag>
             
-            <tag> TypeScript </tag>
+            <tag> 解釋型 </tag>
             
             <tag> 弱型別 </tag>
             
-            <tag> WebAssembly </tag>
-            
-            <tag> 解釋型 </tag>
-            
             <tag> JIT </tag>
+            
+            <tag> TypeScript </tag>
+            
+            <tag> WebAssembly </tag>
             
         </tags>
       
@@ -931,13 +931,13 @@
       
         <tags>
             
+            <tag> JavaScript </tag>
+            
             <tag> 前端歷史 </tag>
             
             <tag> ECMA </tag>
             
             <tag> ECMAScript </tag>
-            
-            <tag> JavaScript </tag>
             
             <tag> 第一次瀏覽器大戰 </tag>
             
@@ -970,9 +970,9 @@
       
         <tags>
             
-            <tag> 前端歷史 </tag>
-            
             <tag> JavaScript </tag>
+            
+            <tag> 前端歷史 </tag>
             
             <tag> W3C </tag>
             

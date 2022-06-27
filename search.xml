@@ -82,9 +82,9 @@
             
             <tag> OSI </tag>
             
-            <tag> 資料鏈結層 </tag>
-            
             <tag> TCP/IP協定 </tag>
+            
+            <tag> 資料鏈結層 </tag>
             
             <tag> LLC </tag>
             
@@ -153,15 +153,19 @@
             
             <tag> 協定 </tag>
             
+            <tag> 無線通訊 </tag>
+            
+            <tag> 有線通訊 </tag>
+            
+            <tag> 4G </tag>
+            
+            <tag> 5G </tag>
+            
             <tag> OSI </tag>
             
             <tag> 實體層 </tag>
             
             <tag> TCP/IP協定 </tag>
-            
-            <tag> 無線通訊 </tag>
-            
-            <tag> 有線通訊 </tag>
             
             <tag> 電磁波 </tag>
             
@@ -186,10 +190,6 @@
             <tag> 2G </tag>
             
             <tag> 3G </tag>
-            
-            <tag> 4G </tag>
-            
-            <tag> 5G </tag>
             
             <tag> ASK </tag>
             
@@ -260,15 +260,15 @@
             
             <tag> 協定 </tag>
             
+            <tag> 無線通訊 </tag>
+            
+            <tag> 有線通訊 </tag>
+            
             <tag> OSI </tag>
             
             <tag> 實體層 </tag>
             
             <tag> TCP/IP協定 </tag>
-            
-            <tag> 無線通訊 </tag>
-            
-            <tag> 有線通訊 </tag>
             
             <tag> 介質 </tag>
             
@@ -339,9 +339,19 @@
             
             <tag> 協定 </tag>
             
+            <tag> 無線通訊 </tag>
+            
+            <tag> 有線通訊 </tag>
+            
             <tag> ISO </tag>
             
             <tag> OSI </tag>
+            
+            <tag> 實體層 </tag>
+            
+            <tag> TCP/IP協定 </tag>
+            
+            <tag> 資料鏈結層 </tag>
             
             <tag> 應用層 </tag>
             
@@ -353,17 +363,7 @@
             
             <tag> 網路層 </tag>
             
-            <tag> 資料鏈結層 </tag>
-            
-            <tag> 實體層 </tag>
-            
             <tag> ARPA </tag>
-            
-            <tag> TCP/IP協定 </tag>
-            
-            <tag> 無線通訊 </tag>
-            
-            <tag> 有線通訊 </tag>
             
         </tags>
       
@@ -392,21 +392,17 @@
             
             <tag> 協定 </tag>
             
-            <tag> ISO </tag>
+            <tag> ITU </tag>
+            
+            <tag> 國際電信聯盟 </tag>
             
             <tag> 無線通訊 </tag>
             
             <tag> 有線通訊 </tag>
             
-            <tag> 4G </tag>
-            
-            <tag> 5G </tag>
-            
-            <tag> ITU </tag>
-            
-            <tag> 國際電信聯盟 </tag>
-            
             <tag> CCITT </tag>
+            
+            <tag> ISO </tag>
             
             <tag> 時間 </tag>
             
@@ -425,6 +421,10 @@
             <tag> WiFi </tag>
             
             <tag> 能階 </tag>
+            
+            <tag> 4G </tag>
+            
+            <tag> 5G </tag>
             
             <tag> 2.4G </tag>
             
@@ -461,8 +461,6 @@
             
             <tag> packeage.json </tag>
             
-            <tag> WebPack </tag>
-            
             <tag> Mocha </tag>
             
             <tag> 單元測試 </tag>
@@ -470,6 +468,8 @@
             <tag> CI/CD </tag>
             
             <tag> CI </tag>
+            
+            <tag> WebPack </tag>
             
         </tags>
       
@@ -537,6 +537,8 @@
             
             <tag> NodeJS </tag>
             
+            <tag> NVM </tag>
+            
             <tag> npm </tag>
             
             <tag> packeage.json </tag>
@@ -544,8 +546,6 @@
             <tag> Bable </tag>
             
             <tag> Uglify </tag>
-            
-            <tag> NVM </tag>
             
         </tags>
       
@@ -574,6 +574,8 @@
             
             <tag> runtime </tag>
             
+            <tag> NodeJS </tag>
+            
             <tag> ES6 </tag>
             
             <tag> ES5 </tag>
@@ -581,8 +583,6 @@
             <tag> ServerJS </tag>
             
             <tag> CommonJS </tag>
-            
-            <tag> NodeJS </tag>
             
             <tag> AMD </tag>
             

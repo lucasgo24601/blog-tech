@@ -270,6 +270,8 @@
             
             <tag> 有線通訊 </tag>
             
+            <tag> 電磁波 </tag>
+            
             <tag> 介質 </tag>
             
             <tag> 雙絞銅線 </tag>
@@ -283,8 +285,6 @@
             <tag> 電視 </tag>
             
             <tag> 光纖 </tag>
-            
-            <tag> 電磁波 </tag>
             
             <tag> 厄斯特 </tag>
             
@@ -461,6 +461,8 @@
             
             <tag> packeage.json </tag>
             
+            <tag> WebPack </tag>
+            
             <tag> Mocha </tag>
             
             <tag> 單元測試 </tag>
@@ -468,8 +470,6 @@
             <tag> CI/CD </tag>
             
             <tag> CI </tag>
-            
-            <tag> WebPack </tag>
             
         </tags>
       
@@ -715,9 +715,9 @@
       
         <tags>
             
-            <tag> W3C </tag>
-            
             <tag> JavaScript </tag>
+            
+            <tag> W3C </tag>
             
             <tag> jQuery </tag>
             
@@ -758,9 +758,9 @@
       
         <tags>
             
-            <tag> W3C </tag>
-            
             <tag> JavaScript </tag>
+            
+            <tag> W3C </tag>
             
             <tag> jQuery </tag>
             
@@ -933,11 +933,11 @@
             
             <tag> 前端歷史 </tag>
             
-            <tag> JavaScript </tag>
-            
             <tag> ECMA </tag>
             
             <tag> ECMAScript </tag>
+            
+            <tag> JavaScript </tag>
             
             <tag> 第一次瀏覽器大戰 </tag>
             
@@ -972,13 +972,13 @@
             
             <tag> 前端歷史 </tag>
             
+            <tag> JavaScript </tag>
+            
             <tag> W3C </tag>
             
             <tag> Html </tag>
             
             <tag> CSS </tag>
-            
-            <tag> JavaScript </tag>
             
             <tag> 瀏覽器 </tag>
             

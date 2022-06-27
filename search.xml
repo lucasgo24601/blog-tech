@@ -82,9 +82,9 @@
             
             <tag> OSI </tag>
             
-            <tag> TCP/IP協定 </tag>
-            
             <tag> 資料鏈結層 </tag>
+            
+            <tag> TCP/IP協定 </tag>
             
             <tag> LLC </tag>
             
@@ -153,6 +153,12 @@
             
             <tag> 協定 </tag>
             
+            <tag> OSI </tag>
+            
+            <tag> 實體層 </tag>
+            
+            <tag> TCP/IP協定 </tag>
+            
             <tag> 無線通訊 </tag>
             
             <tag> 有線通訊 </tag>
@@ -160,12 +166,6 @@
             <tag> 4G </tag>
             
             <tag> 5G </tag>
-            
-            <tag> OSI </tag>
-            
-            <tag> 實體層 </tag>
-            
-            <tag> TCP/IP協定 </tag>
             
             <tag> 電磁波 </tag>
             
@@ -260,15 +260,15 @@
             
             <tag> 協定 </tag>
             
-            <tag> 無線通訊 </tag>
-            
-            <tag> 有線通訊 </tag>
-            
             <tag> OSI </tag>
             
             <tag> 實體層 </tag>
             
             <tag> TCP/IP協定 </tag>
+            
+            <tag> 無線通訊 </tag>
+            
+            <tag> 有線通訊 </tag>
             
             <tag> 介質 </tag>
             
@@ -339,17 +339,9 @@
             
             <tag> 協定 </tag>
             
-            <tag> 無線通訊 </tag>
-            
-            <tag> 有線通訊 </tag>
-            
             <tag> ISO </tag>
             
             <tag> OSI </tag>
-            
-            <tag> 實體層 </tag>
-            
-            <tag> TCP/IP協定 </tag>
             
             <tag> 應用層 </tag>
             
@@ -363,7 +355,15 @@
             
             <tag> 資料鏈結層 </tag>
             
+            <tag> 實體層 </tag>
+            
             <tag> ARPA </tag>
+            
+            <tag> TCP/IP協定 </tag>
+            
+            <tag> 無線通訊 </tag>
+            
+            <tag> 有線通訊 </tag>
             
         </tags>
       
@@ -392,17 +392,17 @@
             
             <tag> 協定 </tag>
             
-            <tag> ITU </tag>
-            
-            <tag> 國際電信聯盟 </tag>
+            <tag> ISO </tag>
             
             <tag> 無線通訊 </tag>
             
             <tag> 有線通訊 </tag>
             
-            <tag> CCITT </tag>
+            <tag> ITU </tag>
             
-            <tag> ISO </tag>
+            <tag> 國際電信聯盟 </tag>
+            
+            <tag> CCITT </tag>
             
             <tag> 時間 </tag>
             
@@ -461,6 +461,8 @@
             
             <tag> packeage.json </tag>
             
+            <tag> WebPack </tag>
+            
             <tag> Mocha </tag>
             
             <tag> 單元測試 </tag>
@@ -468,8 +470,6 @@
             <tag> CI/CD </tag>
             
             <tag> CI </tag>
-            
-            <tag> WebPack </tag>
             
         </tags>
       
@@ -531,13 +531,11 @@
       
         <tags>
             
-            <tag> TypeScript </tag>
-            
             <tag> V8 </tag>
             
-            <tag> NodeJS </tag>
+            <tag> TypeScript </tag>
             
-            <tag> NVM </tag>
+            <tag> NodeJS </tag>
             
             <tag> npm </tag>
             
@@ -546,6 +544,8 @@
             <tag> Bable </tag>
             
             <tag> Uglify </tag>
+            
+            <tag> NVM </tag>
             
         </tags>
       
@@ -822,9 +822,9 @@
             
             <tag> JavaScript </tag>
             
-            <tag> 弱型別 </tag>
-            
             <tag> TypeScript </tag>
+            
+            <tag> 弱型別 </tag>
             
             <tag> 強型別 </tag>
             
@@ -863,11 +863,11 @@
             
             <tag> JavaScript </tag>
             
-            <tag> 解釋型 </tag>
-            
             <tag> JIT </tag>
             
             <tag> V8 </tag>
+            
+            <tag> 解釋型 </tag>
             
             <tag> Google </tag>
             
@@ -898,13 +898,13 @@
             
             <tag> JavaScript </tag>
             
-            <tag> 解釋型 </tag>
-            
-            <tag> 弱型別 </tag>
-            
             <tag> JIT </tag>
             
+            <tag> 解釋型 </tag>
+            
             <tag> TypeScript </tag>
+            
+            <tag> 弱型別 </tag>
             
             <tag> WebAssembly </tag>
             

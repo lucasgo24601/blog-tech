@@ -138,6 +138,10 @@
             
             <tag> 有線通訊 </tag>
             
+            <tag> 4G </tag>
+            
+            <tag> 5G </tag>
+            
             <tag> 電磁波 </tag>
             
             <tag> 調變 </tag>
@@ -161,10 +165,6 @@
             <tag> 2G </tag>
             
             <tag> 3G </tag>
-            
-            <tag> 4G </tag>
-            
-            <tag> 5G </tag>
             
             <tag> ASK </tag>
             
@@ -373,10 +373,6 @@
             
             <tag> 有線通訊 </tag>
             
-            <tag> 4G </tag>
-            
-            <tag> 5G </tag>
-            
             <tag> ITU </tag>
             
             <tag> 國際電信聯盟 </tag>
@@ -400,6 +396,10 @@
             <tag> WiFi </tag>
             
             <tag> 能階 </tag>
+            
+            <tag> 4G </tag>
+            
+            <tag> 5G </tag>
             
             <tag> 2.4G </tag>
             
@@ -508,9 +508,9 @@
             
             <tag> TypeScript </tag>
             
-            <tag> V8 </tag>
-            
             <tag> NodeJS </tag>
+            
+            <tag> V8 </tag>
             
             <tag> NVM </tag>
             
@@ -547,7 +547,7 @@
             
             <tag> JavaScript </tag>
             
-            <tag> runtime </tag>
+            <tag> NodeJS </tag>
             
             <tag> ES6 </tag>
             
@@ -557,8 +557,6 @@
             
             <tag> CommonJS </tag>
             
-            <tag> NodeJS </tag>
-            
             <tag> AMD </tag>
             
             <tag> RequireJS </tag>
@@ -566,6 +564,8 @@
             <tag> CMD </tag>
             
             <tag> seaJS </tag>
+            
+            <tag> runtime </tag>
             
             <tag> 靜態優化 </tag>
             
@@ -690,9 +690,9 @@
       
         <tags>
             
-            <tag> W3C </tag>
-            
             <tag> JavaScript </tag>
+            
+            <tag> W3C </tag>
             
             <tag> jQuery </tag>
             
@@ -733,9 +733,9 @@
       
         <tags>
             
-            <tag> W3C </tag>
-            
             <tag> JavaScript </tag>
+            
+            <tag> W3C </tag>
             
             <tag> jQuery </tag>
             
@@ -844,9 +844,9 @@
             
             <tag> V8 </tag>
             
-            <tag> Google </tag>
-            
             <tag> runtime </tag>
+            
+            <tag> Google </tag>
             
         </tags>
       
@@ -906,9 +906,9 @@
       
         <tags>
             
-            <tag> 前端歷史 </tag>
-            
             <tag> JavaScript </tag>
+            
+            <tag> 前端歷史 </tag>
             
             <tag> ECMA </tag>
             
@@ -945,6 +945,8 @@
       
         <tags>
             
+            <tag> JavaScript </tag>
+            
             <tag> 前端歷史 </tag>
             
             <tag> W3C </tag>
@@ -952,8 +954,6 @@
             <tag> Html </tag>
             
             <tag> CSS </tag>
-            
-            <tag> JavaScript </tag>
             
             <tag> 瀏覽器 </tag>
             

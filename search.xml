@@ -461,6 +461,8 @@
             
             <tag> packeage.json </tag>
             
+            <tag> WebPack </tag>
+            
             <tag> Mocha </tag>
             
             <tag> 單元測試 </tag>
@@ -468,8 +470,6 @@
             <tag> CI/CD </tag>
             
             <tag> CI </tag>
-            
-            <tag> WebPack </tag>
             
         </tags>
       
@@ -574,8 +574,6 @@
             
             <tag> runtime </tag>
             
-            <tag> NodeJS </tag>
-            
             <tag> ES6 </tag>
             
             <tag> ES5 </tag>
@@ -583,6 +581,8 @@
             <tag> ServerJS </tag>
             
             <tag> CommonJS </tag>
+            
+            <tag> NodeJS </tag>
             
             <tag> AMD </tag>
             
@@ -715,13 +715,13 @@
       
         <tags>
             
-            <tag> W3C </tag>
-            
             <tag> JavaScript </tag>
             
             <tag> jQuery </tag>
             
             <tag> AJAX </tag>
+            
+            <tag> W3C </tag>
             
             <tag> XMLHttpRequest </tag>
             
@@ -758,13 +758,13 @@
       
         <tags>
             
-            <tag> W3C </tag>
-            
             <tag> JavaScript </tag>
             
             <tag> jQuery </tag>
             
             <tag> AJAX </tag>
+            
+            <tag> W3C </tag>
             
             <tag> XMLHttpRequest </tag>
             
@@ -822,9 +822,9 @@
             
             <tag> JavaScript </tag>
             
-            <tag> TypeScript </tag>
-            
             <tag> 弱型別 </tag>
+            
+            <tag> TypeScript </tag>
             
             <tag> 強型別 </tag>
             
@@ -902,9 +902,9 @@
             
             <tag> 解釋型 </tag>
             
-            <tag> TypeScript </tag>
-            
             <tag> 弱型別 </tag>
+            
+            <tag> TypeScript </tag>
             
             <tag> WebAssembly </tag>
             
@@ -933,11 +933,11 @@
             
             <tag> 前端歷史 </tag>
             
-            <tag> JavaScript </tag>
-            
             <tag> ECMA </tag>
             
             <tag> ECMAScript </tag>
+            
+            <tag> JavaScript </tag>
             
             <tag> 第一次瀏覽器大戰 </tag>
             
@@ -972,13 +972,13 @@
             
             <tag> 前端歷史 </tag>
             
+            <tag> JavaScript </tag>
+            
             <tag> W3C </tag>
             
             <tag> Html </tag>
             
             <tag> CSS </tag>
-            
-            <tag> JavaScript </tag>
             
             <tag> 瀏覽器 </tag>
             

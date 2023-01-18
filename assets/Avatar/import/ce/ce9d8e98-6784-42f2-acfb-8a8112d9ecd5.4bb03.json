@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "3beQOnJSBJJ6ara20w2AB8"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "FX_Avatar_frame_101",
+      "rect": [
+        2,
+        3,
+        399,
+        191
+      ],
+      "offset": [
+        -0.5,
+        -0.5
+      ],
+      "originalSize": [
+        404,
+        196
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

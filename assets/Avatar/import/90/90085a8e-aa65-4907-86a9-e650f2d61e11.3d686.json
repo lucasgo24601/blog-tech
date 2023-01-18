@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f7q4SLVJJK54XUY/Cf7hYi"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "02_Captain_P2",
+      "rect": [
+        2,
+        2,
+        632,
+        520
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        636,
+        524
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

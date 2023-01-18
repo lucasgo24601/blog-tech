@@ -1,0 +1,13 @@
+
+WaterWaves.png
+size: 824,384
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wave1
+  rotate: false
+  xy: 2, 2
+  size: 820, 379
+  orig: 820, 379
+  offset: 0, 0
+  index: -1

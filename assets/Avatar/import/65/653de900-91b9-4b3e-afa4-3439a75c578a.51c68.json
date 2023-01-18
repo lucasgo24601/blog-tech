@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "56qMyvCodEtZaX7vJohDzS"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "g0_ch_liubei_17",
+      "rect": [
+        2,
+        0,
+        129,
+        114
+      ],
+      "offset": [
+        0.5,
+        0.5
+      ],
+      "originalSize": [
+        132,
+        115
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

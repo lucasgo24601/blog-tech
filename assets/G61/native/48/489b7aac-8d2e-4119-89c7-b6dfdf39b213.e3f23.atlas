@@ -1,0 +1,13 @@
+
+Wave.png
+size: 244,252
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wave
+  rotate: false
+  xy: 2, 2
+  size: 239, 246
+  orig: 239, 246
+  offset: 0, 0
+  index: -1

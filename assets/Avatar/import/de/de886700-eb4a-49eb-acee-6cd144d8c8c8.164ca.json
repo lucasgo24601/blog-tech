@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "14BypJoCdIT5nwKGzssqB8"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "t_glow_12",
+      "rect": [
+        0,
+        0,
+        32,
+        31
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        32,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "87VjJ841ZJDajgwNe7uGvR"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "g0_lb_btg_G66",
+      "rect": [
+        2,
+        4,
+        213,
+        213
+      ],
+      "offset": [
+        0,
+        -2
+      ],
+      "originalSize": [
+        217,
+        217
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

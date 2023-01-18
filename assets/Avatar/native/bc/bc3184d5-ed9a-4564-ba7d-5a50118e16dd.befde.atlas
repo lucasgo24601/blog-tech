@@ -1,0 +1,104 @@
+
+FX_Avatar_frame_106.png
+size: 280,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Grove
+  rotate: false
+  xy: 193, 59
+  size: 47, 33
+  orig: 49, 35
+  offset: 1, 1
+  index: -1
+Grove2
+  rotate: false
+  xy: 193, 27
+  size: 45, 30
+  orig: 47, 32
+  offset: 1, 1
+  index: -1
+Sign
+  rotate: false
+  xy: 190, 220
+  size: 84, 50
+  orig: 86, 52
+  offset: 1, 1
+  index: -1
+Sign2
+  rotate: false
+  xy: 2, 2
+  size: 50, 54
+  orig: 52, 56
+  offset: 1, 1
+  index: -1
+Sign2_side
+  rotate: true
+  xy: 242, 48
+  size: 44, 34
+  orig: 46, 36
+  offset: 1, 1
+  index: -1
+bg
+  rotate: false
+  xy: 2, 84
+  size: 186, 186
+  orig: 188, 188
+  offset: 1, 1
+  index: -1
+crack
+  rotate: true
+  xy: 240, 7
+  size: 39, 32
+  orig: 39, 32
+  offset: 0, 0
+  index: -1
+egg
+  rotate: false
+  xy: 212, 94
+  size: 58, 58
+  orig: 60, 60
+  offset: 1, 1
+  index: -1
+light
+  rotate: true
+  xy: 2, 58
+  size: 24, 135
+  orig: 24, 135
+  offset: 0, 0
+  index: -1
+light_side
+  rotate: false
+  xy: 190, 104
+  size: 20, 114
+  orig: 22, 116
+  offset: 1, 1
+  index: -1
+red_light
+  rotate: false
+  xy: 212, 154
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+sign_light
+  rotate: false
+  xy: 54, 28
+  size: 83, 28
+  orig: 85, 30
+  offset: 1, 1
+  index: -1
+warning
+  rotate: true
+  xy: 139, 29
+  size: 53, 52
+  orig: 55, 54
+  offset: 1, 1
+  index: -1
+wire
+  rotate: true
+  xy: 54, 14
+  size: 12, 35
+  orig: 14, 37
+  offset: 1, 1
+  index: -1

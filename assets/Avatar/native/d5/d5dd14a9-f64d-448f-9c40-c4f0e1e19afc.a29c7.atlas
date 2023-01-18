@@ -1,0 +1,55 @@
+
+FX_Avatar_frame_100.png
+size: 316,188
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 2, 2
+  size: 181, 193
+  orig: 181, 193
+  offset: 0, 0
+  index: -1
+cloud
+  rotate: false
+  xy: 223, 75
+  size: 88, 40
+  orig: 90, 42
+  offset: 1, 1
+  index: -1
+flower
+  rotate: false
+  xy: 272, 12
+  size: 25, 25
+  orig: 27, 27
+  offset: 1, 1
+  index: -1
+flower2
+  rotate: false
+  xy: 272, 39
+  size: 32, 34
+  orig: 34, 36
+  offset: 1, 1
+  index: -1
+light2
+  rotate: true
+  xy: 197, 48
+  size: 135, 24
+  orig: 135, 24
+  offset: 0, 0
+  index: -1
+poker
+  rotate: false
+  xy: 223, 117
+  size: 89, 66
+  orig: 89, 66
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 223, 28
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1

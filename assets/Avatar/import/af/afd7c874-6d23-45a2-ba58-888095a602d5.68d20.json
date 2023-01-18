@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "c1Y45SjgRKFJGk4WzkPDAc"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "XiaoQiao_P1",
+      "rect": [
+        3,
+        2,
+        1267,
+        528
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        1272,
+        532
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

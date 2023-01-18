@@ -1,0 +1,1138 @@
+[
+  1,
+  [
+    "3b+i9Im/NGpZ6gRjLiKxi5"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "FX_Avatar_frame_102",
+      "\nFX_Avatar_frame_102.png\nsize: 276,268\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nacc2_light\n  rotate: false\n  xy: 221, 6\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nacc_light_0\n  rotate: false\n  xy: 94, 42\n  size: 44, 30\n  orig: 45, 32\n  offset: 0, 1\n  index: -1\nacc_light_1\n  rotate: true\n  xy: 140, 28\n  size: 44, 30\n  orig: 45, 32\n  offset: 0, 1\n  index: -1\nacc_light_2\n  rotate: true\n  xy: 242, 28\n  size: 44, 31\n  orig: 45, 32\n  offset: 0, 1\n  index: -1\nacc_light_3\n  rotate: false\n  xy: 48, 41\n  size: 44, 31\n  orig: 45, 32\n  offset: 0, 1\n  index: -1\nacc_light_4\n  rotate: false\n  xy: 94, 11\n  size: 44, 29\n  orig: 45, 32\n  offset: 0, 2\n  index: -1\nacc_light_5\n  rotate: false\n  xy: 48, 10\n  size: 44, 29\n  orig: 45, 32\n  offset: 0, 3\n  index: -1\nacc_light_6\n  rotate: false\n  xy: 2, 2\n  size: 44, 27\n  orig: 45, 32\n  offset: 0, 4\n  index: -1\nacc_light_7\n  rotate: true\n  xy: 193, 5\n  size: 44, 26\n  orig: 45, 32\n  offset: 0, 5\n  index: -1\nacc_light_8\n  rotate: true\n  xy: 172, 29\n  size: 43, 19\n  orig: 45, 32\n  offset: 1, 9\n  index: -1\naccessories\n  rotate: true\n  xy: 198, 96\n  size: 78, 56\n  orig: 80, 58\n  offset: 1, 1\n  index: -1\nball_102\n  rotate: true\n  xy: 198, 51\n  size: 43, 42\n  orig: 45, 44\n  offset: 1, 1\n  index: -1\near\n  rotate: true\n  xy: 140, 2\n  size: 24, 42\n  orig: 26, 44\n  offset: 1, 1\n  index: -1\nframe\n  rotate: false\n  xy: 2, 74\n  size: 194, 190\n  orig: 194, 190\n  offset: 0, 0\n  index: -1\nframe102_light\n  rotate: false\n  xy: 256, 74\n  size: 9, 100\n  orig: 9, 100\n  offset: 0, 0\n  index: -1\nlantern1\n  rotate: true\n  xy: 2, 31\n  size: 41, 44\n  orig: 43, 46\n  offset: 1, 1\n  index: -1\ntail\n  rotate: false\n  xy: 198, 176\n  size: 72, 88\n  orig: 72, 88\n  offset: 0, 0\n  index: -1\n",
+      [
+        "FX_Avatar_frame_102.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "xfSb6hmm5s1pnZwsG0659axDbyA",
+          "spine": "3.8.75",
+          "x": -103.2,
+          "y": -106,
+          "width": 209.42,
+          "height": 215.18,
+          "images": "./images/",
+          "audio": "C:/Users/Stella/Desktop/遠端工作/FX_Avatar frame_XXX/FX_Avatar frame_102"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "lantern1",
+            "parent": "root",
+            "x": -17.53,
+            "y": 73.65
+          },
+          {
+            "name": "lantern2",
+            "parent": "root",
+            "rotation": -46.8,
+            "x": 18.54,
+            "y": 87.68,
+            "scaleX": 0.65,
+            "scaleY": 0.65
+          },
+          {
+            "name": "tail",
+            "parent": "root",
+            "x": 93.46,
+            "y": -32.83
+          },
+          {
+            "name": "tail2",
+            "parent": "tail",
+            "length": 33.1,
+            "rotation": -145.14,
+            "x": -0.87,
+            "y": -12.02
+          },
+          {
+            "name": "tail3",
+            "parent": "tail2",
+            "length": 36.18,
+            "rotation": 18.8,
+            "x": 35.21,
+            "y": -0.44
+          },
+          {
+            "name": "ear",
+            "parent": "root",
+            "length": 30.89,
+            "rotation": 136.6,
+            "x": -74.57,
+            "y": 34.54
+          },
+          {
+            "name": "ear2",
+            "parent": "root",
+            "length": 30.89,
+            "rotation": -137.7,
+            "x": 80.2,
+            "y": 34.54,
+            "scaleX": -1
+          },
+          {
+            "name": "accessories",
+            "parent": "root",
+            "x": -62.52,
+            "y": 74.56,
+            "scaleX": 1.34,
+            "scaleY": 1.34
+          }
+        ],
+        "slots": [
+          {
+            "name": "ear",
+            "bone": "ear",
+            "attachment": "ear"
+          },
+          {
+            "name": "ear2",
+            "bone": "ear2",
+            "attachment": "ear"
+          },
+          {
+            "name": "frame_102",
+            "bone": "root"
+          },
+          {
+            "name": "frame",
+            "bone": "root",
+            "attachment": "frame"
+          },
+          {
+            "name": "frame102_light2",
+            "bone": "root",
+            "attachment": "frame102_light"
+          },
+          {
+            "name": "frame102_light3",
+            "bone": "root",
+            "attachment": "frame102_light"
+          },
+          {
+            "name": "lantern1",
+            "bone": "lantern1",
+            "attachment": "lantern1"
+          },
+          {
+            "name": "lantern3",
+            "bone": "lantern2",
+            "attachment": "lantern1"
+          },
+          {
+            "name": "accessories",
+            "bone": "accessories",
+            "attachment": "accessories"
+          },
+          {
+            "name": "tail",
+            "bone": "tail",
+            "attachment": "tail"
+          },
+          {
+            "name": "ball_103",
+            "bone": "lantern2",
+            "attachment": "ball_102",
+            "blend": "additive"
+          },
+          {
+            "name": "ball_102",
+            "bone": "lantern1",
+            "attachment": "ball_102",
+            "blend": "additive"
+          },
+          {
+            "name": "acc_light_0",
+            "bone": "accessories",
+            "color": "ffada3ff",
+            "attachment": "acc_light_4",
+            "blend": "additive"
+          },
+          {
+            "name": "acc_light_1",
+            "bone": "root"
+          },
+          {
+            "name": "acc_light_2",
+            "bone": "root"
+          },
+          {
+            "name": "acc_light_3",
+            "bone": "root"
+          },
+          {
+            "name": "acc_light_4",
+            "bone": "root"
+          },
+          {
+            "name": "acc_light_5",
+            "bone": "root"
+          },
+          {
+            "name": "acc_light_6",
+            "bone": "root"
+          },
+          {
+            "name": "acc_light_7",
+            "bone": "root"
+          },
+          {
+            "name": "acc_light_8",
+            "bone": "root"
+          },
+          {
+            "name": "acc2_light",
+            "bone": "root",
+            "attachment": "acc2_light",
+            "blend": "additive"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "acc_light_0": {
+                "acc_light_0": {
+                  "x": -0.27,
+                  "y": -0.43,
+                  "scaleX": 1.29,
+                  "scaleY": 1.29,
+                  "width": 45,
+                  "height": 32
+                },
+                "acc_light_1": {
+                  "x": -0.27,
+                  "y": -0.43,
+                  "scaleX": 1.29,
+                  "scaleY": 1.29,
+                  "width": 45,
+                  "height": 32
+                },
+                "acc_light_2": {
+                  "x": -0.27,
+                  "y": -0.43,
+                  "scaleX": 1.29,
+                  "scaleY": 1.29,
+                  "width": 45,
+                  "height": 32
+                },
+                "acc_light_3": {
+                  "x": -0.27,
+                  "y": -0.43,
+                  "scaleX": 1.29,
+                  "scaleY": 1.29,
+                  "width": 45,
+                  "height": 32
+                },
+                "acc_light_4": {
+                  "x": -0.27,
+                  "y": -0.43,
+                  "scaleX": 1.29,
+                  "scaleY": 1.29,
+                  "width": 45,
+                  "height": 32
+                },
+                "acc_light_5": {
+                  "x": -0.27,
+                  "y": -0.43,
+                  "scaleX": 1.29,
+                  "scaleY": 1.29,
+                  "width": 45,
+                  "height": 32
+                },
+                "acc_light_6": {
+                  "x": -0.27,
+                  "y": -0.43,
+                  "scaleX": 1.29,
+                  "scaleY": 1.29,
+                  "width": 45,
+                  "height": 32
+                },
+                "acc_light_7": {
+                  "x": -0.27,
+                  "y": -0.43,
+                  "scaleX": 1.29,
+                  "scaleY": 1.29,
+                  "width": 45,
+                  "height": 32
+                },
+                "acc_light_8": {
+                  "x": -0.27,
+                  "y": -0.43,
+                  "scaleX": 1.29,
+                  "scaleY": 1.29,
+                  "width": 45,
+                  "height": 32
+                }
+              },
+              "tail": {
+                "tail": {
+                  "type": "mesh",
+                  "hull": 10,
+                  "width": 72,
+                  "height": 88,
+                  "uvs": [
+                    0.66882,
+                    0,
+                    0.61769,
+                    0.13968,
+                    0.30699,
+                    0.2554,
+                    0.00001,
+                    0.58399,
+                    0,
+                    0.99999,
+                    0.33234,
+                    0.99985,
+                    0.46716,
+                    0.84574,
+                    0.82413,
+                    0.72035,
+                    1,
+                    0.50425,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    4,
+                    3,
+                    5,
+                    5,
+                    3,
+                    6,
+                    6,
+                    3,
+                    2,
+                    7,
+                    6,
+                    2,
+                    2,
+                    1,
+                    7,
+                    7,
+                    1,
+                    8,
+                    8,
+                    1,
+                    9,
+                    9,
+                    1,
+                    0
+                  ],
+                  "vertices": [
+                    1,
+                    3,
+                    -11.31,
+                    14.83,
+                    1,
+                    3,
+                    3,
+                    -14.99,
+                    2.54,
+                    0.84973,
+                    4,
+                    3.26,
+                    -20.01,
+                    0.15,
+                    5,
+                    -36.55,
+                    -8.23,
+                    0.00027,
+                    3,
+                    3,
+                    -37.36,
+                    -7.64,
+                    0.13,
+                    4,
+                    27.44,
+                    -24.44,
+                    0.60277,
+                    5,
+                    -15.09,
+                    -20.22,
+                    0.26723,
+                    2,
+                    4,
+                    62.1,
+                    -13.35,
+                    0.15,
+                    5,
+                    21.3,
+                    -20.89,
+                    0.85,
+                    1,
+                    5,
+                    50.78,
+                    0.8,
+                    1,
+                    2,
+                    4,
+                    63.39,
+                    30.36,
+                    0.01542,
+                    5,
+                    36.6,
+                    20.07,
+                    0.98458,
+                    2,
+                    4,
+                    47.67,
+                    24.78,
+                    0.20636,
+                    5,
+                    19.92,
+                    19.85,
+                    0.79364,
+                    2,
+                    4,
+                    20.27,
+                    30.41,
+                    0.91989,
+                    5,
+                    -4.2,
+                    34.02,
+                    0.08011,
+                    3,
+                    3,
+                    12.54,
+                    -29.54,
+                    0.1092,
+                    4,
+                    -0.99,
+                    22.04,
+                    0.6708,
+                    5,
+                    -27.02,
+                    32.95,
+                    0.22,
+                    2,
+                    3,
+                    12.54,
+                    14.83,
+                    0.93,
+                    4,
+                    -26.35,
+                    -14.37,
+                    0.07
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    6,
+                    8,
+                    8,
+                    10,
+                    10,
+                    12,
+                    12,
+                    14,
+                    14,
+                    16,
+                    16,
+                    18,
+                    0,
+                    18
+                  ]
+                }
+              },
+              "frame102_light2": {
+                "frame102_light": {
+                  "x": 27.34,
+                  "y": -80.46,
+                  "scaleX": 1.38,
+                  "scaleY": 1.2,
+                  "rotation": 90,
+                  "width": 9,
+                  "height": 100
+                }
+              },
+              "ear": {
+                "ear": {
+                  "x": 15.52,
+                  "y": 1.67,
+                  "rotation": -136.6,
+                  "width": 26,
+                  "height": 44
+                }
+              },
+              "ear2": {
+                "ear": {
+                  "x": 15.52,
+                  "y": 1.67,
+                  "rotation": -136.6,
+                  "width": 26,
+                  "height": 44
+                }
+              },
+              "frame102_light3": {
+                "frame102_light": {
+                  "x": 83.75,
+                  "y": -16.89,
+                  "scaleX": 1.38,
+                  "scaleY": 1.2,
+                  "width": 9,
+                  "height": 100
+                }
+              },
+              "acc2_light": {
+                "acc2_light": {
+                  "x": 82.79,
+                  "y": 76.73,
+                  "scaleX": 1.3,
+                  "scaleY": 1.3,
+                  "rotation": -6,
+                  "width": 20,
+                  "height": 20
+                }
+              },
+              "lantern1": {
+                "lantern1": {
+                  "x": 0.03,
+                  "y": -2.77,
+                  "width": 43,
+                  "height": 46
+                }
+              },
+              "frame": {
+                "frame": {
+                  "x": -2,
+                  "y": 4,
+                  "width": 194,
+                  "height": 190
+                }
+              },
+              "accessories": {
+                "accessories": {
+                  "x": -0.36,
+                  "y": 0.33,
+                  "scaleX": 0.75,
+                  "scaleY": 0.75,
+                  "width": 80,
+                  "height": 58
+                }
+              },
+              "ball_102": {
+                "ball_102": {
+                  "x": 0.67,
+                  "y": -5.65,
+                  "scaleX": 1.14,
+                  "scaleY": 1.14,
+                  "width": 45,
+                  "height": 44
+                }
+              },
+              "ball_103": {
+                "ball_102": {
+                  "x": 0.67,
+                  "y": -5.65,
+                  "scaleX": 1.19,
+                  "scaleY": 1.19,
+                  "width": 45,
+                  "height": 44
+                }
+              },
+              "lantern3": {
+                "lantern1": {
+                  "x": 0.03,
+                  "y": -2.77,
+                  "width": 43,
+                  "height": 46
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "plaly_normal": {
+            "slots": {
+              "acc_light_0": {
+                "color": [
+                  {
+                    "color": "ffaca300",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6,
+                    "color": "ffada3ff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.0333,
+                    "color": "ffada3ff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3,
+                    "color": "ffaca300"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "name": "acc_light_0"
+                  },
+                  {
+                    "time": 0.5,
+                    "name": "acc_light_1"
+                  },
+                  {
+                    "time": 0.6,
+                    "name": "acc_light_2"
+                  },
+                  {
+                    "time": 0.6667,
+                    "name": "acc_light_3"
+                  },
+                  {
+                    "time": 0.7333,
+                    "name": "acc_light_4"
+                  },
+                  {
+                    "time": 0.8,
+                    "name": "acc_light_5"
+                  },
+                  {
+                    "time": 0.8667,
+                    "name": "acc_light_6"
+                  },
+                  {
+                    "time": 0.9333,
+                    "name": "acc_light_7"
+                  },
+                  {
+                    "time": 1.0333,
+                    "name": "acc_light_8"
+                  }
+                ]
+              },
+              "frame102_light3": {
+                "color": [
+                  {
+                    "color": "a326e261"
+                  },
+                  {
+                    "time": 0.6333,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 1.2333,
+                    "color": "f1d4fbff"
+                  },
+                  {
+                    "time": 1.7,
+                    "color": "a326e261"
+                  },
+                  {
+                    "time": 1.9,
+                    "color": "fdf0ffe9"
+                  },
+                  {
+                    "time": 2.1,
+                    "color": "a326e261"
+                  },
+                  {
+                    "time": 2.3667,
+                    "color": "fdf0ffe9"
+                  },
+                  {
+                    "time": 2.6333,
+                    "color": "a326e261"
+                  },
+                  {
+                    "time": 2.8667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 3.3,
+                    "color": "a530d8a7"
+                  },
+                  {
+                    "time": 3.5333,
+                    "color": "fdf0ffe9"
+                  },
+                  {
+                    "time": 4,
+                    "color": "a326e261"
+                  }
+                ]
+              },
+              "ball_103": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.5,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2,
+                    "color": "ffffffff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 3.0667,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.903,
+                    "c4": 0.92
+                  },
+                  {
+                    "time": 4,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "frame102_light2": {
+                "color": [
+                  {
+                    "color": "a326e261"
+                  },
+                  {
+                    "time": 0.6333,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 1.2333,
+                    "color": "f1d4fbff"
+                  },
+                  {
+                    "time": 1.7,
+                    "color": "a326e261"
+                  },
+                  {
+                    "time": 1.9,
+                    "color": "fdf0ffe9"
+                  },
+                  {
+                    "time": 2.1,
+                    "color": "a326e261"
+                  },
+                  {
+                    "time": 2.3667,
+                    "color": "fdf0ffe9"
+                  },
+                  {
+                    "time": 2.6333,
+                    "color": "a326e261"
+                  },
+                  {
+                    "time": 2.8667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 3.3,
+                    "color": "a530d8a7"
+                  },
+                  {
+                    "time": 3.5333,
+                    "color": "fdf0ffe9"
+                  },
+                  {
+                    "time": 4,
+                    "color": "a326e261"
+                  }
+                ]
+              },
+              "ball_102": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.0333,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.5,
+                    "color": "daba90ff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2.7333,
+                    "color": "daba90ff",
+                    "curve": 0.25,
+                    "c3": 0.895,
+                    "c4": 0.89
+                  },
+                  {
+                    "time": 3.6667,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "acc2_light": {
+                "color": [
+                  {
+                    "color": "ffffff4e",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.8,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.7333,
+                    "color": "ffeccbff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2.3333,
+                    "color": "ffeccbff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.2333,
+                    "color": "ffca6b00"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "ear": {
+                "rotate": [
+                  {
+                    "time": 1.5333,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.6333,
+                    "angle": 15.6,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.7333,
+                    "angle": 0.55,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.8333,
+                    "angle": 15.6,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9333,
+                    "angle": -3.05,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.0667
+                  }
+                ]
+              },
+              "ear2": {
+                "rotate": [
+                  {
+                    "time": 1.5333,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.6333,
+                    "angle": -16.68,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.7333,
+                    "angle": 3.71,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.8333,
+                    "angle": -21.31,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9333,
+                    "angle": 6.21,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.0667
+                  }
+                ]
+              },
+              "tail2": {
+                "rotate": [
+                  {
+                    "curve": 0.174,
+                    "c2": 0.22,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3,
+                    "angle": -4.86,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.7333,
+                    "angle": -0.06,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.1333,
+                    "angle": -4.86,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.5,
+                    "angle": 1.99,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.9667,
+                    "angle": -4.86,
+                    "curve": 0.25,
+                    "c3": 0.802,
+                    "c4": 0.73
+                  },
+                  {
+                    "time": 4
+                  }
+                ]
+              },
+              "tail3": {
+                "rotate": [
+                  {
+                    "curve": 0.174,
+                    "c2": 0.22,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.4,
+                    "angle": -7.26,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.8,
+                    "angle": 1.14,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.2,
+                    "angle": -12.11,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.5667,
+                    "angle": -10.01,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.0333,
+                    "angle": -13.31,
+                    "curve": 0.25,
+                    "c3": 0.802,
+                    "c4": 0.73
+                  },
+                  {
+                    "time": 4
+                  }
+                ]
+              },
+              "lantern1": {
+                "rotate": [
+                  {
+                    "curve": 0.12,
+                    "c2": 0.13,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.0667,
+                    "angle": 7.2,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.0333,
+                    "angle": -12.03,
+                    "curve": 0.25,
+                    "c3": 0.895,
+                    "c4": 0.89
+                  },
+                  {
+                    "time": 4
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.12,
+                    "c2": 0.13,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.0333,
+                    "x": 1.3,
+                    "y": -4.52,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.0333,
+                    "y": 4.24,
+                    "curve": 0.25,
+                    "c3": 0.895,
+                    "c4": 0.89
+                  },
+                  {
+                    "time": 4
+                  }
+                ]
+              },
+              "lantern2": {
+                "rotate": [
+                  {
+                    "curve": 0.113,
+                    "c2": 0.13,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3667,
+                    "angle": -14.4,
+                    "curve": 0.25,
+                    "c3": 0.91,
+                    "c4": 0.9
+                  },
+                  {
+                    "time": 4
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.113,
+                    "c2": 0.13,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3667,
+                    "y": -10.6,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.8,
+                    "x": 0.07,
+                    "y": 3.61,
+                    "curve": 0.25,
+                    "c3": 0.903,
+                    "c4": 0.92
+                  },
+                  {
+                    "time": 4
+                  }
+                ]
+              },
+              "accessories": {
+                "rotate": [
+                  {
+                    "curve": 0.158,
+                    "c2": 0.16,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.0667,
+                    "angle": 3.6,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333,
+                    "angle": -9.21,
+                    "curve": 0.25,
+                    "c3": 0.887,
+                    "c4": 0.88
+                  },
+                  {
+                    "time": 4
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

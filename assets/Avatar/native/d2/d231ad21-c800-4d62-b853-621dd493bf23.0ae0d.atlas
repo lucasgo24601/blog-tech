@@ -1,0 +1,55 @@
+
+FX_Avatar_frame_110.png
+size: 296,192
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+accessories
+  rotate: true
+  xy: 202, 23
+  size: 95, 34
+  orig: 97, 36
+  offset: 1, 1
+  index: -1
+foot
+  rotate: true
+  xy: 238, 25
+  size: 39, 42
+  orig: 41, 44
+  offset: 1, 1
+  index: -1
+frame_110
+  rotate: false
+  xy: 2, 2
+  size: 198, 185
+  orig: 200, 187
+  offset: 1, 1
+  index: -1
+grass2
+  rotate: false
+  xy: 202, 120
+  size: 64, 48
+  orig: 64, 48
+  offset: 0, 0
+  index: -1
+hand
+  rotate: true
+  xy: 268, 134
+  size: 34, 25
+  orig: 36, 27
+  offset: 1, 1
+  index: -1
+imprint
+  rotate: false
+  xy: 238, 66
+  size: 56, 52
+  orig: 58, 54
+  offset: 1, 1
+  index: -1
+light
+  rotate: true
+  xy: 202, 170
+  size: 17, 91
+  orig: 19, 93
+  offset: 1, 1
+  index: -1

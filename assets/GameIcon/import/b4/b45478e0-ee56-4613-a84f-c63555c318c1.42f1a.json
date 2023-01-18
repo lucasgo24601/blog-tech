@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "c7iS3dTTRMppSlIoX92x3P"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "g0_lb_btg_G40",
+      "rect": [
+        4,
+        6,
+        209,
+        209
+      ],
+      "offset": [
+        0,
+        -2
+      ],
+      "originalSize": [
+        217,
+        217
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

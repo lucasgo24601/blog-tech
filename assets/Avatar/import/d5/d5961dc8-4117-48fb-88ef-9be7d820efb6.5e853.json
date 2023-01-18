@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d0+hoJnO9IWoU5shQdO6kw"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "g0_ch_dongzhuo_17",
+      "rect": [
+        8,
+        0,
+        122,
+        115
+      ],
+      "offset": [
+        3,
+        0
+      ],
+      "originalSize": [
+        132,
+        115
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

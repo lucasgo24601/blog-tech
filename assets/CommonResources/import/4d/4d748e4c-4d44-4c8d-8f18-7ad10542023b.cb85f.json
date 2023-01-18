@@ -1,0 +1,55 @@
+[
+  1,
+  [
+    "79IjOouldCUa3zrtU9iy0V"
+  ],
+  [
+    "_effectAsset"
+  ],
+  [
+    [
+      "cc.Material",
+      [
+        "_name",
+        "_techniqueData"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "DisableBtn",
+      {
+        "0": {
+          "defines": {
+            "USE_TEXTURE": true
+          },
+          "props": {
+            "saturation": 0,
+            "brightness": 0.6
+          }
+        }
+      }
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

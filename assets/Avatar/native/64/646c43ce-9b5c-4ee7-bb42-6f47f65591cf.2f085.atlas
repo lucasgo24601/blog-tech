@@ -1,0 +1,223 @@
+
+DaQiao_P1.png
+size: 1828,332
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+RDM_ld_acc1
+  rotate: false
+  xy: 1310, 3
+  size: 17, 129
+  orig: 17, 129
+  offset: 0, 0
+  index: -1
+RDM_ld_acc2
+  rotate: true
+  xy: 739, 3
+  size: 14, 80
+  orig: 14, 81
+  offset: 0, 1
+  index: -1
+RDM_ld_arm_r2_1
+  rotate: true
+  xy: 513, 7
+  size: 67, 224
+  orig: 69, 224
+  offset: 0, 0
+  index: -1
+RDM_ld_arm_r2_2
+  rotate: false
+  xy: 1642, 72
+  size: 73, 109
+  orig: 75, 110
+  offset: 0, 1
+  index: -1
+RDM_ld_arm_r2_3
+  rotate: true
+  xy: 960, 2
+  size: 34, 157
+  orig: 34, 157
+  offset: 0, 0
+  index: -1
+RDM_ld_body
+  rotate: true
+  xy: 1642, 228
+  size: 102, 117
+  orig: 105, 122
+  offset: 1, 5
+  index: -1
+RDM_ld_face
+  rotate: false
+  xy: 1434, 142
+  size: 175, 188
+  orig: 183, 202
+  offset: 7, 5
+  index: -1
+RDM_ld_foot_l
+  rotate: true
+  xy: 960, 38
+  size: 54, 215
+  orig: 54, 215
+  offset: 0, 0
+  index: -1
+RDM_ld_foot_r
+  rotate: true
+  xy: 739, 19
+  size: 55, 219
+  orig: 55, 219
+  offset: 0, 0
+  index: -1
+RDM_ld_hair_b
+  rotate: true
+  xy: 1024, 98
+  size: 232, 223
+  orig: 233, 224
+  offset: 0, 1
+  index: -1
+RDM_ld_hair_f1
+  rotate: false
+  xy: 513, 76
+  size: 246, 254
+  orig: 247, 254
+  offset: 0, 0
+  index: -1
+RDM_ld_hair_f2
+  rotate: true
+  xy: 1329, 8
+  size: 124, 83
+  orig: 132, 85
+  offset: 6, 2
+  index: -1
+RDM_ld_hand_l
+  rotate: false
+  xy: 761, 82
+  size: 171, 248
+  orig: 181, 252
+  offset: 0, 1
+  index: -1
+RDM_ld_hand_r2_1
+  rotate: false
+  xy: 1758, 184
+  size: 45, 28
+  orig: 45, 32
+  offset: 0, 4
+  index: -1
+RDM_ld_hand_r2_2
+  rotate: true
+  xy: 1813, 56
+  size: 19, 9
+  orig: 20, 9
+  offset: 0, 0
+  index: -1
+RDM_ld_skirt_b
+  rotate: true
+  xy: 1177, 4
+  size: 92, 131
+  orig: 93, 132
+  offset: 0, 1
+  index: -1
+RDM_ld_skirt_down
+  rotate: true
+  xy: 1434, 7
+  size: 133, 164
+  orig: 133, 164
+  offset: 0, 0
+  index: -1
+RDM_ld_skirt_f
+  rotate: true
+  xy: 1717, 77
+  size: 104, 109
+  orig: 105, 110
+  offset: 0, 1
+  index: -1
+RDM_ld_umbrella
+  rotate: false
+  xy: 2, 6
+  size: 509, 324
+  orig: 509, 325
+  offset: 0, 1
+  index: -1
+RDM_ld_umbrella_grip
+  rotate: false
+  xy: 934, 94
+  size: 88, 236
+  orig: 88, 236
+  offset: 0, 0
+  index: -1
+big_eye
+  rotate: true
+  xy: 1761, 214
+  size: 116, 38
+  orig: 116, 38
+  offset: 0, 0
+  index: -1
+big_eyebrow
+  rotate: true
+  xy: 1801, 217
+  size: 113, 24
+  orig: 114, 25
+  offset: 0, 1
+  index: -1
+big_fail_face
+  rotate: false
+  xy: 1249, 134
+  size: 183, 196
+  orig: 190, 212
+  offset: 7, 6
+  index: -1
+big_flush
+  rotate: false
+  xy: 1642, 183
+  size: 114, 43
+  orig: 115, 43
+  offset: 0, 0
+  index: -1
+big_mouth
+  rotate: true
+  xy: 1119, 2
+  size: 34, 19
+  orig: 34, 20
+  offset: 0, 1
+  index: -1
+fail_Tears01
+  rotate: true
+  xy: 1611, 192
+  size: 19, 27
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+fail_Tears02
+  rotate: false
+  xy: 1805, 187
+  size: 20, 28
+  orig: 20, 29
+  offset: 0, 0
+  index: -1
+fail_eye
+  rotate: true
+  xy: 1600, 22
+  size: 118, 40
+  orig: 118, 41
+  offset: 0, 1
+  index: -1
+fail_eyebrow
+  rotate: true
+  xy: 1611, 213
+  size: 117, 28
+  orig: 117, 29
+  offset: 0, 1
+  index: -1
+fail_flush
+  rotate: false
+  xy: 1717, 53
+  size: 94, 22
+  orig: 94, 22
+  offset: 0, 0
+  index: -1
+fail_mouth
+  rotate: true
+  xy: 1414, 111
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1

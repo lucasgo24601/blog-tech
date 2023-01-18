@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "8fLLGdQKFONopTltZk1l0Z"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "ZhuRong_P1",
+      "rect": [
+        2,
+        2,
+        664,
+        520
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        668,
+        524
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

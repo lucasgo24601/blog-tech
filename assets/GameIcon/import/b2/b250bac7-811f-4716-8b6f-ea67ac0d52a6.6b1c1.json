@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "81OnA2j9BPD5Tc8Fr2ySNd"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "2D_icon_G24",
+      "rect": [
+        2,
+        3,
+        676,
+        125
+      ],
+      "offset": [
+        -2,
+        0.5
+      ],
+      "originalSize": [
+        684,
+        132
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,76 @@
+
+turtle_boss_fx.png
+size: 1492,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Head_2
+  rotate: false
+  xy: 1190, 15
+  size: 201, 109
+  orig: 202, 110
+  offset: 0, 1
+  index: -1
+Mouth_2
+  rotate: false
+  xy: 1393, 68
+  size: 91, 56
+  orig: 96, 56
+  offset: 5, 0
+  index: -1
+Shell_2
+  rotate: false
+  xy: 2, 8
+  size: 196, 116
+  orig: 196, 118
+  offset: 0, 2
+  index: -1
+bl_31
+  rotate: false
+  xy: 1459, 36
+  size: 30, 30
+  orig: 32, 32
+  offset: 1, 1
+  index: -1
+gi_81
+  rotate: false
+  xy: 1393, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+t_uv_00
+  rotate: false
+  xy: 200, 8
+  size: 196, 116
+  orig: 196, 118
+  offset: 0, 2
+  index: -1
+t_uv_01
+  rotate: false
+  xy: 398, 8
+  size: 196, 116
+  orig: 196, 118
+  offset: 0, 2
+  index: -1
+t_uv_02
+  rotate: false
+  xy: 596, 8
+  size: 196, 116
+  orig: 196, 118
+  offset: 0, 2
+  index: -1
+t_uv_03
+  rotate: false
+  xy: 794, 8
+  size: 196, 116
+  orig: 196, 118
+  offset: 0, 2
+  index: -1
+t_uv_04
+  rotate: false
+  xy: 992, 8
+  size: 196, 116
+  orig: 196, 118
+  offset: 0, 2
+  index: -1

@@ -1,0 +1,62 @@
+
+FX_Avatar_frame_109.png
+size: 328,248
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+acc_light
+  rotate: false
+  xy: 268, 43
+  size: 43, 45
+  orig: 43, 45
+  offset: 0, 0
+  index: -1
+frame_109
+  rotate: false
+  xy: 2, 71
+  size: 175, 175
+  orig: 177, 177
+  offset: 1, 1
+  index: -1
+gem
+  rotate: false
+  xy: 179, 90
+  size: 145, 156
+  orig: 147, 158
+  offset: 1, 1
+  index: -1
+light
+  rotate: true
+  xy: 111, 2
+  size: 67, 24
+  orig: 67, 24
+  offset: 0, 0
+  index: -1
+light3
+  rotate: true
+  xy: 137, 2
+  size: 67, 24
+  orig: 67, 24
+  offset: 0, 0
+  index: -1
+stone
+  rotate: false
+  xy: 268, 15
+  size: 55, 26
+  orig: 57, 28
+  offset: 1, 1
+  index: -1
+sword
+  rotate: true
+  xy: 2, 15
+  size: 54, 107
+  orig: 56, 109
+  offset: 1, 1
+  index: -1
+sword_light
+  rotate: false
+  xy: 179, 14
+  size: 87, 74
+  orig: 87, 74
+  offset: 0, 0
+  index: -1

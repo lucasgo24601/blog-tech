@@ -1,0 +1,440 @@
+
+ZhuRong_P1.png
+size: 668,524
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_Headband
+  rotate: true
+  xy: 512, 255
+  size: 106, 83
+  orig: 106, 83
+  offset: 0, 0
+  index: -1
+01_Headwear
+  rotate: false
+  xy: 2, 201
+  size: 198, 107
+  orig: 198, 107
+  offset: 0, 0
+  index: -1
+01_Knife4
+  rotate: true
+  xy: 512, 178
+  size: 35, 71
+  orig: 35, 71
+  offset: 0, 0
+  index: -1
+01_Knife5
+  rotate: false
+  xy: 477, 25
+  size: 36, 71
+  orig: 36, 71
+  offset: 0, 0
+  index: -1
+01_Knife6
+  rotate: true
+  xy: 615, 434
+  size: 88, 41
+  orig: 88, 41
+  offset: 0, 0
+  index: -1
+01_Tears_L
+  rotate: true
+  xy: 657, 75
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+01_Tears_R
+  rotate: false
+  xy: 656, 14
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+01_arm02_L
+  rotate: true
+  xy: 612, 391
+  size: 41, 54
+  orig: 41, 54
+  offset: 0, 0
+  index: -1
+01_arm_L
+  rotate: true
+  xy: 391, 276
+  size: 85, 119
+  orig: 85, 119
+  offset: 0, 0
+  index: -1
+01_arm_R
+  rotate: false
+  xy: 518, 120
+  size: 59, 56
+  orig: 59, 56
+  offset: 0, 0
+  index: -1
+01_body
+  rotate: false
+  xy: 264, 366
+  size: 142, 156
+  orig: 142, 156
+  offset: 0, 0
+  index: -1
+01_cloth3
+  rotate: true
+  xy: 202, 43
+  size: 128, 114
+  orig: 128, 114
+  offset: 0, 0
+  index: -1
+01_eyebrow02_L
+  rotate: false
+  xy: 578, 20
+  size: 49, 16
+  orig: 49, 16
+  offset: 0, 0
+  index: -1
+01_eyebrow02_R
+  rotate: true
+  xy: 658, 439
+  size: 38, 8
+  orig: 38, 8
+  offset: 0, 0
+  index: -1
+01_eyebrow03 R
+  rotate: false
+  xy: 264, 310
+  size: 28, 19
+  orig: 28, 19
+  offset: 0, 0
+  index: -1
+01_eyebrow03_L
+  rotate: true
+  xy: 597, 259
+  size: 50, 16
+  orig: 50, 16
+  offset: 0, 0
+  index: -1
+01_eyebrow04_L
+  rotate: false
+  xy: 579, 128
+  size: 47, 41
+  orig: 47, 41
+  offset: 0, 0
+  index: -1
+01_eyebrow04_R
+  rotate: true
+  xy: 658, 479
+  size: 43, 8
+  orig: 43, 8
+  offset: 0, 0
+  index: -1
+01_eyebrow_L
+  rotate: true
+  xy: 580, 387
+  size: 47, 30
+  orig: 47, 30
+  offset: 0, 0
+  index: -1
+01_eyebrow_R
+  rotate: false
+  xy: 420, 89
+  size: 36, 7
+  orig: 36, 7
+  offset: 0, 0
+  index: -1
+01_eyes_L
+  rotate: true
+  xy: 622, 292
+  size: 58, 42
+  orig: 58, 42
+  offset: 0, 0
+  index: -1
+01_eyes_R
+  rotate: false
+  xy: 584, 91
+  size: 42, 35
+  orig: 42, 35
+  offset: 0, 0
+  index: -1
+01_eyes_closed_L
+  rotate: false
+  xy: 584, 65
+  size: 52, 24
+  orig: 52, 24
+  offset: 0, 0
+  index: -1
+01_eyes_closed_R
+  rotate: true
+  xy: 648, 206
+  size: 35, 17
+  orig: 35, 17
+  offset: 0, 0
+  index: -1
+01_face
+  rotate: false
+  xy: 2, 47
+  size: 146, 152
+  orig: 146, 152
+  offset: 0, 0
+  index: -1
+01_feather1
+  rotate: false
+  xy: 615, 243
+  size: 49, 47
+  orig: 49, 47
+  offset: 0, 0
+  index: -1
+01_feather2
+  rotate: false
+  xy: 628, 91
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+01_feather3
+  rotate: true
+  xy: 629, 24
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+01_fur1
+  rotate: false
+  xy: 294, 247
+  size: 95, 117
+  orig: 95, 117
+  offset: 0, 0
+  index: -1
+01_fur2
+  rotate: true
+  xy: 318, 2
+  size: 85, 89
+  orig: 85, 89
+  offset: 0, 0
+  index: -1
+01_hair1
+  rotate: true
+  xy: 202, 3
+  size: 38, 98
+  orig: 38, 98
+  offset: 0, 0
+  index: -1
+01_hair2
+  rotate: true
+  xy: 2, 7
+  size: 38, 112
+  orig: 38, 112
+  offset: 0, 0
+  index: -1
+01_hair3
+  rotate: true
+  xy: 430, 178
+  size: 96, 80
+  orig: 96, 80
+  offset: 0, 0
+  index: -1
+01_hair4
+  rotate: false
+  xy: 202, 173
+  size: 90, 135
+  orig: 90, 135
+  offset: 0, 0
+  index: -1
+01_hair5
+  rotate: false
+  xy: 318, 89
+  size: 100, 90
+  orig: 100, 90
+  offset: 0, 0
+  index: -1
+01_hair6
+  rotate: true
+  xy: 409, 2
+  size: 85, 66
+  orig: 85, 66
+  offset: 0, 0
+  index: -1
+01_hair7
+  rotate: true
+  xy: 408, 363
+  size: 71, 170
+  orig: 71, 170
+  offset: 0, 0
+  index: -1
+01_hair8
+  rotate: true
+  xy: 512, 215
+  size: 38, 80
+  orig: 38, 80
+  offset: 0, 0
+  index: -1
+01_hair9
+  rotate: false
+  xy: 518, 76
+  size: 64, 42
+  orig: 64, 42
+  offset: 0, 0
+  index: -1
+01_hair_b
+  rotate: false
+  xy: 2, 310
+  size: 260, 212
+  orig: 260, 212
+  offset: 0, 0
+  index: -1
+01_hand02_L
+  rotate: false
+  xy: 116, 9
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+01_hand03_L
+  rotate: false
+  xy: 622, 352
+  size: 44, 37
+  orig: 44, 37
+  offset: 0, 0
+  index: -1
+01_hand_L
+  rotate: true
+  xy: 578, 38
+  size: 25, 45
+  orig: 25, 45
+  offset: 0, 0
+  index: -1
+01_hand_R
+  rotate: true
+  xy: 594, 199
+  size: 42, 52
+  orig: 42, 52
+  offset: 0, 0
+  index: -1
+01_leg_L
+  rotate: true
+  xy: 408, 436
+  size: 86, 205
+  orig: 86, 205
+  offset: 0, 0
+  index: -1
+01_leg_R
+  rotate: false
+  xy: 150, 17
+  size: 50, 182
+  orig: 50, 182
+  offset: 0, 0
+  index: -1
+01_light spot_L
+  rotate: false
+  xy: 628, 128
+  size: 38, 41
+  orig: 38, 41
+  offset: 0, 0
+  index: -1
+01_light spot_R
+  rotate: false
+  xy: 264, 331
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+01_mouth
+  rotate: false
+  xy: 150, 2
+  size: 27, 13
+  orig: 27, 13
+  offset: 0, 0
+  index: -1
+01_mouth02
+  rotate: true
+  xy: 638, 59
+  size: 30, 17
+  orig: 30, 17
+  offset: 0, 0
+  index: -1
+01_mouth03
+  rotate: false
+  xy: 391, 249
+  size: 32, 25
+  orig: 32, 25
+  offset: 0, 0
+  index: -1
+01_mouth04
+  rotate: true
+  xy: 580, 363
+  size: 22, 15
+  orig: 22, 15
+  offset: 0, 0
+  index: -1
+01_shy02_L
+  rotate: false
+  xy: 629, 10
+  size: 25, 12
+  orig: 25, 12
+  offset: 0, 0
+  index: -1
+01_shy02_R
+  rotate: true
+  xy: 597, 245
+  size: 12, 16
+  orig: 12, 16
+  offset: 0, 0
+  index: -1
+01_shy_L
+  rotate: true
+  xy: 302, 10
+  size: 31, 11
+  orig: 31, 11
+  offset: 0, 0
+  index: -1
+01_shy_R
+  rotate: false
+  xy: 179, 3
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
+Knife1
+  rotate: true
+  xy: 585, 171
+  size: 26, 73
+  orig: 26, 73
+  offset: 0, 0
+  index: -1
+Knife2
+  rotate: false
+  xy: 597, 311
+  size: 23, 74
+  orig: 23, 74
+  offset: 0, 0
+  index: -1
+Knife3
+  rotate: true
+  xy: 477, 2
+  size: 18, 75
+  orig: 18, 75
+  offset: 0, 0
+  index: -1
+belt
+  rotate: false
+  xy: 294, 181
+  size: 134, 64
+  orig: 134, 64
+  offset: 0, 0
+  index: -1
+cloth
+  rotate: false
+  xy: 420, 98
+  size: 96, 78
+  orig: 96, 78
+  offset: 0, 0
+  index: -1
+cloth2
+  rotate: false
+  xy: 515, 22
+  size: 61, 52
+  orig: 61, 52
+  offset: 0, 0
+  index: -1

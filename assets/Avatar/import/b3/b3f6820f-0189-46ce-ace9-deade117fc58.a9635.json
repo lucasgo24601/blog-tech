@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "38zH9if15FdaNVhTMW6n1f"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "01_Gangster_P2",
+      "rect": [
+        2,
+        2,
+        1314,
+        268
+      ],
+      "offset": [
+        -1,
+        0
+      ],
+      "originalSize": [
+        1320,
+        272
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

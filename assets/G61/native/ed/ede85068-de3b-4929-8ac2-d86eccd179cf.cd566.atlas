@@ -1,0 +1,41 @@
+
+devilfish.png
+size: 380,92
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2, 15
+  size: 216, 73
+  orig: 216, 73
+  offset: 0, 0
+  index: -1
+Fin_BL
+  rotate: false
+  xy: 41, 4
+  size: 36, 9
+  orig: 36, 9
+  offset: 0, 0
+  index: -1
+Fin_BR
+  rotate: false
+  xy: 2, 2
+  size: 37, 11
+  orig: 37, 11
+  offset: 0, 0
+  index: -1
+Fin_L
+  rotate: true
+  xy: 220, 5
+  size: 83, 82
+  orig: 83, 82
+  offset: 0, 0
+  index: -1
+Fin_R
+  rotate: false
+  xy: 304, 11
+  size: 74, 77
+  orig: 74, 77
+  offset: 0, 0
+  index: -1

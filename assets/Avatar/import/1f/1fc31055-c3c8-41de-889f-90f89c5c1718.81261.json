@@ -1,0 +1,1576 @@
+[
+  1,
+  [
+    "3beQOnJSBJJ6ara20w2AB8"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "FX_Avatar_frame_101",
+      "\nFX_Avatar_frame_101.png\nsize: 404,196\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbubble\n  rotate: false\n  xy: 305, 69\n  size: 27, 31\n  orig: 27, 31\n  offset: 0, 0\n  index: -1\nbubble2\n  rotate: false\n  xy: 339, 66\n  size: 43, 48\n  orig: 43, 48\n  offset: 0, 0\n  index: -1\ncoral\n  rotate: false\n  xy: 287, 2\n  size: 45, 55\n  orig: 45, 55\n  offset: 0, 0\n  index: -1\ncoral2\n  rotate: false\n  xy: 203, 20\n  size: 32, 80\n  orig: 32, 80\n  offset: 0, 0\n  index: -1\ncoral4\n  rotate: false\n  xy: 237, 2\n  size: 48, 55\n  orig: 48, 55\n  offset: 0, 0\n  index: -1\nfish\n  rotate: false\n  xy: 203, 149\n  size: 153, 45\n  orig: 155, 47\n  offset: 1, 1\n  index: -1\nframe101_light\n  rotate: true\n  xy: 203, 116\n  size: 31, 167\n  orig: 33, 169\n  offset: 1, 1\n  index: -1\nframe_101\n  rotate: false\n  xy: 2, 3\n  size: 199, 191\n  orig: 201, 193\n  offset: 1, 1\n  index: -1\ngrass\n  rotate: false\n  xy: 372, 136\n  size: 30, 58\n  orig: 30, 58\n  offset: 0, 0\n  index: -1\nlight2\n  rotate: true\n  xy: 203, 102\n  size: 12, 134\n  orig: 12, 134\n  offset: 0, 0\n  index: -1\nstar\n  rotate: false\n  xy: 334, 19\n  size: 47, 45\n  orig: 47, 45\n  offset: 0, 0\n  index: -1\nstone2\n  rotate: false\n  xy: 237, 59\n  size: 66, 41\n  orig: 68, 43\n  offset: 1, 1\n  index: -1\n",
+      [
+        "FX_Avatar_frame_101.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "NCCx55a5Usx1YyKZ2Wgf9bCVJws",
+          "spine": "3.8.75",
+          "x": -103,
+          "y": -97,
+          "width": 207,
+          "height": 200,
+          "images": "./images/",
+          "audio": "C:/Users/Stella/Desktop/遠端工作/FX_Avatar frame_XXX/FX_Avatar frame_101"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "fish",
+            "parent": "root",
+            "x": 8.84,
+            "y": 78.31
+          },
+          {
+            "name": "coral_1",
+            "parent": "root",
+            "length": 17.65,
+            "rotation": 126.87,
+            "x": -66.16,
+            "y": -87.29
+          },
+          {
+            "name": "coral_2",
+            "parent": "coral_1",
+            "length": 32.26,
+            "rotation": -5.71,
+            "x": 17.65
+          },
+          {
+            "name": "coral_3",
+            "parent": "root",
+            "length": 26.32,
+            "rotation": 107.96,
+            "x": -73.23,
+            "y": -74.13
+          },
+          {
+            "name": "coral_4",
+            "parent": "coral_3",
+            "length": 38.21,
+            "rotation": -17.01,
+            "x": 26.32
+          },
+          {
+            "name": "bubble",
+            "parent": "root",
+            "x": 80.99,
+            "y": -26.84
+          },
+          {
+            "name": "bubble2",
+            "parent": "root",
+            "x": 84.17,
+            "y": 18.65
+          },
+          {
+            "name": "coral4",
+            "parent": "root",
+            "x": 68.25,
+            "y": -69.16
+          },
+          {
+            "name": "gass",
+            "parent": "root",
+            "length": 21.73,
+            "rotation": 109.57,
+            "x": -88.33,
+            "y": -17.49
+          },
+          {
+            "name": "gass_2",
+            "parent": "gass",
+            "length": 26.89,
+            "rotation": -43.54,
+            "x": 21.73
+          }
+        ],
+        "slots": [
+          {
+            "name": "frame_101",
+            "bone": "root",
+            "attachment": "frame_101"
+          },
+          {
+            "name": "coral4",
+            "bone": "coral4",
+            "attachment": "coral4"
+          },
+          {
+            "name": "frame101_light",
+            "bone": "root",
+            "attachment": "frame101_light"
+          },
+          {
+            "name": "frame101_light2",
+            "bone": "root",
+            "attachment": "frame101_light"
+          },
+          {
+            "name": "light2",
+            "bone": "root",
+            "attachment": "light2"
+          },
+          {
+            "name": "light3",
+            "bone": "root",
+            "attachment": "light2"
+          },
+          {
+            "name": "bubble2",
+            "bone": "bubble2",
+            "attachment": "bubble2"
+          },
+          {
+            "name": "bubble",
+            "bone": "bubble",
+            "attachment": "bubble"
+          },
+          {
+            "name": "stone2",
+            "bone": "root",
+            "attachment": "stone2"
+          },
+          {
+            "name": "grass",
+            "bone": "gass",
+            "attachment": "grass"
+          },
+          {
+            "name": "coral2",
+            "bone": "coral_3",
+            "attachment": "coral2"
+          },
+          {
+            "name": "coral",
+            "bone": "coral_1",
+            "attachment": "coral"
+          },
+          {
+            "name": "fish",
+            "bone": "fish",
+            "attachment": "fish"
+          },
+          {
+            "name": "star",
+            "bone": "root",
+            "attachment": "star"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "bubble": {
+                "bubble": {
+                  "x": -1.49,
+                  "y": 1.34,
+                  "width": 27,
+                  "height": 31
+                }
+              },
+              "star": {
+                "star": {
+                  "x": 45.67,
+                  "y": -64.57,
+                  "scaleX": 1.6,
+                  "scaleY": 1.4,
+                  "width": 47,
+                  "height": 45
+                }
+              },
+              "fish": {
+                "fish": {
+                  "x": 10.66,
+                  "y": 1.19,
+                  "width": 155,
+                  "height": 47
+                }
+              },
+              "light2": {
+                "light2": {
+                  "x": 88,
+                  "y": 9,
+                  "width": 12,
+                  "height": 134
+                }
+              },
+              "light3": {
+                "light2": {
+                  "x": -85.35,
+                  "y": 9,
+                  "scaleY": 0.85,
+                  "width": 12,
+                  "height": 134
+                }
+              },
+              "frame_101": {
+                "frame_101": {
+                  "x": 0.5,
+                  "y": -0.5,
+                  "width": 201,
+                  "height": 193
+                }
+              },
+              "coral2": {
+                "coral2": {
+                  "type": "mesh",
+                  "hull": 9,
+                  "width": 32,
+                  "height": 80,
+                  "uvs": [
+                    0.57716,
+                    1,
+                    1,
+                    0.94952,
+                    0.73756,
+                    0.71943,
+                    0.69884,
+                    0.46278,
+                    1,
+                    0.19728,
+                    0.94222,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.31454,
+                    0.15678,
+                    0.70173
+                  ],
+                  "triangles": [
+                    8,
+                    7,
+                    3,
+                    3,
+                    7,
+                    4,
+                    4,
+                    6,
+                    5,
+                    4,
+                    7,
+                    6,
+                    0,
+                    2,
+                    1,
+                    0,
+                    8,
+                    2,
+                    8,
+                    3,
+                    2
+                  ],
+                  "vertices": [
+                    2,
+                    4,
+                    -6.46,
+                    5.57,
+                    0.99134,
+                    5,
+                    -32.98,
+                    -4.26,
+                    0.00866,
+                    1,
+                    4,
+                    -6.8,
+                    -8.55,
+                    1,
+                    2,
+                    4,
+                    13.31,
+                    -6.24,
+                    0.68989,
+                    5,
+                    -10.63,
+                    -9.77,
+                    0.31011,
+                    2,
+                    4,
+                    33.22,
+                    -11.39,
+                    0.35656,
+                    5,
+                    9.92,
+                    -8.87,
+                    0.64344,
+                    2,
+                    4,
+                    50.45,
+                    -27.11,
+                    0.02322,
+                    5,
+                    31,
+                    -18.86,
+                    0.97678,
+                    1,
+                    5,
+                    46.81,
+                    -17.28,
+                    1,
+                    1,
+                    5,
+                    47.31,
+                    12.87,
+                    1,
+                    2,
+                    4,
+                    51.4,
+                    6.23,
+                    0.32467,
+                    5,
+                    22.15,
+                    13.29,
+                    0.67533,
+                    2,
+                    4,
+                    20.38,
+                    11.01,
+                    0.65801,
+                    5,
+                    -8.9,
+                    8.79,
+                    0.34199
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    6,
+                    8,
+                    8,
+                    10,
+                    10,
+                    12,
+                    12,
+                    14,
+                    14,
+                    16,
+                    0,
+                    16
+                  ]
+                }
+              },
+              "coral4": {
+                "coral4": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "width": 48,
+                  "height": 55,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    22.75,
+                    -22.84,
+                    -25.25,
+                    -22.84,
+                    -25.25,
+                    32.16,
+                    22.75,
+                    32.16
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    0,
+                    6
+                  ]
+                }
+              },
+              "bubble2": {
+                "bubble2": {
+                  "x": -1.67,
+                  "y": -0.65,
+                  "width": 43,
+                  "height": 48
+                }
+              },
+              "stone2": {
+                "stone2": {
+                  "x": 65,
+                  "y": -75.5,
+                  "width": 68,
+                  "height": 43
+                }
+              },
+              "coral": {
+                "coral": {
+                  "type": "mesh",
+                  "hull": 8,
+                  "width": 45,
+                  "height": 55,
+                  "uvs": [
+                    1,
+                    0.61089,
+                    0.688,
+                    0.32455,
+                    0.57531,
+                    0.00001,
+                    0.00001,
+                    0.00322,
+                    0.00001,
+                    0.44893,
+                    0.17302,
+                    0.80166,
+                    0.49111,
+                    1,
+                    0.99631,
+                    1
+                  ],
+                  "triangles": [
+                    6,
+                    5,
+                    1,
+                    5,
+                    4,
+                    1,
+                    4,
+                    2,
+                    1,
+                    4,
+                    3,
+                    2,
+                    7,
+                    6,
+                    0,
+                    0,
+                    6,
+                    1
+                  ],
+                  "vertices": [
+                    2,
+                    2,
+                    6.46,
+                    -17.55,
+                    0.62326,
+                    3,
+                    -9.4,
+                    -18.58,
+                    0.37674,
+                    2,
+                    2,
+                    27.48,
+                    -15.77,
+                    0.28992,
+                    3,
+                    11.35,
+                    -14.71,
+                    0.71008,
+                    2,
+                    2,
+                    44.8,
+                    -22.42,
+                    0.02041,
+                    3,
+                    29.24,
+                    -19.61,
+                    0.97959,
+                    2,
+                    2,
+                    60.19,
+                    -1.6,
+                    0.00006,
+                    3,
+                    42.49,
+                    2.64,
+                    0.99994,
+                    2,
+                    2,
+                    40.58,
+                    13.11,
+                    0.11139,
+                    3,
+                    21.51,
+                    15.32,
+                    0.88861,
+                    2,
+                    2,
+                    20.39,
+                    18.52,
+                    0.43132,
+                    3,
+                    0.88,
+                    18.7,
+                    0.56868,
+                    2,
+                    2,
+                    3.08,
+                    13.61,
+                    0.76459,
+                    3,
+                    -15.86,
+                    12.09,
+                    0.23541,
+                    2,
+                    2,
+                    -10.56,
+                    -4.58,
+                    0.92277,
+                    3,
+                    -27.62,
+                    -7.36,
+                    0.07723
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    6,
+                    8,
+                    8,
+                    10,
+                    10,
+                    12,
+                    12,
+                    14,
+                    14,
+                    0
+                  ]
+                }
+              },
+              "grass": {
+                "grass": {
+                  "type": "mesh",
+                  "hull": 8,
+                  "width": 30,
+                  "height": 58,
+                  "uvs": [
+                    0.57268,
+                    1,
+                    0.47059,
+                    0.71184,
+                    0.57052,
+                    0.50211,
+                    1,
+                    0.22424,
+                    0.31588,
+                    0,
+                    0,
+                    0.25977,
+                    0,
+                    0.68489,
+                    0.19818,
+                    1
+                  ],
+                  "triangles": [
+                    6,
+                    5,
+                    2,
+                    3,
+                    2,
+                    4,
+                    2,
+                    5,
+                    4,
+                    7,
+                    1,
+                    0,
+                    7,
+                    6,
+                    1,
+                    1,
+                    6,
+                    2
+                  ],
+                  "vertices": [
+                    2,
+                    9,
+                    -8.59,
+                    -1.73,
+                    0.99561,
+                    10,
+                    -20.79,
+                    -22.14,
+                    0.00439,
+                    2,
+                    9,
+                    8.19,
+                    -4.44,
+                    0.77825,
+                    10,
+                    -6.76,
+                    -12.55,
+                    0.22175,
+                    2,
+                    9,
+                    18.64,
+                    -11.34,
+                    0.44492,
+                    10,
+                    5.57,
+                    -10.35,
+                    0.55508,
+                    2,
+                    9,
+                    29.51,
+                    -28.88,
+                    0.11598,
+                    10,
+                    25.53,
+                    -15.58,
+                    0.88402,
+                    1,
+                    10,
+                    30.91,
+                    9.27,
+                    1,
+                    2,
+                    9,
+                    38.29,
+                    1.96,
+                    0.33333,
+                    10,
+                    10.65,
+                    12.83,
+                    0.66667,
+                    2,
+                    9,
+                    15.06,
+                    10.22,
+                    0.66667,
+                    10,
+                    -11.88,
+                    2.81,
+                    0.33333,
+                    1,
+                    9,
+                    -4.82,
+                    8.86,
+                    1
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    6,
+                    8,
+                    8,
+                    10,
+                    10,
+                    12,
+                    12,
+                    14,
+                    0,
+                    14,
+                    2,
+                    4,
+                    4,
+                    6
+                  ]
+                }
+              },
+              "frame101_light2": {
+                "frame101_light": {
+                  "x": -79.27,
+                  "y": 2.5,
+                  "scaleX": -1,
+                  "scaleY": 0.8,
+                  "width": 33,
+                  "height": 169
+                }
+              },
+              "frame101_light": {
+                "frame101_light": {
+                  "x": 81.5,
+                  "y": 2.5,
+                  "width": 33,
+                  "height": 169
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "play_normal": {
+            "slots": {
+              "light3": {
+                "color": [
+                  {
+                    "time": 0.5667,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.1667,
+                    "color": "00e3ff65",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "color": "00e3ff65",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9,
+                    "color": "ffffffff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2.6,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.1667,
+                    "color": "00e3ff65",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 3.3333,
+                    "color": "00e3ff65",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4,
+                    "color": "ffffffff"
+                  }
+                ]
+              },
+              "frame101_light2": {
+                "color": [
+                  {
+                    "time": 0.1,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.9667,
+                    "color": "00e3ff65",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.0333,
+                    "color": "00e3ff65",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9,
+                    "color": "ffffffff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2.1,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.9667,
+                    "color": "00e3ff65",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 3.0333,
+                    "color": "00e3ff65",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.9,
+                    "color": "ffffffff"
+                  }
+                ]
+              },
+              "bubble": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.2667,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.7,
+                    "color": "ffffffff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2.9333,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.2333,
+                    "color": "12c6ff00"
+                  }
+                ]
+              },
+              "light2": {
+                "color": [
+                  {
+                    "time": 0.5667,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.1667,
+                    "color": "00e3ff65",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "color": "00e3ff65",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9,
+                    "color": "ffffffff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2.6,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.1667,
+                    "color": "00e3ff65",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 3.3333,
+                    "color": "00e3ff65",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4,
+                    "color": "ffffffff"
+                  }
+                ]
+              },
+              "star": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.5667,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffffff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.2,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.2667,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.4333,
+                    "color": "ffffffff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.6333,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9667,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "frame101_light": {
+                "color": [
+                  {
+                    "time": 0.1,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.9667,
+                    "color": "00e3ff65",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.0333,
+                    "color": "00e3ff65",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9,
+                    "color": "ffffffff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2.1,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.4667,
+                    "color": "99f3ffc1",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.9667,
+                    "color": "00e3ff65",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 3.0333,
+                    "color": "00e3ff65",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.9,
+                    "color": "ffffffff"
+                  }
+                ]
+              },
+              "bubble2": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.6333,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.1667,
+                    "color": "ffffffff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2.6,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.9667,
+                    "color": "12c6ff00"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "bubble": {
+                "rotate": [
+                  {
+                    "angle": 5.28,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.2667,
+                    "angle": 5.28,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.2333,
+                    "angle": -107.27
+                  }
+                ],
+                "translate": [
+                  {
+                    "y": -40.93,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.2667,
+                    "y": -40.93,
+                    "curve": 0.365,
+                    "c3": 0.376,
+                    "c4": 0.38
+                  },
+                  {
+                    "time": 2.0333,
+                    "x": -7.28,
+                    "y": -12.52,
+                    "curve": 0.158,
+                    "c2": 0.17,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.2333,
+                    "x": 3.64,
+                    "y": 15.37
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 0.1,
+                    "y": 0.2,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.2667,
+                    "x": 0.1,
+                    "y": 0.2,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.5333,
+                    "x": 0.9,
+                    "y": 1.05,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.7333,
+                    "x": 1.1,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9333,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.1,
+                    "x": 1.1,
+                    "y": 0.85,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.3333,
+                    "y": 1.1,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6,
+                    "x": 1.1,
+                    "y": 1.02,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.8,
+                    "x": 1.1,
+                    "y": 0.85,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.0333,
+                    "x": 0.9,
+                    "y": 1.05,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.2333,
+                    "x": 1.1
+                  }
+                ]
+              },
+              "bubble2": {
+                "rotate": [
+                  {
+                    "angle": 54.43,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.6333,
+                    "angle": 54.43
+                  },
+                  {
+                    "time": 2.9667,
+                    "angle": -97.21
+                  }
+                ],
+                "translate": [
+                  {
+                    "y": -82.16,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.6333,
+                    "y": -82.16
+                  },
+                  {
+                    "time": 1.3667,
+                    "x": 11.54,
+                    "y": -45.53
+                  },
+                  {
+                    "time": 2.2333,
+                    "x": -1.88,
+                    "y": -23.21
+                  },
+                  {
+                    "time": 2.9667
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 0.5,
+                    "y": 0.3,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.6333,
+                    "x": 0.5,
+                    "y": 0.3
+                  },
+                  {
+                    "time": 0.9333,
+                    "x": 0.5,
+                    "y": 0.6
+                  },
+                  {
+                    "time": 1.3667,
+                    "y": 0.8
+                  },
+                  {
+                    "time": 1.7,
+                    "x": 0.65,
+                    "y": 0.8
+                  },
+                  {
+                    "time": 2.0333,
+                    "y": 0.85
+                  },
+                  {
+                    "time": 2.3333,
+                    "x": 0.9
+                  },
+                  {
+                    "time": 2.6,
+                    "y": 0.8
+                  },
+                  {
+                    "time": 2.9667,
+                    "y": 0.88
+                  }
+                ]
+              },
+              "fish": {
+                "translate": [
+                  {
+                    "curve": 0.143,
+                    "c2": 0.14,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.2667,
+                    "x": 12.03,
+                    "y": -3.73,
+                    "curve": 0.25,
+                    "c3": 0.887,
+                    "c4": 0.88
+                  },
+                  {
+                    "time": 4
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 0.95,
+                    "curve": 0.143,
+                    "c2": 0.14,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.2667,
+                    "x": 0.85,
+                    "curve": 0.25,
+                    "c3": 0.887,
+                    "c4": 0.88
+                  },
+                  {
+                    "time": 4,
+                    "x": 0.95
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": 0.143,
+                    "c2": 0.14,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.2667,
+                    "x": -3,
+                    "curve": 0.25,
+                    "c3": 0.887,
+                    "c4": 0.88
+                  },
+                  {
+                    "time": 4
+                  }
+                ]
+              },
+              "coral_1": {
+                "rotate": [
+                  {
+                    "curve": 0.181,
+                    "c2": 0.18,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.7667,
+                    "angle": 2.73,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6,
+                    "angle": -6.4,
+                    "curve": 0.25,
+                    "c3": 0.872,
+                    "c4": 0.86
+                  },
+                  {
+                    "time": 4
+                  }
+                ]
+              },
+              "coral_2": {
+                "rotate": [
+                  {
+                    "curve": 0.181,
+                    "c2": 0.18,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.9,
+                    "angle": 3.93,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.7333,
+                    "angle": -6.4,
+                    "curve": 0.25,
+                    "c3": 0.872,
+                    "c4": 0.86
+                  },
+                  {
+                    "time": 4
+                  }
+                ]
+              },
+              "coral_3": {
+                "rotate": [
+                  {
+                    "curve": 0.181,
+                    "c2": 0.18,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "angle": 5.13,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.1,
+                    "angle": -0.75,
+                    "curve": 0.25,
+                    "c3": 0.872,
+                    "c4": 0.86
+                  },
+                  {
+                    "time": 4
+                  }
+                ]
+              },
+              "coral_4": {
+                "rotate": [
+                  {
+                    "curve": 0.181,
+                    "c2": 0.18,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.4333,
+                    "angle": 5.13,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.2,
+                    "angle": 1.08,
+                    "curve": 0.25,
+                    "c3": 0.872,
+                    "c4": 0.86
+                  },
+                  {
+                    "time": 4
+                  }
+                ],
+                "scale": [
+                  {
+                    "time": 1.4333,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.7333,
+                    "y": 1.15,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4
+                  }
+                ]
+              },
+              "gass": {
+                "rotate": [
+                  {
+                    "curve": 0.166,
+                    "c2": 0.16,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.1,
+                    "angle": -5.61,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.9,
+                    "angle": 5.62,
+                    "curve": 0.25,
+                    "c3": 0.865,
+                    "c4": 0.86
+                  },
+                  {
+                    "time": 4
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": 5.11
+                  }
+                ]
+              },
+              "gass_2": {
+                "rotate": [
+                  {
+                    "curve": 0.166,
+                    "c2": 0.16,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.2333,
+                    "angle": -11.61,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.0333,
+                    "angle": 12.82,
+                    "curve": 0.25,
+                    "c3": 0.865,
+                    "c4": 0.86
+                  },
+                  {
+                    "time": 4
+                  }
+                ]
+              },
+              "coral4": {
+                "scale": [
+                  {
+                    "curve": 0.174,
+                    "c2": 0.18,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.8667,
+                    "y": 1.15,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.8,
+                    "x": 1.024,
+                    "y": 0.9,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333,
+                    "y": 1.15,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.5333,
+                    "x": 1.024,
+                    "y": 0.9,
+                    "curve": 0.25,
+                    "c3": 0.849,
+                    "c4": 0.85
+                  },
+                  {
+                    "time": 4
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": 0.174,
+                    "c2": 0.18,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.8667,
+                    "y": -7,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.8,
+                    "y": 2,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333,
+                    "y": -7,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.5333,
+                    "y": 2,
+                    "curve": 0.25,
+                    "c3": 0.849,
+                    "c4": 0.85
+                  },
+                  {
+                    "time": 4
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

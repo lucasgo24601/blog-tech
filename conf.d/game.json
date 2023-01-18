@@ -1,0 +1,9 @@
+{
+    "webApiUrl": "http://reverse-proxy.sit-gm.svc.cluster.local:5100",
+    "gameVersion": "GAME_VERSION",
+    "SDKVersion": "SDK_VERSION",
+    "webWagerApiUrl": "http://reverse-proxy.sit-gm.svc.cluster.local:5500",
+    "webWagerUrl": "http://reverse-proxy.sit-gm.svc.cluster.local:8081",
+    "chatRoomUrl":"http://morse.morse.svc.cluster.local:13456",
+    "chatRoomSocketUrl":"ws://morse.morse.svc.cluster.local:13456"
+}

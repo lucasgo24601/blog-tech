@@ -1,0 +1,146 @@
+
+FX_Avatar_frame_112.png
+size: 364,208
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 2, 2
+  size: 203, 198
+  orig: 203, 198
+  offset: 0, 0
+  index: -1
+crystal
+  rotate: false
+  xy: 332, 29
+  size: 25, 37
+  orig: 25, 37
+  offset: 0, 0
+  index: -1
+crystal2
+  rotate: true
+  xy: 202, 110
+  size: 38, 62
+  orig: 38, 62
+  offset: 0, 0
+  index: -1
+crystal2_A
+  rotate: true
+  xy: 202, 69
+  size: 35, 43
+  orig: 35, 43
+  offset: 0, 0
+  index: -1
+crystal3
+  rotate: false
+  xy: 247, 68
+  size: 40, 36
+  orig: 40, 36
+  offset: 0, 0
+  index: -1
+crystal4
+  rotate: true
+  xy: 202, 3
+  size: 35, 40
+  orig: 35, 40
+  offset: 0, 0
+  index: -1
+crystal5
+  rotate: false
+  xy: 300, 26
+  size: 30, 78
+  orig: 30, 78
+  offset: 0, 0
+  index: -1
+grass
+  rotate: false
+  xy: 202, 150
+  size: 84, 55
+  orig: 84, 55
+  offset: 0, 0
+  index: -1
+light
+  rotate: true
+  xy: 202, 40
+  size: 26, 96
+  orig: 26, 96
+  offset: 0, 0
+  index: -1
+light2
+  rotate: true
+  xy: 333, 68
+  size: 137, 26
+  orig: 137, 26
+  offset: 0, 0
+  index: -1
+pointer
+  rotate: true
+  xy: 288, 106
+  size: 99, 43
+  orig: 99, 43
+  offset: 0, 0
+  index: -1
+t_crystal5_1
+  rotate: false
+  xy: 289, 72
+  size: 9, 32
+  orig: 9, 32
+  offset: 0, 0
+  index: -1
+t_light_1
+  rotate: true
+  xy: 350, 7
+  size: 20, 7
+  orig: 20, 7
+  offset: 0, 0
+  index: -1
+t_light_2
+  rotate: true
+  xy: 293, 11
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+t_light_3
+  rotate: false
+  xy: 278, 12
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+t_light_4
+  rotate: true
+  xy: 266, 132
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+t_light_5
+  rotate: false
+  xy: 266, 117
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+t_light_6
+  rotate: false
+  xy: 278, 25
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+t_light_8
+  rotate: true
+  xy: 332, 9
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+t_star_01
+  rotate: false
+  xy: 244, 6
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1

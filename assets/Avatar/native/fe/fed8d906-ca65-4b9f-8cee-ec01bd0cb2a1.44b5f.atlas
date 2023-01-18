@@ -1,0 +1,230 @@
+
+CaoCao_P1.png
+size: 756,524
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02_Moustache
+  rotate: true
+  xy: 601, 11
+  size: 77, 47
+  orig: 77, 47
+  offset: 0, 0
+  index: -1
+02_Moustache_1
+  rotate: true
+  xy: 730, 99
+  size: 52, 19
+  orig: 52, 19
+  offset: 0, 0
+  index: -1
+02_Moustache_fail
+  rotate: false
+  xy: 627, 90
+  size: 52, 19
+  orig: 52, 19
+  offset: 0, 0
+  index: -1
+02_Moustache_win
+  rotate: false
+  xy: 650, 2
+  size: 52, 21
+  orig: 52, 21
+  offset: 0, 0
+  index: -1
+02_arm_L
+  rotate: false
+  xy: 639, 318
+  size: 68, 89
+  orig: 68, 89
+  offset: 0, 0
+  index: -1
+02_awkward
+  rotate: false
+  xy: 417, 23
+  size: 28, 23
+  orig: 28, 23
+  offset: 0, 0
+  index: -1
+02_belt
+  rotate: false
+  xy: 232, 6
+  size: 110, 40
+  orig: 110, 40
+  offset: 0, 0
+  index: -1
+02_body
+  rotate: false
+  xy: 327, 105
+  size: 134, 130
+  orig: 134, 130
+  offset: 0, 0
+  index: -1
+02_cloak
+  rotate: false
+  xy: 2, 245
+  size: 335, 277
+  orig: 335, 277
+  offset: 0, 0
+  index: -1
+02_clothes1
+  rotate: false
+  xy: 457, 411
+  size: 196, 111
+  orig: 196, 111
+  offset: 0, 0
+  index: -1
+02_clothes2
+  rotate: false
+  xy: 501, 206
+  size: 144, 104
+  orig: 144, 104
+  offset: 0, 0
+  index: -1
+02_clothes3
+  rotate: true
+  xy: 463, 139
+  size: 65, 132
+  orig: 65, 132
+  offset: 0, 0
+  index: -1
+02_collar1
+  rotate: false
+  xy: 339, 237
+  size: 160, 73
+  orig: 160, 73
+  offset: 0, 0
+  index: -1
+02_collar2
+  rotate: true
+  xy: 627, 111
+  size: 78, 49
+  orig: 78, 49
+  offset: 0, 0
+  index: -1
+02_eye_1
+  rotate: false
+  xy: 466, 85
+  size: 132, 52
+  orig: 132, 52
+  offset: 0, 0
+  index: -1
+02_eye_close
+  rotate: false
+  xy: 327, 48
+  size: 137, 55
+  orig: 137, 55
+  offset: 0, 0
+  index: -1
+02_eye_fail
+  rotate: false
+  xy: 466, 32
+  size: 133, 51
+  orig: 133, 51
+  offset: 0, 0
+  index: -1
+02_eye_win
+  rotate: true
+  xy: 647, 191
+  size: 125, 53
+  orig: 125, 53
+  offset: 0, 0
+  index: -1
+02_eyebrow_1
+  rotate: true
+  xy: 683, 25
+  size: 126, 45
+  orig: 126, 45
+  offset: 0, 0
+  index: -1
+02_eyebrow_fail
+  rotate: true
+  xy: 709, 279
+  size: 128, 45
+  orig: 128, 45
+  offset: 0, 0
+  index: -1
+02_eyebrow_win
+  rotate: true
+  xy: 702, 153
+  size: 124, 52
+  orig: 124, 52
+  offset: 0, 0
+  index: -1
+02_foot_L
+  rotate: false
+  xy: 232, 48
+  size: 93, 195
+  orig: 93, 195
+  offset: 0, 0
+  index: -1
+02_foot_R
+  rotate: false
+  xy: 339, 312
+  size: 116, 210
+  orig: 116, 210
+  offset: 0, 0
+  index: -1
+02_hair_L
+  rotate: false
+  xy: 597, 142
+  size: 28, 62
+  orig: 28, 62
+  offset: 0, 0
+  index: -1
+02_hair_R
+  rotate: true
+  xy: 344, 18
+  size: 28, 71
+  orig: 28, 71
+  offset: 0, 0
+  index: -1
+02_hand_L
+  rotate: true
+  xy: 457, 312
+  size: 97, 180
+  orig: 97, 180
+  offset: 0, 0
+  index: -1
+02_hand_R
+  rotate: true
+  xy: 655, 409
+  size: 113, 95
+  orig: 113, 95
+  offset: 0, 0
+  index: -1
+02_head
+  rotate: false
+  xy: 2, 4
+  size: 228, 239
+  orig: 228, 239
+  offset: 0, 0
+  index: -1
+02_mouth_1
+  rotate: false
+  xy: 463, 220
+  size: 36, 15
+  orig: 36, 15
+  offset: 0, 0
+  index: -1
+02_mouth_big
+  rotate: true
+  xy: 650, 35
+  size: 53, 31
+  orig: 53, 31
+  offset: 0, 0
+  index: -1
+02_mouth_fail
+  rotate: false
+  xy: 704, 2
+  size: 32, 21
+  orig: 32, 21
+  offset: 0, 0
+  index: -1
+02_mouth_win
+  rotate: true
+  xy: 600, 90
+  size: 50, 25
+  orig: 50, 25
+  offset: 0, 0
+  index: -1

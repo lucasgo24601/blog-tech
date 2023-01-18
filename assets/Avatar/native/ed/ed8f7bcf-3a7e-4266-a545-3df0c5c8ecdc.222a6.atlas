@@ -1,0 +1,195 @@
+
+ZhangFei_P2.png
+size: 752,1040
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_L
+  rotate: false
+  xy: 401, 140
+  size: 133, 88
+  orig: 133, 88
+  offset: 0, 0
+  index: -1
+arm_R
+  rotate: false
+  xy: 2, 2
+  size: 110, 148
+  orig: 110, 148
+  offset: 0, 0
+  index: -1
+armor_R01
+  rotate: true
+  xy: 401, 18
+  size: 120, 72
+  orig: 122, 74
+  offset: 1, 1
+  index: -1
+armor_R01B
+  rotate: false
+  xy: 614, 456
+  size: 91, 33
+  orig: 93, 35
+  offset: 1, 1
+  index: -1
+armor_R02
+  rotate: true
+  xy: 562, 118
+  size: 82, 90
+  orig: 84, 92
+  offset: 1, 1
+  index: -1
+armor_R03
+  rotate: true
+  xy: 654, 115
+  size: 85, 87
+  orig: 87, 89
+  offset: 1, 1
+  index: -1
+body
+  rotate: false
+  xy: 335, 265
+  size: 226, 175
+  orig: 228, 177
+  offset: 1, 1
+  index: -1
+body_01
+  rotate: false
+  xy: 225, 15
+  size: 80, 135
+  orig: 80, 135
+  offset: 0, 0
+  index: -1
+body_02
+  rotate: false
+  xy: 335, 608
+  size: 284, 161
+  orig: 284, 161
+  offset: 0, 0
+  index: -1
+body_03
+  rotate: true
+  xy: 475, 33
+  size: 105, 85
+  orig: 107, 87
+  offset: 1, 1
+  index: -1
+body_04
+  rotate: true
+  xy: 562, 49
+  size: 67, 69
+  orig: 69, 71
+  offset: 1, 1
+  index: -1
+body_05
+  rotate: true
+  xy: 335, 442
+  size: 164, 277
+  orig: 166, 279
+  offset: 1, 1
+  index: -1
+body_06
+  rotate: true
+  xy: 621, 491
+  size: 278, 125
+  orig: 287, 207
+  offset: 9, 0
+  index: -1
+eyebrow
+  rotate: false
+  xy: 401, 230
+  size: 154, 33
+  orig: 154, 33
+  offset: 0, 0
+  index: -1
+eyelied
+  rotate: true
+  xy: 335, 34
+  size: 166, 64
+  orig: 168, 66
+  offset: 1, 1
+  index: -1
+finger_L
+  rotate: false
+  xy: 692, 67
+  size: 58, 46
+  orig: 60, 48
+  offset: 1, 1
+  index: -1
+hair
+  rotate: false
+  xy: 335, 204
+  size: 48, 59
+  orig: 48, 59
+  offset: 0, 0
+  index: -1
+hand_L
+  rotate: false
+  xy: 633, 54
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+hand_R
+  rotate: false
+  xy: 639, 778
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 335, 771
+  size: 302, 267
+  orig: 302, 267
+  offset: 0, 0
+  index: -1
+moustache_L
+  rotate: false
+  xy: 562, 4
+  size: 68, 43
+  orig: 68, 43
+  offset: 0, 0
+  index: -1
+moustache_R
+  rotate: true
+  xy: 307, 97
+  size: 53, 25
+  orig: 53, 25
+  offset: 0, 0
+  index: -1
+mouth_1
+  rotate: true
+  xy: 639, 850
+  size: 188, 86
+  orig: 190, 88
+  offset: 1, 1
+  index: -1
+mouth_2
+  rotate: false
+  xy: 563, 314
+  size: 180, 126
+  orig: 180, 126
+  offset: 0, 0
+  index: -1
+shoes_L
+  rotate: false
+  xy: 114, 4
+  size: 109, 146
+  orig: 109, 146
+  offset: 0, 0
+  index: -1
+shoes_R
+  rotate: true
+  xy: 563, 202
+  size: 110, 167
+  orig: 110, 167
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 2, 152
+  size: 331, 886
+  orig: 333, 888
+  offset: 1, 1
+  index: -1

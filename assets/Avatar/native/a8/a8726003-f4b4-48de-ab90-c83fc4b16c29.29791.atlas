@@ -1,0 +1,97 @@
+
+FX_Avatar_frame_201.png
+size: 296,204
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bud1
+  rotate: false
+  xy: 242, 4
+  size: 15, 24
+  orig: 17, 26
+  offset: 1, 1
+  index: -1
+bud2
+  rotate: true
+  xy: 189, 2
+  size: 26, 24
+  orig: 28, 26
+  offset: 1, 1
+  index: -1
+bud3
+  rotate: false
+  xy: 215, 3
+  size: 25, 25
+  orig: 27, 27
+  offset: 1, 1
+  index: -1
+fan
+  rotate: true
+  xy: 258, 114
+  size: 55, 35
+  orig: 57, 37
+  offset: 1, 1
+  index: -1
+flower
+  rotate: false
+  xy: 258, 171
+  size: 36, 31
+  orig: 36, 31
+  offset: 0, 0
+  index: -1
+flower2
+  rotate: false
+  xy: 244, 30
+  size: 42, 40
+  orig: 44, 42
+  offset: 1, 1
+  index: -1
+flower3
+  rotate: true
+  xy: 189, 65
+  size: 49, 53
+  orig: 51, 55
+  offset: 1, 1
+  index: -1
+flower4
+  rotate: false
+  xy: 244, 72
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+frame_201
+  rotate: true
+  xy: 2, 3
+  size: 199, 185
+  orig: 201, 187
+  offset: 1, 1
+  index: -1
+light
+  rotate: false
+  xy: 189, 116
+  size: 58, 23
+  orig: 60, 25
+  offset: 1, 1
+  index: -1
+mahjong
+  rotate: false
+  xy: 189, 141
+  size: 67, 61
+  orig: 68, 61
+  offset: 0, 0
+  index: -1
+petal
+  rotate: true
+  xy: 278, 11
+  size: 17, 14
+  orig: 19, 16
+  offset: 1, 1
+  index: -1
+petal2
+  rotate: true
+  xy: 259, 5
+  size: 23, 17
+  orig: 25, 19
+  offset: 1, 1
+  index: -1

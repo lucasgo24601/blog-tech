@@ -1,0 +1,160 @@
+
+UI_Room3.png
+size: 420,1044
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: true
+  xy: 2, 161
+  size: 204, 224
+  orig: 204, 224
+  offset: 0, 0
+  index: -1
+Ear_L
+  rotate: false
+  xy: 381, 915
+  size: 37, 41
+  orig: 37, 41
+  offset: 0, 0
+  index: -1
+Ear_R
+  rotate: true
+  xy: 382, 1011
+  size: 28, 34
+  orig: 28, 34
+  offset: 0, 0
+  index: -1
+Eyeball_L
+  rotate: false
+  xy: 362, 578
+  size: 47, 46
+  orig: 47, 46
+  offset: 0, 0
+  index: -1
+Eyeball_R
+  rotate: false
+  xy: 357, 531
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 247, 256
+  size: 189, 163
+  orig: 189, 163
+  offset: 0, 0
+  index: -1
+Leg_01-1
+  rotate: false
+  xy: 281, 592
+  size: 79, 96
+  orig: 79, 96
+  offset: 0, 0
+  index: -1
+Leg_01-2
+  rotate: false
+  xy: 2, 2
+  size: 117, 96
+  orig: 117, 96
+  offset: 0, 0
+  index: -1
+Leg_02-1
+  rotate: false
+  xy: 362, 626
+  size: 56, 137
+  orig: 56, 137
+  offset: 0, 0
+  index: -1
+Leg_02-2
+  rotate: true
+  xy: 228, 177
+  size: 77, 190
+  orig: 77, 190
+  offset: 0, 0
+  index: -1
+Leg_03
+  rotate: true
+  xy: 2, 868
+  size: 88, 377
+  orig: 88, 377
+  offset: 0, 0
+  index: -1
+Leg_04
+  rotate: true
+  xy: 2, 690
+  size: 73, 358
+  orig: 73, 358
+  offset: 0, 0
+  index: -1
+Leg_05
+  rotate: true
+  xy: 2, 596
+  size: 92, 277
+  orig: 92, 277
+  offset: 0, 0
+  index: -1
+Leg_06
+  rotate: true
+  xy: 2, 958
+  size: 81, 378
+  orig: 81, 378
+  offset: 0, 0
+  index: -1
+Leg_07
+  rotate: true
+  xy: 2, 765
+  size: 101, 375
+  orig: 101, 375
+  offset: 0, 0
+  index: -1
+Leg_08-1
+  rotate: false
+  xy: 257, 447
+  size: 98, 143
+  orig: 98, 143
+  offset: 0, 0
+  index: -1
+Leg_08-2
+  rotate: true
+  xy: 197, 18
+  size: 80, 216
+  orig: 80, 216
+  offset: 0, 0
+  index: -1
+Word_R3
+  rotate: false
+  xy: 2, 519
+  size: 253, 75
+  orig: 253, 75
+  offset: 0, 0
+  index: -1
+Word_R3_EF1
+  rotate: false
+  xy: 228, 100
+  size: 183, 75
+  orig: 183, 75
+  offset: 0, 0
+  index: -1
+Word_R3_EF2
+  rotate: false
+  xy: 2, 443
+  size: 243, 74
+  orig: 243, 74
+  offset: 0, 0
+  index: -1
+Word_R3_EF3
+  rotate: false
+  xy: 2, 367
+  size: 242, 74
+  orig: 242, 74
+  offset: 0, 0
+  index: -1
+Word_R3_EF4
+  rotate: true
+  xy: 121, 7
+  size: 152, 74
+  orig: 152, 74
+  offset: 0, 0
+  index: -1

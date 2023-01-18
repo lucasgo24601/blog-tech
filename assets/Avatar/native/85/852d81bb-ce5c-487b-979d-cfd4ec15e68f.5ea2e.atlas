@@ -1,0 +1,251 @@
+
+FX_Avatar_frame_202.png
+size: 380,208
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lion_Frame
+  rotate: false
+  xy: 181, 143
+  size: 57, 63
+  orig: 57, 63
+  offset: 0, 0
+  index: -1
+accessories
+  rotate: false
+  xy: 289, 140
+  size: 44, 46
+  orig: 44, 46
+  offset: 0, 0
+  index: -1
+accessories2
+  rotate: false
+  xy: 236, 94
+  size: 46, 45
+  orig: 46, 45
+  offset: 0, 0
+  index: -1
+accessories3
+  rotate: true
+  xy: 284, 94
+  size: 44, 46
+  orig: 44, 46
+  offset: 0, 0
+  index: -1
+accessories4
+  rotate: false
+  xy: 240, 141
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1
+accessories_Light
+  rotate: false
+  xy: 357, 41
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 29
+  size: 177, 177
+  orig: 177, 177
+  offset: 0, 0
+  index: -1
+cloud1
+  rotate: true
+  xy: 240, 188
+  size: 18, 75
+  orig: 18, 75
+  offset: 0, 0
+  index: -1
+cloud2
+  rotate: true
+  xy: 42, 9
+  size: 18, 75
+  orig: 18, 75
+  offset: 0, 0
+  index: -1
+firecracker
+  rotate: false
+  xy: 201, 8
+  size: 29, 38
+  orig: 29, 38
+  offset: 0, 0
+  index: -1
+firecracker2
+  rotate: false
+  xy: 199, 48
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+flower
+  rotate: false
+  xy: 286, 53
+  size: 37, 39
+  orig: 37, 39
+  offset: 0, 0
+  index: -1
+flower2
+  rotate: false
+  xy: 242, 50
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+gold
+  rotate: false
+  xy: 2, 2
+  size: 38, 25
+  orig: 38, 25
+  offset: 0, 0
+  index: -1
+gold2
+  rotate: true
+  xy: 199, 91
+  size: 50, 35
+  orig: 50, 35
+  offset: 0, 0
+  index: -1
+lion_beard_1
+  rotate: false
+  xy: 119, 4
+  size: 53, 23
+  orig: 53, 23
+  offset: 0, 0
+  index: -1
+lion_beard_L
+  rotate: false
+  xy: 335, 121
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1
+lion_beard_R
+  rotate: false
+  xy: 357, 121
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+lion_brow_L1
+  rotate: false
+  xy: 335, 144
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+lion_brow_L2
+  rotate: false
+  xy: 255, 18
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+lion_brow_R1
+  rotate: false
+  xy: 335, 176
+  size: 33, 30
+  orig: 33, 30
+  offset: 0, 0
+  index: -1
+lion_brow_R2
+  rotate: false
+  xy: 287, 21
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+lion_eye_L
+  rotate: false
+  xy: 317, 193
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+lion_eye_L2
+  rotate: false
+  xy: 174, 2
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+lion_eye_R
+  rotate: false
+  xy: 361, 26
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+lion_eye_R2
+  rotate: false
+  xy: 332, 94
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+lion_eye_dL
+  rotate: false
+  xy: 325, 62
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+lion_eye_dR
+  rotate: false
+  xy: 325, 30
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+lion_hair_L1
+  rotate: false
+  xy: 357, 62
+  size: 20, 28
+  orig: 20, 28
+  offset: 0, 0
+  index: -1
+lion_hair_L2
+  rotate: false
+  xy: 319, 2
+  size: 19, 26
+  orig: 19, 26
+  offset: 0, 0
+  index: -1
+lion_hair_R1
+  rotate: false
+  xy: 359, 92
+  size: 19, 27
+  orig: 19, 27
+  offset: 0, 0
+  index: -1
+lion_hair_R2
+  rotate: false
+  xy: 340, 2
+  size: 19, 26
+  orig: 19, 26
+  offset: 0, 0
+  index: -1
+lion_nose
+  rotate: true
+  xy: 232, 15
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+t_flower_1
+  rotate: true
+  xy: 181, 32
+  size: 22, 15
+  orig: 22, 15
+  offset: 0, 0
+  index: -1
+t_light_2
+  rotate: false
+  xy: 181, 56
+  size: 16, 85
+  orig: 16, 85
+  offset: 0, 0
+  index: -1

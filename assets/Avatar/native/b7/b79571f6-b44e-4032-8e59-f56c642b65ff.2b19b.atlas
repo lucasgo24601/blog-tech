@@ -1,0 +1,174 @@
+
+FX_Avatar_frame_108.png
+size: 328,188
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+acc_light_00
+  rotate: false
+  xy: 307, 76
+  size: 8, 7
+  orig: 40, 23
+  offset: 31, 12
+  index: -1
+acc_light_01
+  rotate: false
+  xy: 311, 137
+  size: 14, 7
+  orig: 40, 23
+  offset: 26, 12
+  index: -1
+acc_light_02
+  rotate: false
+  xy: 298, 8
+  size: 24, 16
+  orig: 40, 23
+  offset: 15, 3
+  index: -1
+acc_light_03
+  rotate: true
+  xy: 307, 85
+  size: 31, 19
+  orig: 40, 23
+  offset: 8, 1
+  index: -1
+acc_light_04
+  rotate: false
+  xy: 272, 96
+  size: 33, 20
+  orig: 40, 23
+  offset: 6, 1
+  index: -1
+acc_light_05
+  rotate: true
+  xy: 247, 58
+  size: 34, 21
+  orig: 40, 23
+  offset: 5, 1
+  index: -1
+acc_light_06
+  rotate: false
+  xy: 237, 94
+  size: 33, 22
+  orig: 40, 23
+  offset: 3, 1
+  index: -1
+acc_light_07
+  rotate: true
+  xy: 275, 9
+  size: 27, 21
+  orig: 40, 23
+  offset: 3, 2
+  index: -1
+acc_light_08
+  rotate: true
+  xy: 237, 118
+  size: 21, 17
+  orig: 40, 23
+  offset: 3, 6
+  index: -1
+accessories
+  rotate: false
+  xy: 257, 146
+  size: 69, 39
+  orig: 71, 41
+  offset: 1, 1
+  index: -1
+coins1
+  rotate: true
+  xy: 224, 2
+  size: 35, 23
+  orig: 37, 25
+  offset: 1, 1
+  index: -1
+coins2
+  rotate: false
+  xy: 275, 71
+  size: 30, 23
+  orig: 32, 25
+  offset: 1, 1
+  index: -1
+coins3
+  rotate: true
+  xy: 249, 6
+  size: 31, 24
+  orig: 33, 26
+  offset: 1, 1
+  index: -1
+coins4
+  rotate: false
+  xy: 298, 48
+  size: 28, 21
+  orig: 30, 23
+  offset: 1, 1
+  index: -1
+coins5
+  rotate: false
+  xy: 247, 39
+  size: 26, 17
+  orig: 28, 19
+  offset: 1, 1
+  index: -1
+coins6
+  rotate: true
+  xy: 275, 38
+  size: 31, 21
+  orig: 33, 23
+  offset: 1, 1
+  index: -1
+coins7
+  rotate: false
+  xy: 298, 26
+  size: 22, 20
+  orig: 24, 22
+  offset: 1, 1
+  index: -1
+coins8
+  rotate: false
+  xy: 188, 2
+  size: 34, 31
+  orig: 36, 33
+  offset: 1, 1
+  index: -1
+frame_108
+  rotate: false
+  xy: 2, 3
+  size: 184, 182
+  orig: 186, 184
+  offset: 1, 1
+  index: -1
+hat
+  rotate: false
+  xy: 188, 141
+  size: 67, 44
+  orig: 69, 46
+  offset: 1, 1
+  index: -1
+hat_L
+  rotate: false
+  xy: 257, 118
+  size: 52, 26
+  orig: 54, 28
+  offset: 1, 1
+  index: -1
+hat_R
+  rotate: true
+  xy: 188, 35
+  size: 57, 31
+  orig: 59, 33
+  offset: 1, 1
+  index: -1
+light
+  rotate: true
+  xy: 221, 39
+  size: 53, 24
+  orig: 55, 26
+  offset: 1, 1
+  index: -1
+star
+  rotate: false
+  xy: 188, 94
+  size: 47, 45
+  orig: 49, 47
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,160 @@
+
+FX_Avatar_frame_203.png
+size: 460,200
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+204fire_00
+  rotate: false
+  xy: 224, 66
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+204fire_01
+  rotate: false
+  xy: 334, 152
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+204fire_02
+  rotate: false
+  xy: 381, 152
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+204fire_03
+  rotate: false
+  xy: 224, 19
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+204fire_04
+  rotate: false
+  xy: 271, 60
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+204fire_05
+  rotate: false
+  xy: 271, 13
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+204fire_06
+  rotate: false
+  xy: 318, 60
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+204fire_07
+  rotate: false
+  xy: 318, 13
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+204fire_08
+  rotate: false
+  xy: 365, 105
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+204fire_09
+  rotate: false
+  xy: 365, 58
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+204fire_10
+  rotate: false
+  xy: 365, 11
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+204fire_11
+  rotate: false
+  xy: 412, 105
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+bat
+  rotate: false
+  xy: 412, 43
+  size: 31, 18
+  orig: 33, 20
+  offset: 1, 1
+  index: -1
+bat2
+  rotate: true
+  xy: 208, 7
+  size: 21, 11
+  orig: 23, 13
+  offset: 1, 1
+  index: -1
+bat3
+  rotate: false
+  xy: 428, 152
+  size: 19, 12
+  orig: 21, 14
+  offset: 1, 1
+  index: -1
+cat
+  rotate: false
+  xy: 208, 113
+  size: 74, 84
+  orig: 74, 84
+  offset: 0, 0
+  index: -1
+frame_204
+  rotate: true
+  xy: 2, 2
+  size: 195, 204
+  orig: 195, 204
+  offset: 0, 0
+  index: -1
+light
+  rotate: true
+  xy: 208, 30
+  size: 81, 14
+  orig: 81, 14
+  offset: 0, 0
+  index: -1
+pumpkin
+  rotate: false
+  xy: 284, 150
+  size: 48, 47
+  orig: 50, 49
+  offset: 1, 1
+  index: -1
+pumpkin2
+  rotate: false
+  xy: 412, 63
+  size: 40, 40
+  orig: 42, 42
+  offset: 1, 1
+  index: -1
+pumpkin3
+  rotate: false
+  xy: 428, 166
+  size: 30, 31
+  orig: 32, 33
+  offset: 1, 1
+  index: -1
+pun_light
+  rotate: false
+  xy: 284, 107
+  size: 47, 41
+  orig: 47, 41
+  offset: 0, 0
+  index: -1

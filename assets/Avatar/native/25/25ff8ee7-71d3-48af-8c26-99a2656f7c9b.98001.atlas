@@ -1,0 +1,279 @@
+
+CaoCao_P2.png
+size: 1652,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_Armor
+  rotate: true
+  xy: 1324, 121
+  size: 149, 45
+  orig: 149, 46
+  offset: 0, 1
+  index: -1
+01_Moustache
+  rotate: false
+  xy: 1080, 87
+  size: 54, 10
+  orig: 54, 10
+  offset: 0, 0
+  index: -1
+01_Scabbard
+  rotate: false
+  xy: 1035, 2
+  size: 156, 78
+  orig: 156, 78
+  offset: 0, 0
+  index: -1
+01_arm_L1
+  rotate: true
+  xy: 1193, 5
+  size: 96, 62
+  orig: 97, 63
+  offset: 0, 1
+  index: -1
+01_arm_L2
+  rotate: false
+  xy: 1503, 39
+  size: 68, 91
+  orig: 68, 92
+  offset: 0, 1
+  index: -1
+01_arm_R2
+  rotate: false
+  xy: 827, 2
+  size: 76, 69
+  orig: 77, 70
+  offset: 0, 1
+  index: -1
+01_belt
+  rotate: true
+  xy: 1257, 13
+  size: 105, 40
+  orig: 106, 41
+  offset: 0, 1
+  index: -1
+01_body
+  rotate: true
+  xy: 1201, 120
+  size: 150, 121
+  orig: 151, 121
+  offset: 0, 0
+  index: -1
+01_cloak
+  rotate: false
+  xy: 236, 8
+  size: 342, 262
+  orig: 342, 263
+  offset: 0, 1
+  index: -1
+01_clothes
+  rotate: true
+  xy: 887, 80
+  size: 190, 113
+  orig: 191, 113
+  offset: 0, 0
+  index: -1
+01_clothes2
+  rotate: true
+  xy: 1371, 132
+  size: 138, 101
+  orig: 138, 102
+  offset: 0, 1
+  index: -1
+01_clothes3
+  rotate: true
+  xy: 905, 3
+  size: 75, 128
+  orig: 76, 128
+  offset: 0, 0
+  index: -1
+01_collar
+  rotate: true
+  xy: 1126, 103
+  size: 167, 73
+  orig: 167, 73
+  offset: 0, 0
+  index: -1
+01_eye
+  rotate: false
+  xy: 1516, 228
+  size: 131, 42
+  orig: 132, 42
+  offset: 0, 0
+  index: -1
+01_eye_close
+  rotate: true
+  xy: 1474, 132
+  size: 138, 40
+  orig: 138, 41
+  offset: 0, 1
+  index: -1
+01_eyebrow
+  rotate: false
+  xy: 1516, 188
+  size: 130, 38
+  orig: 131, 38
+  offset: 0, 0
+  index: -1
+01_hair_L
+  rotate: true
+  xy: 1539, 132
+  size: 24, 72
+  orig: 25, 72
+  offset: 0, 0
+  index: -1
+01_hair_R
+  rotate: true
+  xy: 1573, 160
+  size: 26, 74
+  orig: 26, 74
+  offset: 0, 0
+  index: -1
+01_hand_L1
+  rotate: true
+  xy: 705, 3
+  size: 60, 53
+  orig: 61, 53
+  offset: 0, 0
+  index: -1
+01_hand_L2
+  rotate: true
+  xy: 1539, 158
+  size: 28, 31
+  orig: 29, 33
+  offset: 0, 2
+  index: -1
+01_hand_R1
+  rotate: true
+  xy: 1299, 16
+  size: 102, 148
+  orig: 103, 149
+  offset: 0, 1
+  index: -1
+01_hand_R2
+  rotate: false
+  xy: 1613, 133
+  size: 30, 25
+  orig: 31, 26
+  offset: 0, 1
+  index: -1
+01_head
+  rotate: false
+  xy: 2, 6
+  size: 232, 264
+  orig: 233, 265
+  offset: 0, 1
+  index: -1
+01_leg_L
+  rotate: false
+  xy: 580, 55
+  size: 123, 215
+  orig: 123, 215
+  offset: 0, 0
+  index: -1
+01_leg_R
+  rotate: false
+  xy: 705, 65
+  size: 93, 205
+  orig: 94, 206
+  offset: 0, 1
+  index: -1
+01_mouth
+  rotate: false
+  xy: 1136, 95
+  size: 27, 6
+  orig: 28, 7
+  offset: 0, 1
+  index: -1
+01_rope
+  rotate: true
+  xy: 1040, 84
+  size: 13, 38
+  orig: 13, 38
+  offset: 0, 0
+  index: -1
+01_sword
+  rotate: true
+  xy: 1002, 99
+  size: 171, 122
+  orig: 171, 122
+  offset: 0, 0
+  index: -1
+01_sword_A
+  rotate: true
+  xy: 800, 73
+  size: 197, 85
+  orig: 197, 86
+  offset: 0, 1
+  index: -1
+01_thumb_R
+  rotate: false
+  xy: 1503, 4
+  size: 20, 33
+  orig: 20, 33
+  offset: 0, 0
+  index: -1
+01_wrist_L2
+  rotate: true
+  xy: 1591, 64
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+01_wrist_R2
+  rotate: true
+  xy: 760, 8
+  size: 55, 65
+  orig: 56, 66
+  offset: 0, 1
+  index: -1
+01_wrist_R3
+  rotate: false
+  xy: 1525, 5
+  size: 41, 32
+  orig: 42, 33
+  offset: 0, 1
+  index: -1
+02_Moustache_win
+  rotate: true
+  xy: 1516, 135
+  size: 51, 21
+  orig: 52, 21
+  offset: 0, 0
+  index: -1
+02_eye_win
+  rotate: true
+  xy: 1449, 5
+  size: 125, 52
+  orig: 125, 53
+  offset: 0, 1
+  index: -1
+02_eyebrow_win
+  rotate: false
+  xy: 580, 2
+  size: 123, 51
+  orig: 124, 52
+  offset: 0, 1
+  index: -1
+02_mouth_1
+  rotate: false
+  xy: 1002, 82
+  size: 36, 15
+  orig: 36, 15
+  offset: 0, 0
+  index: -1
+02_mouth_fail
+  rotate: true
+  xy: 1568, 5
+  size: 32, 21
+  orig: 32, 21
+  offset: 0, 0
+  index: -1
+02_mouth_win
+  rotate: false
+  xy: 1591, 106
+  size: 49, 24
+  orig: 50, 25
+  offset: 0, 1
+  index: -1

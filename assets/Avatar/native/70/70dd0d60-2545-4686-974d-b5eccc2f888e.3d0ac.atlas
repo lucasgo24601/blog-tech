@@ -1,0 +1,90 @@
+
+FX_Avatar_frame_101.png
+size: 404,196
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bubble
+  rotate: false
+  xy: 305, 69
+  size: 27, 31
+  orig: 27, 31
+  offset: 0, 0
+  index: -1
+bubble2
+  rotate: false
+  xy: 339, 66
+  size: 43, 48
+  orig: 43, 48
+  offset: 0, 0
+  index: -1
+coral
+  rotate: false
+  xy: 287, 2
+  size: 45, 55
+  orig: 45, 55
+  offset: 0, 0
+  index: -1
+coral2
+  rotate: false
+  xy: 203, 20
+  size: 32, 80
+  orig: 32, 80
+  offset: 0, 0
+  index: -1
+coral4
+  rotate: false
+  xy: 237, 2
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: -1
+fish
+  rotate: false
+  xy: 203, 149
+  size: 153, 45
+  orig: 155, 47
+  offset: 1, 1
+  index: -1
+frame101_light
+  rotate: true
+  xy: 203, 116
+  size: 31, 167
+  orig: 33, 169
+  offset: 1, 1
+  index: -1
+frame_101
+  rotate: false
+  xy: 2, 3
+  size: 199, 191
+  orig: 201, 193
+  offset: 1, 1
+  index: -1
+grass
+  rotate: false
+  xy: 372, 136
+  size: 30, 58
+  orig: 30, 58
+  offset: 0, 0
+  index: -1
+light2
+  rotate: true
+  xy: 203, 102
+  size: 12, 134
+  orig: 12, 134
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 334, 19
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1
+stone2
+  rotate: false
+  xy: 237, 59
+  size: 66, 41
+  orig: 68, 43
+  offset: 1, 1
+  index: -1

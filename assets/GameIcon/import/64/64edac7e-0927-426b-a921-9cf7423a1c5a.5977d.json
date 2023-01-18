@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "591A5gJABN6KkllGsONUeq"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "2D_icon_G47",
+      "rect": [
+        2,
+        2,
+        163,
+        1001
+      ],
+      "offset": [
+        -0.5,
+        1.5
+      ],
+      "originalSize": [
+        168,
+        1008
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

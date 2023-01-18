@@ -1,0 +1,1414 @@
+[
+  1,
+  [
+    "99JLSfb0pDTr4fPRRdzdK0"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "FX_Avatar_frame_112",
+      "\nFX_Avatar_frame_112.png\nsize: 364,208\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbg\n  rotate: true\n  xy: 2, 2\n  size: 203, 198\n  orig: 203, 198\n  offset: 0, 0\n  index: -1\ncrystal\n  rotate: false\n  xy: 332, 29\n  size: 25, 37\n  orig: 25, 37\n  offset: 0, 0\n  index: -1\ncrystal2\n  rotate: true\n  xy: 202, 110\n  size: 38, 62\n  orig: 38, 62\n  offset: 0, 0\n  index: -1\ncrystal2_A\n  rotate: true\n  xy: 202, 69\n  size: 35, 43\n  orig: 35, 43\n  offset: 0, 0\n  index: -1\ncrystal3\n  rotate: false\n  xy: 247, 68\n  size: 40, 36\n  orig: 40, 36\n  offset: 0, 0\n  index: -1\ncrystal4\n  rotate: true\n  xy: 202, 3\n  size: 35, 40\n  orig: 35, 40\n  offset: 0, 0\n  index: -1\ncrystal5\n  rotate: false\n  xy: 300, 26\n  size: 30, 78\n  orig: 30, 78\n  offset: 0, 0\n  index: -1\ngrass\n  rotate: false\n  xy: 202, 150\n  size: 84, 55\n  orig: 84, 55\n  offset: 0, 0\n  index: -1\nlight\n  rotate: true\n  xy: 202, 40\n  size: 26, 96\n  orig: 26, 96\n  offset: 0, 0\n  index: -1\nlight2\n  rotate: true\n  xy: 333, 68\n  size: 137, 26\n  orig: 137, 26\n  offset: 0, 0\n  index: -1\npointer\n  rotate: true\n  xy: 288, 106\n  size: 99, 43\n  orig: 99, 43\n  offset: 0, 0\n  index: -1\nt_crystal5_1\n  rotate: false\n  xy: 289, 72\n  size: 9, 32\n  orig: 9, 32\n  offset: 0, 0\n  index: -1\nt_light_1\n  rotate: true\n  xy: 350, 7\n  size: 20, 7\n  orig: 20, 7\n  offset: 0, 0\n  index: -1\nt_light_2\n  rotate: true\n  xy: 293, 11\n  size: 13, 11\n  orig: 13, 11\n  offset: 0, 0\n  index: -1\nt_light_3\n  rotate: false\n  xy: 278, 12\n  size: 13, 11\n  orig: 13, 11\n  offset: 0, 0\n  index: -1\nt_light_4\n  rotate: true\n  xy: 266, 132\n  size: 16, 17\n  orig: 16, 17\n  offset: 0, 0\n  index: -1\nt_light_5\n  rotate: false\n  xy: 266, 117\n  size: 16, 13\n  orig: 16, 13\n  offset: 0, 0\n  index: -1\nt_light_6\n  rotate: false\n  xy: 278, 25\n  size: 13, 13\n  orig: 13, 13\n  offset: 0, 0\n  index: -1\nt_light_8\n  rotate: true\n  xy: 332, 9\n  size: 18, 16\n  orig: 18, 16\n  offset: 0, 0\n  index: -1\nt_star_01\n  rotate: false\n  xy: 244, 6\n  size: 32, 32\n  orig: 32, 32\n  offset: 0, 0\n  index: -1\n",
+      [
+        "FX_Avatar_frame_112.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "JsM6MKPRzMiqOvtos3UM64krUDM",
+          "spine": "3.7.94",
+          "width": 242.19,
+          "height": 252.81,
+          "images": "./images/",
+          "audio": "C:/work/文件素材/G0_L1_麻將/L1/ForestDancingParty"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "Root_bone",
+            "parent": "root"
+          },
+          {
+            "name": "crystal",
+            "parent": "Root_bone",
+            "x": 88.53,
+            "y": 61.78
+          },
+          {
+            "name": "crystal2",
+            "parent": "Root_bone",
+            "x": -87.53,
+            "y": -74.58
+          },
+          {
+            "name": "crystal3",
+            "parent": "Root_bone",
+            "x": 71.72,
+            "y": 94.94
+          },
+          {
+            "name": "crystal4",
+            "parent": "Root_bone",
+            "x": -54.37,
+            "y": -74.12
+          },
+          {
+            "name": "grass",
+            "parent": "Root_bone",
+            "x": 71.72,
+            "y": -75.52
+          },
+          {
+            "name": "crystal5",
+            "parent": "Root_bone",
+            "x": -82.86,
+            "y": -33.02
+          },
+          {
+            "name": "light",
+            "parent": "Root_bone",
+            "x": -85.66,
+            "y": 73.92
+          },
+          {
+            "name": "light2",
+            "parent": "Root_bone",
+            "x": 19.41,
+            "y": -71.78
+          },
+          {
+            "name": "pointer",
+            "parent": "Root_bone",
+            "x": -76.32,
+            "y": 88.87
+          }
+        ],
+        "slots": [
+          {
+            "name": "crystal5",
+            "bone": "crystal5",
+            "attachment": "crystal5"
+          },
+          {
+            "name": "bg",
+            "bone": "Root_bone",
+            "attachment": "bg"
+          },
+          {
+            "name": "light2",
+            "bone": "light2",
+            "attachment": "light2"
+          },
+          {
+            "name": "light",
+            "bone": "light",
+            "attachment": "light"
+          },
+          {
+            "name": "grass",
+            "bone": "grass",
+            "attachment": "grass"
+          },
+          {
+            "name": "crystal4",
+            "bone": "crystal4",
+            "attachment": "crystal4"
+          },
+          {
+            "name": "crystal3",
+            "bone": "crystal3",
+            "attachment": "crystal3"
+          },
+          {
+            "name": "crystal2",
+            "bone": "crystal2",
+            "attachment": "crystal2"
+          },
+          {
+            "name": "crystal",
+            "bone": "crystal",
+            "attachment": "crystal"
+          },
+          {
+            "name": "pointer",
+            "bone": "pointer",
+            "attachment": "pointer"
+          },
+          {
+            "name": "t_star_01",
+            "bone": "Root_bone",
+            "attachment": "t_star_01"
+          },
+          {
+            "name": "t_star_01_1",
+            "bone": "Root_bone",
+            "attachment": "t_star_01"
+          },
+          {
+            "name": "t_star_01_2",
+            "bone": "Root_bone",
+            "attachment": "t_star_01"
+          },
+          {
+            "name": "crystal2_A",
+            "bone": "crystal2",
+            "color": "ffd95eff",
+            "attachment": "crystal2_A",
+            "blend": "additive"
+          },
+          {
+            "name": "crystal2_A2",
+            "bone": "crystal",
+            "color": "6372ffff",
+            "attachment": "crystal2_A",
+            "blend": "additive"
+          },
+          {
+            "name": "crystal2_A3",
+            "bone": "crystal4",
+            "color": "9fff4dff",
+            "attachment": "crystal2_A",
+            "blend": "additive"
+          },
+          {
+            "name": "crystal2_A4",
+            "bone": "crystal3",
+            "color": "b6c37aff",
+            "attachment": "crystal2_A",
+            "blend": "additive"
+          },
+          {
+            "name": "t_light_1",
+            "bone": "pointer",
+            "color": "63ffe6ff",
+            "attachment": "t_light_6",
+            "blend": "additive"
+          },
+          {
+            "name": "t_light_2",
+            "bone": "pointer",
+            "color": "40ac9bff",
+            "blend": "additive"
+          },
+          {
+            "name": "t_light_8",
+            "bone": "pointer",
+            "color": "87b25f9b",
+            "attachment": "t_light_8",
+            "blend": "additive"
+          },
+          {
+            "name": "t_crystal5_1",
+            "bone": "crystal5",
+            "blend": "additive"
+          }
+        ],
+        "skins": {
+          "default": {
+            "bg": {
+              "bg": {
+                "x": -4.5,
+                "y": 14,
+                "width": 203,
+                "height": 198
+              }
+            },
+            "crystal": {
+              "crystal": {
+                "x": 0.97,
+                "y": -1.28,
+                "width": 25,
+                "height": 37
+              }
+            },
+            "crystal2": {
+              "crystal2": {
+                "x": 0.53,
+                "y": 19.58,
+                "width": 38,
+                "height": 62
+              }
+            },
+            "crystal2_A": {
+              "crystal2_A": {
+                "x": 0.75,
+                "y": 20.47,
+                "scaleX": 2.2,
+                "scaleY": 2.2,
+                "width": 35,
+                "height": 43
+              }
+            },
+            "crystal2_A2": {
+              "crystal2_A": {
+                "x": 0.6,
+                "y": 0.31,
+                "scaleX": -1.2,
+                "scaleY": 1.2,
+                "rotation": 4,
+                "width": 35,
+                "height": 43
+              }
+            },
+            "crystal2_A3": {
+              "crystal2_A": {
+                "x": -1.06,
+                "y": 3.6,
+                "scaleX": -1.6,
+                "scaleY": 1.6,
+                "rotation": 20,
+                "width": 35,
+                "height": 43
+              }
+            },
+            "crystal2_A4": {
+              "crystal2_A": {
+                "x": 1.63,
+                "y": 1.11,
+                "scaleX": 1.6,
+                "scaleY": 1.6,
+                "rotation": -40,
+                "width": 35,
+                "height": 43
+              }
+            },
+            "crystal3": {
+              "crystal3": {
+                "x": 1.28,
+                "y": -0.94,
+                "width": 40,
+                "height": 36
+              }
+            },
+            "crystal4": {
+              "crystal4": {
+                "x": -1.13,
+                "y": 0.12,
+                "width": 35,
+                "height": 40
+              }
+            },
+            "crystal5": {
+              "crystal5": {
+                "x": -8.14,
+                "y": 21.02,
+                "width": 30,
+                "height": 78
+              }
+            },
+            "grass": {
+              "grass": {
+                "x": -7.72,
+                "y": 5.02,
+                "width": 84,
+                "height": 55
+              }
+            },
+            "light": {
+              "light": {
+                "x": 0.66,
+                "y": -8.92,
+                "width": 26,
+                "height": 96
+              }
+            },
+            "light2": {
+              "light2": {
+                "x": 0.09,
+                "y": -0.22,
+                "width": 137,
+                "height": 26
+              }
+            },
+            "pointer": {
+              "pointer": {
+                "x": 23.82,
+                "y": -1.37,
+                "width": 99,
+                "height": 43
+              }
+            },
+            "t_crystal5_1": {
+              "t_crystal5_1": {
+                "x": -12.8,
+                "y": 26.27,
+                "scaleX": 2,
+                "scaleY": 2,
+                "width": 9,
+                "height": 32
+              }
+            },
+            "t_light_1": {
+              "t_light_1": {
+                "x": 46.63,
+                "y": -0.19,
+                "scaleY": -1,
+                "rotation": -5,
+                "width": 20,
+                "height": 7
+              },
+              "t_light_2": {
+                "x": -4,
+                "y": -9.68,
+                "width": 13,
+                "height": 11
+              },
+              "t_light_3": {
+                "x": -9.93,
+                "y": 4.28,
+                "width": 13,
+                "height": 11
+              },
+              "t_light_4": {
+                "x": 8.18,
+                "y": 6.04,
+                "width": 16,
+                "height": 17
+              },
+              "t_light_5": {
+                "x": -2.69,
+                "y": 8.61,
+                "width": 16,
+                "height": 13
+              },
+              "t_light_6": {
+                "x": 36.97,
+                "y": -1.62,
+                "width": 13,
+                "height": 13
+              }
+            },
+            "t_light_2": {
+              "t_light_1": {
+                "x": 47.38,
+                "y": -0.94,
+                "scaleY": -1,
+                "rotation": -5,
+                "width": 20,
+                "height": 7
+              },
+              "t_light_2": {
+                "x": -3.68,
+                "y": -9.25,
+                "width": 13,
+                "height": 11
+              },
+              "t_light_3": {
+                "x": -9.93,
+                "y": 4.28,
+                "width": 13,
+                "height": 11
+              },
+              "t_light_4": {
+                "x": 7.96,
+                "y": 5.94,
+                "width": 16,
+                "height": 17
+              },
+              "t_light_5": {
+                "x": -2.58,
+                "y": 7.86,
+                "width": 16,
+                "height": 13
+              },
+              "t_light_6": {
+                "x": 36.65,
+                "y": -1.72,
+                "width": 13,
+                "height": 13
+              },
+              "t_light_7": {
+                "path": "t_light_4",
+                "x": 8.33,
+                "y": -7.06,
+                "scaleX": 0.95,
+                "scaleY": -0.95,
+                "width": 16,
+                "height": 17
+              }
+            },
+            "t_light_8": {
+              "t_light_8": {
+                "x": -0.51,
+                "y": 0.25,
+                "scaleX": 2,
+                "scaleY": 2,
+                "width": 18,
+                "height": 16
+              }
+            },
+            "t_star_01": {
+              "t_star_01": {
+                "x": 82.19,
+                "y": 75.12,
+                "scaleX": 1.4,
+                "scaleY": 1.4,
+                "rotation": -15,
+                "width": 32,
+                "height": 32
+              }
+            },
+            "t_star_01_1": {
+              "t_star_01": {
+                "x": -73.58,
+                "y": -27.59,
+                "scaleX": 2,
+                "scaleY": 2,
+                "rotation": 8,
+                "width": 32,
+                "height": 32
+              }
+            },
+            "t_star_01_2": {
+              "t_star_01": {
+                "x": -55.72,
+                "y": -60.77,
+                "scaleX": 1.4,
+                "scaleY": 1.4,
+                "width": 32,
+                "height": 32
+              }
+            }
+          }
+        },
+        "animations": {
+          "play_normal": {
+            "slots": {
+              "crystal2_A": {
+                "color": [
+                  {
+                    "time": 0,
+                    "color": "fc33eb00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1,
+                    "color": "fc33eb00",
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 2,
+                    "color": "fc3333aa",
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 3,
+                    "color": "fc33eb00"
+                  }
+                ]
+              },
+              "crystal2_A2": {
+                "color": [
+                  {
+                    "time": 0,
+                    "color": "6372ff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.1667,
+                    "color": "6372ff00"
+                  },
+                  {
+                    "time": 1.1667,
+                    "color": "734dffeb"
+                  },
+                  {
+                    "time": 2.1667,
+                    "color": "6372ff00"
+                  }
+                ]
+              },
+              "crystal2_A3": {
+                "color": [
+                  {
+                    "time": 0,
+                    "color": "9eff4d00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "color": "9eff4d00",
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 3,
+                    "color": "1a6ed29b",
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 4,
+                    "color": "9eff4d00"
+                  }
+                ]
+              },
+              "crystal2_A4": {
+                "color": [
+                  {
+                    "time": 0,
+                    "color": "b6c37900"
+                  },
+                  {
+                    "time": 1,
+                    "color": "008215db"
+                  },
+                  {
+                    "time": 2,
+                    "color": "b6c37900"
+                  }
+                ]
+              },
+              "light": {
+                "color": [
+                  {
+                    "time": 0,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 0.3333,
+                    "color": "ffffffff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2.5,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 3.3333,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "light2": {
+                "color": [
+                  {
+                    "time": 0,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.6667,
+                    "color": "ffffff00",
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffffff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 3.1667,
+                    "color": "ffffffff",
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 4,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "t_crystal5_1": {
+                "color": [
+                  {
+                    "time": 0.7667,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 1.2667,
+                    "color": "ffffff86",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.8667,
+                    "color": "ffffff86"
+                  },
+                  {
+                    "time": 2.3333,
+                    "color": "ffffff23"
+                  },
+                  {
+                    "time": 3.0333,
+                    "color": "ffffff00"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.7667,
+                    "name": "t_crystal5_1"
+                  }
+                ]
+              },
+              "t_light_1": {
+                "color": [
+                  {
+                    "time": 0,
+                    "color": "63ffe600",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.1667,
+                    "color": "63ffe600"
+                  },
+                  {
+                    "time": 0.3,
+                    "color": "63ffe6b4"
+                  },
+                  {
+                    "time": 0.5,
+                    "color": "63ffe600"
+                  },
+                  {
+                    "time": 0.6333,
+                    "color": "63ffe6b4"
+                  },
+                  {
+                    "time": 0.8333,
+                    "color": "63ffe600"
+                  },
+                  {
+                    "time": 0.9667,
+                    "color": "63ffe6b4"
+                  },
+                  {
+                    "time": 1.1667,
+                    "color": "63ffe600"
+                  },
+                  {
+                    "time": 1.3,
+                    "color": "63ffe6b4"
+                  },
+                  {
+                    "time": 1.5,
+                    "color": "63ffe600"
+                  },
+                  {
+                    "time": 1.6333,
+                    "color": "63ffe6b4"
+                  },
+                  {
+                    "time": 1.8333,
+                    "color": "63ffe600"
+                  },
+                  {
+                    "time": 1.9667,
+                    "color": "63ffe6b4"
+                  },
+                  {
+                    "time": 2.1,
+                    "color": "63ffe600"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0,
+                    "name": null
+                  },
+                  {
+                    "time": 0.3,
+                    "name": "t_light_1"
+                  },
+                  {
+                    "time": 0.6333,
+                    "name": "t_light_2"
+                  },
+                  {
+                    "time": 0.9667,
+                    "name": "t_light_3"
+                  },
+                  {
+                    "time": 1.3,
+                    "name": "t_light_4"
+                  },
+                  {
+                    "time": 1.6333,
+                    "name": "t_light_5"
+                  },
+                  {
+                    "time": 1.9667,
+                    "name": "t_light_6"
+                  }
+                ]
+              },
+              "t_light_2": {
+                "color": [
+                  {
+                    "time": 0,
+                    "color": "63ffe600",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "color": "63ffe600"
+                  },
+                  {
+                    "time": 0.4667,
+                    "color": "63ffe6b4"
+                  },
+                  {
+                    "time": 0.6667,
+                    "color": "63ffe600"
+                  },
+                  {
+                    "time": 0.8,
+                    "color": "63ffe6b4"
+                  },
+                  {
+                    "time": 1,
+                    "color": "63ffe600"
+                  },
+                  {
+                    "time": 1.1333,
+                    "color": "63ffe6b4"
+                  },
+                  {
+                    "time": 1.3333,
+                    "color": "63ffe600"
+                  },
+                  {
+                    "time": 1.4667,
+                    "color": "63ffe6b4"
+                  },
+                  {
+                    "time": 1.6667,
+                    "color": "63ffe600"
+                  },
+                  {
+                    "time": 1.8,
+                    "color": "63ffe6b4"
+                  },
+                  {
+                    "time": 2,
+                    "color": "63ffe600"
+                  },
+                  {
+                    "time": 2.2,
+                    "color": "63ffe6b4"
+                  },
+                  {
+                    "time": 2.4667,
+                    "color": "63ffe600"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.4667,
+                    "name": "t_light_4"
+                  },
+                  {
+                    "time": 0.8,
+                    "name": "t_light_5"
+                  },
+                  {
+                    "time": 1.1333,
+                    "name": "t_light_6"
+                  },
+                  {
+                    "time": 1.4667,
+                    "name": "t_light_2"
+                  },
+                  {
+                    "time": 1.8,
+                    "name": "t_light_1"
+                  },
+                  {
+                    "time": 2.1333,
+                    "name": "t_light_3"
+                  },
+                  {
+                    "time": 2.3333,
+                    "name": "t_light_7"
+                  }
+                ]
+              },
+              "t_light_8": {
+                "color": [
+                  {
+                    "time": 0,
+                    "color": "87b25f00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.8333,
+                    "color": "87b25f00"
+                  },
+                  {
+                    "time": 2.8,
+                    "color": "749f4e81",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 3.2,
+                    "color": "749f4e81"
+                  },
+                  {
+                    "time": 4,
+                    "color": "759f4e00"
+                  }
+                ]
+              },
+              "t_star_01": {
+                "color": [
+                  {
+                    "time": 0,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.8333,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 0.9,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 2.1667,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "t_star_01_1": {
+                "color": [
+                  {
+                    "time": 0,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.8333,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 1.9,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 2.1333,
+                    "color": "ffffffdb"
+                  },
+                  {
+                    "time": 2.7,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "t_star_01_2": {
+                "color": [
+                  {
+                    "time": 0,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2.4,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 2.4667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 2.7333,
+                    "color": "ffffffc7"
+                  },
+                  {
+                    "time": 3.0667,
+                    "color": "ffffff00"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "crystal": {
+                "translate": [
+                  {
+                    "time": 0,
+                    "x": -0.27,
+                    "y": 0.79,
+                    "curve": [
+                      0.361,
+                      0.6,
+                      0.696,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 0.5,
+                    "x": 0,
+                    "y": 0,
+                    "curve": [
+                      0.25,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 2.5,
+                    "x": 0,
+                    "y": 3.65,
+                    "curve": [
+                      0.377,
+                      0,
+                      0.719,
+                      0.67
+                    ]
+                  },
+                  {
+                    "time": 4,
+                    "x": 0,
+                    "y": 0.79
+                  }
+                ]
+              },
+              "crystal2": {
+                "rotate": [
+                  {
+                    "time": 0,
+                    "angle": 0,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 1,
+                    "angle": -6.34,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 2,
+                    "angle": 0
+                  },
+                  {
+                    "time": 3,
+                    "angle": -6.34,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 4,
+                    "angle": 1.33
+                  }
+                ]
+              },
+              "crystal4": {
+                "rotate": [
+                  {
+                    "time": 0,
+                    "angle": 0,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 2,
+                    "angle": 7.29,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 4,
+                    "angle": 0
+                  }
+                ],
+                "translate": [
+                  {
+                    "time": 0,
+                    "x": 0,
+                    "y": 0,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 2,
+                    "x": 0,
+                    "y": 4.7,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 4,
+                    "x": 0,
+                    "y": 0
+                  }
+                ]
+              },
+              "crystal3": {
+                "rotate": [
+                  {
+                    "time": 0,
+                    "angle": 0,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 2,
+                    "angle": 4.98,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 4,
+                    "angle": 0
+                  }
+                ],
+                "translate": [
+                  {
+                    "time": 0,
+                    "x": 0,
+                    "y": 0,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 2,
+                    "x": 0,
+                    "y": -4.18,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 4,
+                    "x": 0,
+                    "y": 0
+                  }
+                ]
+              },
+              "light": {
+                "translate": [
+                  {
+                    "time": 0,
+                    "x": 0,
+                    "y": 0,
+                    "curve": [
+                      0.363,
+                      0,
+                      0.701,
+                      0.53
+                    ]
+                  },
+                  {
+                    "time": 1.6667,
+                    "x": 0,
+                    "y": -52.82,
+                    "curve": [
+                      0.376,
+                      0.53,
+                      0.714,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 3.3333,
+                    "x": 0,
+                    "y": -104.37
+                  }
+                ]
+              },
+              "light2": {
+                "translate": [
+                  {
+                    "time": 0,
+                    "x": 18.1,
+                    "y": 0,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.6667,
+                    "x": 18.1,
+                    "y": 0,
+                    "curve": [
+                      0.373,
+                      0,
+                      0.714,
+                      0.63
+                    ]
+                  },
+                  {
+                    "time": 2.3333,
+                    "x": -25.18,
+                    "y": 0,
+                    "curve": [
+                      0.366,
+                      0.58,
+                      0.701,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 4,
+                    "x": -66.38,
+                    "y": 0
+                  }
+                ]
+              },
+              "pointer": {
+                "rotate": [
+                  {
+                    "time": 0.1667,
+                    "angle": 0,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 0.8333,
+                    "angle": -9,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 1.5,
+                    "angle": 0,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 1.9333,
+                    "angle": -3.78,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 2.3667,
+                    "angle": 0
+                  }
+                ]
+              },
+              "grass": {
+                "scale": [
+                  {
+                    "time": 0.6667,
+                    "x": 1,
+                    "y": 1,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 0.8,
+                    "x": 1,
+                    "y": 0.88,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 0.9333,
+                    "x": 1,
+                    "y": 1,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 1.1,
+                    "x": 1,
+                    "y": 0.95,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 1.2333,
+                    "x": 1,
+                    "y": 1,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.9,
+                    "x": 1,
+                    "y": 1,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 2.0333,
+                    "x": 1,
+                    "y": 0.88,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 2.1667,
+                    "x": 1,
+                    "y": 1,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 2.2667,
+                    "x": 1,
+                    "y": 0.95,
+                    "curve": [
+                      0.399,
+                      0,
+                      0.75,
+                      1
+                    ]
+                  },
+                  {
+                    "time": 2.3333,
+                    "x": 1,
+                    "y": 1
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

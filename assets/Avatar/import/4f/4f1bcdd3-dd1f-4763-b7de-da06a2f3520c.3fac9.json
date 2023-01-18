@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "92UYeckVNOuZGXCaufVKro"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "g0_ch_sunquan_17",
+      "rect": [
+        8,
+        0,
+        123,
+        113
+      ],
+      "offset": [
+        3.5,
+        1
+      ],
+      "originalSize": [
+        132,
+        115
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

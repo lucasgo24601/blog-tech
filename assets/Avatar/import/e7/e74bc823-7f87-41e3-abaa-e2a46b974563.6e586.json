@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a6sOsgK0RGhJM3nxISPEjJ"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "CaoCao_P1",
+      "rect": [
+        2,
+        2,
+        752,
+        520
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        756,
+        524
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,335 @@
+
+Fort_Double.png
+size: 768,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LV1_GunBarrel_01
+  rotate: false
+  xy: 2, 2
+  size: 86, 13
+  orig: 86, 13
+  offset: 0, 0
+  index: -1
+LV1_GunBarrel_02
+  rotate: false
+  xy: 297, 2
+  size: 86, 13
+  orig: 86, 13
+  offset: 0, 0
+  index: -1
+LV1_GunMuzzle_01
+  rotate: false
+  xy: 470, 109
+  size: 89, 43
+  orig: 89, 43
+  offset: 0, 0
+  index: -1
+LV1_GunMuzzle_02
+  rotate: false
+  xy: 157, 2
+  size: 78, 30
+  orig: 78, 30
+  offset: 0, 0
+  index: -1
+LV1_GunMuzzle_03
+  rotate: false
+  xy: 683, 41
+  size: 81, 16
+  orig: 81, 16
+  offset: 0, 0
+  index: -1
+LV1_Main
+  rotate: false
+  xy: 157, 105
+  size: 153, 80
+  orig: 153, 80
+  offset: 0, 0
+  index: -1
+LV2_GunBarrel_01
+  rotate: false
+  xy: 486, 43
+  size: 86, 12
+  orig: 86, 12
+  offset: 0, 0
+  index: -1
+LV2_GunBarrel_02
+  rotate: false
+  xy: 595, 57
+  size: 86, 12
+  orig: 86, 12
+  offset: 0, 0
+  index: -1
+LV2_GunMuzzle_01
+  rotate: false
+  xy: 470, 154
+  size: 89, 53
+  orig: 89, 53
+  offset: 0, 0
+  index: -1
+LV2_GunMuzzle_02
+  rotate: false
+  xy: 394, 12
+  size: 83, 39
+  orig: 83, 39
+  offset: 0, 0
+  index: -1
+LV2_GunMuzzle_03
+  rotate: false
+  xy: 580, 2
+  size: 81, 14
+  orig: 81, 14
+  offset: 0, 0
+  index: -1
+LV2_Main
+  rotate: false
+  xy: 312, 201
+  size: 153, 69
+  orig: 153, 69
+  offset: 0, 0
+  index: -1
+LV3_GunBarrel_01
+  rotate: false
+  xy: 312, 107
+  size: 107, 21
+  orig: 107, 21
+  offset: 0, 0
+  index: -1
+LV3_GunBarrel_02
+  rotate: false
+  xy: 312, 84
+  size: 107, 21
+  orig: 107, 21
+  offset: 0, 0
+  index: -1
+LV3_GunMuzzle_01
+  rotate: true
+  xy: 421, 109
+  size: 90, 47
+  orig: 90, 47
+  offset: 0, 0
+  index: -1
+LV3_GunMuzzle_02
+  rotate: false
+  xy: 515, 69
+  size: 78, 38
+  orig: 78, 38
+  offset: 0, 0
+  index: -1
+LV3_GunMuzzle_03
+  rotate: false
+  xy: 574, 45
+  size: 83, 10
+  orig: 83, 10
+  offset: 0, 0
+  index: -1
+LV3_Main
+  rotate: false
+  xy: 2, 187
+  size: 153, 83
+  orig: 153, 83
+  offset: 0, 0
+  index: -1
+LV4_GunBarrel_01
+  rotate: false
+  xy: 157, 34
+  size: 107, 69
+  orig: 107, 69
+  offset: 0, 0
+  index: -1
+LV4_GunBarrel_02
+  rotate: false
+  xy: 312, 130
+  size: 107, 69
+  orig: 107, 69
+  offset: 0, 0
+  index: -1
+LV4_GunMuzzle_01
+  rotate: false
+  xy: 660, 204
+  size: 89, 66
+  orig: 89, 66
+  offset: 0, 0
+  index: -1
+LV4_GunMuzzle_02
+  rotate: false
+  xy: 580, 18
+  size: 78, 25
+  orig: 78, 25
+  offset: 0, 0
+  index: -1
+LV4_GunMuzzle_03
+  rotate: false
+  xy: 683, 59
+  size: 83, 10
+  orig: 83, 10
+  offset: 0, 0
+  index: -1
+LV4_Main
+  rotate: false
+  xy: 2, 102
+  size: 153, 83
+  orig: 153, 83
+  offset: 0, 0
+  index: -1
+LV4_Tube_L
+  rotate: true
+  xy: 733, 86
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1
+LV4_Tube_R
+  rotate: false
+  xy: 663, 12
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1
+LV5_GunBarrel_01
+  rotate: false
+  xy: 297, 17
+  size: 95, 18
+  orig: 95, 18
+  offset: 0, 0
+  index: -1
+LV5_GunBarrel_02
+  rotate: false
+  xy: 636, 83
+  size: 95, 18
+  orig: 95, 18
+  offset: 0, 0
+  index: -1
+LV5_GunMuzzle_01
+  rotate: false
+  xy: 421, 73
+  size: 92, 34
+  orig: 92, 34
+  offset: 0, 0
+  index: -1
+LV5_GunMuzzle_02
+  rotate: false
+  xy: 564, 210
+  size: 94, 60
+  orig: 94, 60
+  offset: 0, 0
+  index: -1
+LV5_GunMuzzle_03
+  rotate: false
+  xy: 636, 71
+  size: 90, 10
+  orig: 90, 10
+  offset: 0, 0
+  index: -1
+LV5_Main
+  rotate: false
+  xy: 157, 187
+  size: 153, 83
+  orig: 153, 83
+  offset: 0, 0
+  index: -1
+LV5_Plate
+  rotate: false
+  xy: 237, 2
+  size: 58, 30
+  orig: 58, 30
+  offset: 0, 0
+  index: -1
+LV5_Plate_B01
+  rotate: true
+  xy: 581, 120
+  size: 88, 53
+  orig: 88, 53
+  offset: 0, 0
+  index: -1
+LV5_Plate_B02
+  rotate: false
+  xy: 636, 103
+  size: 88, 45
+  orig: 88, 45
+  offset: 0, 0
+  index: -1
+LV6_GunBarrel_01
+  rotate: true
+  xy: 561, 111
+  size: 96, 18
+  orig: 96, 18
+  offset: 0, 0
+  index: -1
+LV6_GunBarrel_02
+  rotate: false
+  xy: 388, 53
+  size: 96, 18
+  orig: 96, 18
+  offset: 0, 0
+  index: -1
+LV6_GunMuzzle_01
+  rotate: true
+  xy: 726, 110
+  size: 92, 34
+  orig: 92, 34
+  offset: 0, 0
+  index: -1
+LV6_GunMuzzle_02
+  rotate: false
+  xy: 467, 209
+  size: 95, 61
+  orig: 95, 61
+  offset: 0, 0
+  index: -1
+LV6_GunMuzzle_03
+  rotate: false
+  xy: 486, 57
+  size: 90, 10
+  orig: 90, 10
+  offset: 0, 0
+  index: -1
+LV6_Main
+  rotate: false
+  xy: 2, 17
+  size: 153, 83
+  orig: 153, 83
+  offset: 0, 0
+  index: -1
+LV6_Plate_01
+  rotate: true
+  xy: 266, 45
+  size: 58, 30
+  orig: 58, 30
+  offset: 0, 0
+  index: -1
+LV6_Plate_02
+  rotate: false
+  xy: 520, 11
+  size: 58, 30
+  orig: 58, 30
+  offset: 0, 0
+  index: -1
+LV6_Plate_B01
+  rotate: false
+  xy: 298, 37
+  size: 88, 45
+  orig: 88, 45
+  offset: 0, 0
+  index: -1
+LV6_Plate_B02
+  rotate: false
+  xy: 636, 150
+  size: 88, 52
+  orig: 88, 52
+  offset: 0, 0
+  index: -1
+LV6_Plate_F01
+  rotate: false
+  xy: 595, 79
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1
+LV6_Plate_F02
+  rotate: false
+  xy: 479, 2
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1

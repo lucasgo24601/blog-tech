@@ -1,0 +1,83 @@
+
+FlatterWord.png
+size: 296,296
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light
+  rotate: true
+  xy: 254, 127
+  size: 114, 30
+  orig: 114, 30
+  offset: 0, 0
+  index: -1
+light_pic
+  rotate: false
+  xy: 254, 270
+  size: 33, 24
+  orig: 35, 26
+  offset: 1, 1
+  index: -1
+line_1
+  rotate: false
+  xy: 96, 81
+  size: 181, 21
+  orig: 183, 23
+  offset: 1, 1
+  index: -1
+line_2
+  rotate: false
+  xy: 96, 104
+  size: 182, 21
+  orig: 182, 21
+  offset: 0, 0
+  index: -1
+mask_w_03
+  rotate: false
+  xy: 254, 243
+  size: 32, 25
+  orig: 33, 25
+  offset: 0, 0
+  index: -1
+plane
+  rotate: false
+  xy: 2, 226
+  size: 250, 68
+  orig: 251, 68
+  offset: 0, 0
+  index: -1
+word_01
+  rotate: false
+  xy: 49, 179
+  size: 200, 45
+  orig: 200, 45
+  offset: 0, 0
+  index: -1
+word_02
+  rotate: false
+  xy: 96, 34
+  size: 161, 45
+  orig: 161, 45
+  offset: 0, 0
+  index: -1
+word_03
+  rotate: true
+  xy: 2, 2
+  size: 123, 45
+  orig: 123, 45
+  offset: 0, 0
+  index: -1
+word_04
+  rotate: true
+  xy: 49, 2
+  size: 123, 45
+  orig: 123, 45
+  offset: 0, 0
+  index: -1
+word_05
+  rotate: false
+  xy: 2, 132
+  size: 241, 45
+  orig: 241, 45
+  offset: 0, 0
+  index: -1

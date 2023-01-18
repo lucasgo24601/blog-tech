@@ -1,0 +1,55 @@
+
+octopus_fx.png
+size: 748,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Li_1
+  rotate: false
+  xy: 2, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Li_2
+  rotate: false
+  xy: 132, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Li_3
+  rotate: false
+  xy: 262, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Li_4
+  rotate: false
+  xy: 392, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Li_5
+  rotate: false
+  xy: 522, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ball
+  rotate: false
+  xy: 652, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+wind
+  rotate: true
+  xy: 652, 68
+  size: 62, 91
+  orig: 62, 91
+  offset: 0, 0
+  index: -1

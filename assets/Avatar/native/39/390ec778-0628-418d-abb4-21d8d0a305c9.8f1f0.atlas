@@ -1,0 +1,125 @@
+
+FX_Avatar_frame_102.png
+size: 276,268
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+acc2_light
+  rotate: false
+  xy: 221, 6
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+acc_light_0
+  rotate: false
+  xy: 94, 42
+  size: 44, 30
+  orig: 45, 32
+  offset: 0, 1
+  index: -1
+acc_light_1
+  rotate: true
+  xy: 140, 28
+  size: 44, 30
+  orig: 45, 32
+  offset: 0, 1
+  index: -1
+acc_light_2
+  rotate: true
+  xy: 242, 28
+  size: 44, 31
+  orig: 45, 32
+  offset: 0, 1
+  index: -1
+acc_light_3
+  rotate: false
+  xy: 48, 41
+  size: 44, 31
+  orig: 45, 32
+  offset: 0, 1
+  index: -1
+acc_light_4
+  rotate: false
+  xy: 94, 11
+  size: 44, 29
+  orig: 45, 32
+  offset: 0, 2
+  index: -1
+acc_light_5
+  rotate: false
+  xy: 48, 10
+  size: 44, 29
+  orig: 45, 32
+  offset: 0, 3
+  index: -1
+acc_light_6
+  rotate: false
+  xy: 2, 2
+  size: 44, 27
+  orig: 45, 32
+  offset: 0, 4
+  index: -1
+acc_light_7
+  rotate: true
+  xy: 193, 5
+  size: 44, 26
+  orig: 45, 32
+  offset: 0, 5
+  index: -1
+acc_light_8
+  rotate: true
+  xy: 172, 29
+  size: 43, 19
+  orig: 45, 32
+  offset: 1, 9
+  index: -1
+accessories
+  rotate: true
+  xy: 198, 96
+  size: 78, 56
+  orig: 80, 58
+  offset: 1, 1
+  index: -1
+ball_102
+  rotate: true
+  xy: 198, 51
+  size: 43, 42
+  orig: 45, 44
+  offset: 1, 1
+  index: -1
+ear
+  rotate: true
+  xy: 140, 2
+  size: 24, 42
+  orig: 26, 44
+  offset: 1, 1
+  index: -1
+frame
+  rotate: false
+  xy: 2, 74
+  size: 194, 190
+  orig: 194, 190
+  offset: 0, 0
+  index: -1
+frame102_light
+  rotate: false
+  xy: 256, 74
+  size: 9, 100
+  orig: 9, 100
+  offset: 0, 0
+  index: -1
+lantern1
+  rotate: true
+  xy: 2, 31
+  size: 41, 44
+  orig: 43, 46
+  offset: 1, 1
+  index: -1
+tail
+  rotate: false
+  xy: 198, 176
+  size: 72, 88
+  orig: 72, 88
+  offset: 0, 0
+  index: -1

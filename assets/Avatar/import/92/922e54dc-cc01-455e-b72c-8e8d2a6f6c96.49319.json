@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a6OzelxWVFtoWH30wiqTSa"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "ZhangFei_P2",
+      "rect": [
+        2,
+        3,
+        748,
+        1035
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        752,
+        1040
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

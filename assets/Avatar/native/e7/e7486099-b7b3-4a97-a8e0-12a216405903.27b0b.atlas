@@ -1,0 +1,118 @@
+
+FX_Avatar_frame_103.png
+size: 296,212
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX_103_half
+  rotate: false
+  xy: 213, 43
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+FX_eye
+  rotate: true
+  xy: 245, 28
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+acc103_00000
+  rotate: false
+  xy: 213, 16
+  size: 10, 11
+  orig: 19, 11
+  offset: 9, 0
+  index: -1
+acc103_00001
+  rotate: false
+  xy: 225, 16
+  size: 10, 11
+  orig: 19, 11
+  offset: 9, 0
+  index: -1
+acc103_00002
+  rotate: true
+  xy: 213, 29
+  size: 12, 11
+  orig: 19, 11
+  offset: 7, 0
+  index: -1
+acc103_00003
+  rotate: true
+  xy: 245, 60
+  size: 13, 11
+  orig: 19, 11
+  offset: 6, 0
+  index: -1
+acc103_00004
+  rotate: true
+  xy: 279, 148
+  size: 14, 11
+  orig: 19, 11
+  offset: 5, 0
+  index: -1
+acc103_00005
+  rotate: false
+  xy: 245, 47
+  size: 13, 11
+  orig: 19, 11
+  offset: 3, 0
+  index: -1
+acc103_00006
+  rotate: false
+  xy: 226, 32
+  size: 11, 9
+  orig: 19, 11
+  offset: 2, 2
+  index: -1
+acc103_00007
+  rotate: true
+  xy: 264, 33
+  size: 11, 9
+  orig: 19, 11
+  offset: 0, 2
+  index: -1
+acc103_00008
+  rotate: false
+  xy: 279, 140
+  size: 10, 6
+  orig: 19, 11
+  offset: 0, 5
+  index: -1
+accessories4
+  rotate: false
+  xy: 213, 138
+  size: 64, 71
+  orig: 64, 71
+  offset: 0, 0
+  index: -1
+flower
+  rotate: true
+  xy: 213, 75
+  size: 61, 50
+  orig: 63, 52
+  offset: 1, 1
+  index: -1
+frame
+  rotate: false
+  xy: 2, 2
+  size: 209, 207
+  orig: 209, 207
+  offset: 0, 0
+  index: -1
+frame103_light
+  rotate: false
+  xy: 265, 46
+  size: 14, 90
+  orig: 14, 90
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 279, 164
+  size: 13, 45
+  orig: 13, 45
+  offset: 0, 0
+  index: -1

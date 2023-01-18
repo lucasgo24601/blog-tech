@@ -1,0 +1,76 @@
+
+JACKPOT.webp
+size: 996,996
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GRAND
+  rotate: false
+  xy: 2, 705
+  size: 671, 289
+  orig: 671, 289
+  offset: 0, 0
+  index: -1
+GRAND_glow
+  rotate: false
+  xy: 232, 22
+  size: 216, 101
+  orig: 218, 103
+  offset: 1, 1
+  index: -1
+MAJOR
+  rotate: false
+  xy: 2, 415
+  size: 664, 288
+  orig: 664, 289
+  offset: 0, 0
+  index: -1
+MAJOR_add
+  rotate: false
+  xy: 649, 105
+  size: 332, 144
+  orig: 332, 144
+  offset: 0, 0
+  index: -1
+MAJOR_glow
+  rotate: false
+  xy: 2, 7
+  size: 228, 116
+  orig: 230, 118
+  offset: 1, 1
+  index: -1
+MINI
+  rotate: true
+  xy: 675, 399
+  size: 595, 288
+  orig: 595, 288
+  offset: 0, 0
+  index: -1
+MINI_glow
+  rotate: false
+  xy: 450, 22
+  size: 192, 101
+  orig: 194, 102
+  offset: 1, 1
+  index: -1
+MINOR
+  rotate: false
+  xy: 2, 125
+  size: 645, 288
+  orig: 645, 289
+  offset: 0, 0
+  index: -1
+MINOR_add
+  rotate: false
+  xy: 649, 251
+  size: 325, 146
+  orig: 325, 146
+  offset: 0, 0
+  index: -1
+MINOR_glow
+  rotate: false
+  xy: 644, 2
+  size: 209, 101
+  orig: 209, 102
+  offset: 0, 0
+  index: -1

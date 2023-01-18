@@ -1,0 +1,35 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.TextAsset",
+      [
+        "_name",
+        "text"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "Language - G50",
+      "Key^zh-cn^zh-tw^en-us\r\nTEXT_RULE_PAGE_G50_1_1^点击加减号按钮，调整投注的总额^點擊加減號按鈕，調整投注的總額^Press the button (+)(-) to \\nchange bet.\r\nTEXT_RULE_PAGE_G50_1_2^点击旋转按钮以当前的投注旋转转轴^點擊旋轉按鈕以當前的投注旋轉轉軸^Press the circular arrow to \\nsubmit the bet and spin the \\nreels.\r\nTEXT_RULE_PAGE_G50_1_3^点击自动游戏按钮会开启自动旋转设置，可设定旋转次数等设置。功能启用后，点击旋转按钮可停止自动游戏^點擊自動遊戲按鈕會開啟自動旋轉設置，可設定旋轉次數等設置。功能啟用後，點擊旋轉按鈕可停止自動遊戲^Press the AutoSpin button \\nwill open the AutoSpin \\nsettings. When AutoSpin \\nactive, press the \\nSPIN button to stop.\r\nTEXT_RULE_PAGE_G50_1_4^点击极速游戏按钮，按钮亮起时可开启极速模式，极速模式可与自动游戏同时生效^點擊極速遊戲按鈕，按鈕亮起時可開啟極速模式，極速模式可與自動遊戲同時生效^Press the Speed button will \\nturn on the Speed Mode.\\nSpeed Mode can be used \\nwith AutoSpin.\r\nTEXT_RULE_PAGE_G50_1_5^A = 投注总额\\nB = 投注线数（本游戏以50线计算）\\nC = 图标连线赔率倍数（请参考赔率表）\\nD = 免费游戏倍率（免费游戏阶段才计算）\\n一线中奖金额＝（A / B）* C * D^A = 投注總額\\nB = 投注線數（本遊戲以50線計算）\\nC = 圖標連線賠率倍數（請參考賠率表）\\nD = 免費遊戲倍率（免費遊戲階段才計算）\\n一線中獎金額＝（A / B）* C * D^A＝Total Bet\\nB＝Number of lines（The game is 50 ）\\nC＝Symbol odds\r\nTEXT_RULE_PAGE_G50_1_6^1线中奖金额＝（A / B）* C * D^1線中獎金額＝（A / B）* C * D^One line win = ( A / B ) x C\r\nTEXT_RULE_PAGE_G50_ERROR^游戏出现故障时，所有赔付和游戏都视为无效^遊戲出現故障時，所有賠付和遊戲都視為無效^Malfunction Voids All Pays and Play\r\nTEXT_RULE_PAGE_G50_2_1^连爆连消模式^連爆連消模式^\r\nTEXT_RULE_PAGE_G50_2_2^连线中奖时图标会消除，上方图标落下形成新盘面当连线消除越多次乘倍就会越大^連線中獎時圖標會消除，上方圖標落下形成新盤面當連線消除越多次乘倍就會越大^\r\nTEXT_RULE_PAGE_G50_2_3^在主遊戲中乘倍起始值为X1，\\n若连续形成得分组合时，依序上升为X2、X3、X5^在主遊戲中乘倍起始值為X1，\\n若連續形成得分組合時，依序上升為X2、X3、X5^\r\nTEXT_RULE_PAGE_G50_2_4^免费游戏中，乘倍起始值为X2，\\n若连续形成得分组合时，依序上升为X4、X6、X10^免費遊戲中，乘倍起始值為X2，\\n若連續形成得分組合時，依序上升為X4、X6、X10^\r\nTEXT_RULE_PAGE_G50_2_5^获得指定数量的彩金图标，即可获得特殊彩金^獲得指定數量的彩金圖標，即可獲得特殊彩金^\r\nTEXT_RULE_PAGE_G50_3_1^当主游戏盘面同时出现3个　　(含)以上时，将进入免费游戏并获得12局免费旋转\\n\\n每多一个　　可再额外增加2局免费旋转^當主遊戲盤面同時出現3個　　(含)以上時，將進入免費遊戲並獲得12局免費旋轉\\n\\n每多一個　　可再額外增加2局免費旋轉^\r\nTEXT_RULE_PAGE_G50_3_2^在免费游戏中盘面同时出现3个　　(含)以上时，免费旋转次数会增加12局\\n\\n※免费游戏中额外增加次数比照主游戏^在免費遊戲中盤面同時出現3個　　(含)以上時，免費旋轉次數會增加12局\\n\\n※免費遊戲中額外增加次數比照主遊戲^\r\nTEXT_RULE_PAGE_G50_4_1^　　可替代除了　　之外的所有图标^　　可替代除了　　之外的所有圖標^\r\nTEXT_RULE_PAGE_G50_5_1^分散图标^分散圖標^\r\nTEXT_RULE_PAGE_G50_6_1^玩家点击旋转后，滚轮盘上第2~4轮上有几率出现金色的可变图标^玩家點擊旋轉後，滾輪盤上第2~4輪上有機率出現金色的可變圖標^\r\nTEXT_RULE_PAGE_G50_6_2^达成中奖后，该图标不会被消除，而是转变成百搭图标，只有在连消得过程中以百搭达成中奖，该图标才会消除^達成中獎後，該圖標不會被消除，而是轉變成百搭圖標，只有在連消得過程中以百搭達成中獎，該圖標才會消除^\r\nTEXT_RULE_PAGE_G50_7_1^1024 Ways^1024 Ways^\r\nTEXT_RULE_PAGE_G50_7_2^滚轮上游最左至最右连续出现三个以上的相图图标，即可获得该图式的得分奖励!^滾輪上游最左至最右連續出現三個以上的相圖圖標，即可獲得該圖式的得分獎勵!^\r\nTIP_SCATTER^3个分散图标可触发免费游戏^3個分散圖標可觸發免費遊戲^\r\nTIP_WILD^百搭图标可代替除分散图标外的所有图标^百搭圖標可代替除分散圖標外的所有圖標^"
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

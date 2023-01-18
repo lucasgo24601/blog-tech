@@ -1,0 +1,1788 @@
+[
+  1,
+  [
+    "54M4w+XMBNhr3PdXo6kBue"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "SuperWin",
+      "\nSuperWin.webp\nsize: 1228,172\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nsuper win_S\n  rotate: false\n  xy: 2, 3\n  size: 609, 167\n  orig: 609, 167\n  offset: 0, 0\n  index: -1\nsuper win_W\n  rotate: false\n  xy: 613, 10\n  size: 362, 160\n  orig: 362, 161\n  offset: 0, 1\n  index: -1\nsuper win_leaf_1\n  rotate: true\n  xy: 1090, 87\n  size: 83, 78\n  orig: 83, 78\n  offset: 0, 0\n  index: -1\nsuper win_leaf_1a\n  rotate: true\n  xy: 977, 2\n  size: 42, 39\n  orig: 42, 39\n  offset: 0, 0\n  index: -1\nsuper win_leaf_5\n  rotate: false\n  xy: 1090, 18\n  size: 59, 67\n  orig: 59, 67\n  offset: 0, 0\n  index: -1\nsuper win_leaf_5a\n  rotate: false\n  xy: 1151, 18\n  size: 59, 67\n  orig: 59, 67\n  offset: 0, 0\n  index: -1\nsuper win_leaf_6\n  rotate: true\n  xy: 977, 46\n  size: 124, 111\n  orig: 124, 111\n  offset: 0, 0\n  index: -1\nsuper win_leaf_6a\n  rotate: true\n  xy: 1170, 108\n  size: 62, 56\n  orig: 62, 56\n  offset: 0, 0\n  index: -1\n",
+      [
+        "SuperWin.webp"
+      ],
+      {
+        "skeleton": {
+          "hash": "2LJqFbek6fOu2+TjkqTPFsfWECY",
+          "spine": "3.8.99",
+          "x": -594.03,
+          "y": -10.49,
+          "width": 1218,
+          "height": 646.22,
+          "images": "./images/",
+          "audio": ""
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "SuperWin",
+            "parent": "root"
+          },
+          {
+            "name": "word_big",
+            "parent": "SuperWin",
+            "x": 14.97,
+            "y": 468.73,
+            "color": "e1dc00ff"
+          },
+          {
+            "name": "word_win",
+            "parent": "SuperWin",
+            "x": 1.16,
+            "y": 163.76,
+            "color": "e1dc00ff"
+          },
+          {
+            "name": "super win_leaf_6_L",
+            "parent": "SuperWin",
+            "x": -356.63,
+            "y": 121.06
+          },
+          {
+            "name": "super win_leaf_5_L2",
+            "parent": "SuperWin",
+            "x": -478.9,
+            "y": 221.79
+          },
+          {
+            "name": "super win_leaf_5_L1",
+            "parent": "SuperWin",
+            "x": -317.81,
+            "y": 77.6
+          },
+          {
+            "name": "super win_leaf_6_R",
+            "parent": "SuperWin",
+            "rotation": 9.06,
+            "x": 392.25,
+            "y": 82.67
+          },
+          {
+            "name": "super win_leaf_6_R2",
+            "parent": "SuperWin",
+            "rotation": 9.06,
+            "x": 493.69,
+            "y": 110.42
+          },
+          {
+            "name": "super win_leaf_6_R3",
+            "parent": "SuperWin",
+            "x": 493.69,
+            "y": 223.64
+          },
+          {
+            "name": "super win_leaf_5_L1_additive",
+            "parent": "SuperWin",
+            "x": -317.81,
+            "y": 77.6
+          },
+          {
+            "name": "super win_leaf_5_L2_additive",
+            "parent": "SuperWin",
+            "x": -478.9,
+            "y": 221.79
+          },
+          {
+            "name": "super win_leaf_6_L_additive",
+            "parent": "SuperWin",
+            "x": -356.63,
+            "y": 121.06
+          },
+          {
+            "name": "super win_leaf_6_R_additive",
+            "parent": "SuperWin",
+            "rotation": 9.06,
+            "x": 392.25,
+            "y": 82.67
+          },
+          {
+            "name": "super win_leaf_6_R2_additive",
+            "parent": "SuperWin",
+            "rotation": 9.06,
+            "x": 493.69,
+            "y": 110.42
+          },
+          {
+            "name": "super win_leaf_6_R3_additive",
+            "parent": "SuperWin",
+            "x": 493.69,
+            "y": 223.64
+          }
+        ],
+        "slots": [
+          {
+            "name": "super win_leaf_5",
+            "bone": "super win_leaf_5_L1",
+            "attachment": "super win_leaf_5"
+          },
+          {
+            "name": "super win_leaf_5_L1_additive",
+            "bone": "super win_leaf_5_L1_additive",
+            "attachment": "super win_leaf_5a"
+          },
+          {
+            "name": "super win_leaf_5_L2",
+            "bone": "super win_leaf_5_L2",
+            "attachment": "super win_leaf_5"
+          },
+          {
+            "name": "super win_leaf_5_L2_additive",
+            "bone": "super win_leaf_5_L2_additive",
+            "attachment": "super win_leaf_5a"
+          },
+          {
+            "name": "super win_leaf_R3",
+            "bone": "super win_leaf_6_R3",
+            "attachment": "super win_leaf_1"
+          },
+          {
+            "name": "super win_leaf_6_R3_additive",
+            "bone": "super win_leaf_6_R3_additive",
+            "attachment": "super win_leaf_1a"
+          },
+          {
+            "name": "super win_leaf_6_R2",
+            "bone": "super win_leaf_6_R2",
+            "attachment": "super win_leaf_6"
+          },
+          {
+            "name": "super win_leaf_6_R2_additive",
+            "bone": "super win_leaf_6_R2_additive",
+            "attachment": "super win_leaf_6a"
+          },
+          {
+            "name": "super win_leaf_6R",
+            "bone": "super win_leaf_6_R",
+            "attachment": "super win_leaf_6"
+          },
+          {
+            "name": "super win_leaf_6_R_additive",
+            "bone": "super win_leaf_6_R_additive",
+            "attachment": "super win_leaf_6a"
+          },
+          {
+            "name": "super win_leaf_6",
+            "bone": "super win_leaf_6_L",
+            "attachment": "super win_leaf_6"
+          },
+          {
+            "name": "super win_leaf_6_L_additive",
+            "bone": "super win_leaf_6_L_additive",
+            "attachment": "super win_leaf_6a"
+          },
+          {
+            "name": "super win_W",
+            "bone": "word_win",
+            "attachment": "super win_W"
+          },
+          {
+            "name": "super win_S2",
+            "bone": "word_big",
+            "attachment": "super win_S"
+          },
+          {
+            "name": "super win_W2",
+            "bone": "word_win",
+            "attachment": "super win_W",
+            "blend": "additive"
+          },
+          {
+            "name": "super win_S",
+            "bone": "word_big",
+            "attachment": "super win_S",
+            "blend": "additive"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "super win_S": {
+                "super win_S": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "width": 1218,
+                  "height": 334,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    609,
+                    -167,
+                    -609,
+                    -167,
+                    -609,
+                    167,
+                    609,
+                    167
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    0,
+                    6
+                  ]
+                }
+              },
+              "super win_S2": {
+                "super win_S": {
+                  "width": 1218,
+                  "height": 334
+                }
+              },
+              "super win_W": {
+                "super win_W": {
+                  "width": 724,
+                  "height": 322
+                }
+              },
+              "super win_W2": {
+                "super win_W": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "width": 724,
+                  "height": 322,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    360.26,
+                    -157.99,
+                    -362.59,
+                    -157.99,
+                    -362.58,
+                    157.99,
+                    360.27,
+                    157.99
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    0,
+                    6
+                  ]
+                }
+              },
+              "super win_leaf_5": {
+                "super win_leaf_5": {
+                  "x": -25.52,
+                  "y": 16.3,
+                  "scaleX": 0.95,
+                  "scaleY": 0.95,
+                  "rotation": 3,
+                  "width": 118,
+                  "height": 133
+                }
+              },
+              "super win_leaf_5_L1_additive": {
+                "super win_leaf_5a": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "width": 118,
+                  "height": 133,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    33.76,
+                    -43.86,
+                    -78.19,
+                    -49.73,
+                    -84.8,
+                    76.45,
+                    27.15,
+                    82.32
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    0,
+                    6
+                  ]
+                }
+              },
+              "super win_leaf_5_L2": {
+                "super win_leaf_5": {
+                  "x": -24.69,
+                  "y": 17.21,
+                  "width": 118,
+                  "height": 133
+                }
+              },
+              "super win_leaf_5_L2_additive": {
+                "super win_leaf_5a": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "width": 118,
+                  "height": 133,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    34.31,
+                    -49.29,
+                    -83.69,
+                    -49.29,
+                    -83.69,
+                    83.71,
+                    34.31,
+                    83.71
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    0,
+                    6
+                  ]
+                }
+              },
+              "super win_leaf_6": {
+                "super win_leaf_6": {
+                  "x": -43.58,
+                  "y": 51.94,
+                  "width": 248,
+                  "height": 222
+                }
+              },
+              "super win_leaf_6R": {
+                "super win_leaf_6": {
+                  "x": 35.47,
+                  "y": 30.78,
+                  "scaleX": 0.85,
+                  "scaleY": 0.85,
+                  "rotation": -81.31,
+                  "width": 248,
+                  "height": 222
+                }
+              },
+              "super win_leaf_6_L_additive": {
+                "super win_leaf_6a": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "width": 124,
+                  "height": 111,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    80.42,
+                    -59.06,
+                    -167.58,
+                    -59.06,
+                    -167.58,
+                    162.94,
+                    80.42,
+                    162.94
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    0,
+                    6
+                  ]
+                }
+              },
+              "super win_leaf_6_R2": {
+                "super win_leaf_6": {
+                  "x": 50.54,
+                  "y": 2.09,
+                  "scaleX": 0.52,
+                  "scaleY": 0.52,
+                  "rotation": -110.16,
+                  "width": 248,
+                  "height": 222
+                }
+              },
+              "super win_leaf_6_R2_additive": {
+                "super win_leaf_6a": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "width": 124,
+                  "height": 111,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    -25.87,
+                    -38.54,
+                    18.58,
+                    82.51,
+                    126.95,
+                    42.72,
+                    82.5,
+                    -78.34
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    0,
+                    6
+                  ]
+                }
+              },
+              "super win_leaf_6_R3_additive": {
+                "super win_leaf_1a": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "width": 83,
+                  "height": 78,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    79.2,
+                    -84.66,
+                    -85.8,
+                    -84.66,
+                    -85.8,
+                    71.34,
+                    79.2,
+                    71.34
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    0,
+                    6
+                  ]
+                }
+              },
+              "super win_leaf_6_R_additive": {
+                "super win_leaf_6a": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "width": 124,
+                  "height": 111,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    -41.88,
+                    -87.66,
+                    -73.73,
+                    120.72,
+                    112.81,
+                    149.23,
+                    144.66,
+                    -59.15
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    0,
+                    6
+                  ]
+                }
+              },
+              "super win_leaf_R3": {
+                "super win_leaf_1": {
+                  "x": -3.3,
+                  "y": -6.66,
+                  "width": 165,
+                  "height": 156
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "play_normal": {
+            "slots": {
+              "super win_S": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.2,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 0.3667,
+                    "color": "ffcb97ff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.9667,
+                    "color": "ffcb97ff",
+                    "curve": 0.138,
+                    "c2": 0.45,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.5333,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 1.7,
+                    "color": "ffcb97ff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2.3,
+                    "color": "ffcb97ff",
+                    "curve": 0.138,
+                    "c2": 0.45,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "super win_W2": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 0.4667,
+                    "color": "ffcb97ff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.0333,
+                    "color": "ffcb97ff",
+                    "curve": 0.138,
+                    "c2": 0.45,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.7333,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 1.8667,
+                    "color": "ffcb97ff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2.3667,
+                    "color": "ffcb97ff",
+                    "curve": 0.138,
+                    "c2": 0.45,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "super win_leaf_5_L1_additive": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.2,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 0.9333,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 1.6667,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "super win_leaf_5_L2_additive": {
+                "color": [
+                  {
+                    "color": "ffffff36"
+                  },
+                  {
+                    "time": 0.4,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.6,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 2.1667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 2.6333,
+                    "color": "ffffff36"
+                  }
+                ]
+              },
+              "super win_leaf_6_L_additive": {
+                "color": [
+                  {
+                    "color": "ffffffff",
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6667,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 1.3333,
+                    "color": "ffffff55"
+                  },
+                  {
+                    "time": 1.6667,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.9667,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 2.6333,
+                    "color": "ffffffff"
+                  }
+                ]
+              },
+              "super win_leaf_6_R2_additive": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.4,
+                    "color": "ffffff00",
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.0333,
+                    "color": "ffffffff",
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "super win_leaf_6_R3_additive": {
+                "color": [
+                  {
+                    "color": "ffffff94",
+                    "curve": 0.374,
+                    "c2": 0.55,
+                    "c3": 0.71
+                  },
+                  {
+                    "time": 0.2667,
+                    "color": "ffffffff",
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.9667,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "color": "ffffff00",
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333,
+                    "color": "ffffff94"
+                  }
+                ]
+              },
+              "super win_leaf_6_R_additive": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.5,
+                    "color": "ffffff00",
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.1333,
+                    "color": "ffffffff",
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.7333,
+                    "color": "ffffff00"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "word_big": {
+                "translate": [
+                  {
+                    "x": -1.11,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6667,
+                    "x": -1.11,
+                    "y": 39.83,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": -1.11,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9667,
+                    "x": -1.11,
+                    "y": 39.83,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333,
+                    "x": -1.11
+                  }
+                ]
+              },
+              "word_win": {
+                "translate": [
+                  {
+                    "x": -1.19,
+                    "y": 11.19,
+                    "curve": 0.181,
+                    "c2": 0.29,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3,
+                    "x": -1.19,
+                    "y": -2.83,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.9333,
+                    "x": -1.19,
+                    "y": 27.71,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.6,
+                    "x": -1.19,
+                    "y": -2.83,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.2667,
+                    "x": -1.19,
+                    "y": 27.71,
+                    "curve": 0.29,
+                    "c2": 0.02,
+                    "c3": 0.887,
+                    "c4": 0.74
+                  },
+                  {
+                    "time": 2.6333,
+                    "x": -1.19,
+                    "y": 11.19
+                  }
+                ]
+              },
+              "super win_leaf_5_L1": {
+                "rotate": [
+                  {
+                    "angle": -4.52,
+                    "curve": 0.181,
+                    "c2": 0.29,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "angle": -7.8,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.6333,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.3,
+                    "angle": -7.8,
+                    "curve": 0.29,
+                    "c2": 0.02,
+                    "c3": 0.887,
+                    "c4": 0.74
+                  },
+                  {
+                    "time": 2.6333,
+                    "angle": -4.52
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": -1.09,
+                    "y": -9.84,
+                    "curve": 0.181,
+                    "c2": 0.29,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.6333,
+                    "x": -5.09,
+                    "y": -45.79,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333,
+                    "x": -1.09,
+                    "y": -9.84
+                  }
+                ]
+              },
+              "super win_leaf_6_L": {
+                "rotate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "angle": 10.76,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6667,
+                    "x": 15.26,
+                    "y": 22.9,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9667,
+                    "x": 15.26,
+                    "y": 22.9,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ]
+              },
+              "super win_leaf_6_R3": {
+                "rotate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "angle": 10.76,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6667,
+                    "y": 22.9,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9667,
+                    "y": 22.9,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ]
+              },
+              "super win_leaf_6_R2": {
+                "rotate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6667,
+                    "angle": -7.8,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9667,
+                    "angle": -7.8,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3,
+                    "x": 20.35,
+                    "y": -17.81,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ]
+              },
+              "super win_leaf_5_L2": {
+                "rotate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6667,
+                    "angle": -7.8,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9667,
+                    "angle": -7.8,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3,
+                    "x": -33.07,
+                    "y": -17.81,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ]
+              },
+              "super win_leaf_6_R": {
+                "rotate": [
+                  {
+                    "angle": -4.26,
+                    "curve": 0.181,
+                    "c2": 0.29,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.5333,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.8667,
+                    "angle": -9.47,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333,
+                    "angle": -4.26
+                  }
+                ],
+                "translate": [
+                  {
+                    "y": 21.02,
+                    "curve": 0.181,
+                    "c2": 0.29,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.5333,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.2,
+                    "y": 22.9,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.8667,
+                    "x": 10.18,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.5,
+                    "y": 22.9,
+                    "curve": 0.29,
+                    "c2": 0.02,
+                    "c3": 0.887,
+                    "c4": 0.74
+                  },
+                  {
+                    "time": 2.6333,
+                    "y": 21.02
+                  }
+                ]
+              },
+              "super win_leaf_5_L1_additive": {
+                "rotate": [
+                  {
+                    "angle": -4.52,
+                    "curve": 0.181,
+                    "c2": 0.29,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "angle": -7.8,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.6333,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.3,
+                    "angle": -7.8,
+                    "curve": 0.29,
+                    "c2": 0.02,
+                    "c3": 0.887,
+                    "c4": 0.74
+                  },
+                  {
+                    "time": 2.6333,
+                    "angle": -4.52
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": -1.09,
+                    "y": -9.84,
+                    "curve": 0.181,
+                    "c2": 0.29,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.6333,
+                    "x": -5.09,
+                    "y": -45.79,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333,
+                    "x": -1.09,
+                    "y": -9.84
+                  }
+                ]
+              },
+              "super win_leaf_5_L2_additive": {
+                "rotate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6667,
+                    "angle": -7.8,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9667,
+                    "angle": -7.8,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3,
+                    "x": -33.07,
+                    "y": -17.81,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ]
+              },
+              "super win_leaf_6_L_additive": {
+                "rotate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "angle": 10.76,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6667,
+                    "x": 15.26,
+                    "y": 22.9,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9667,
+                    "x": 15.26,
+                    "y": 22.9,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ]
+              },
+              "super win_leaf_6_R_additive": {
+                "rotate": [
+                  {
+                    "angle": -4.26,
+                    "curve": 0.181,
+                    "c2": 0.29,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.5333,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.8667,
+                    "angle": -9.47,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333,
+                    "angle": -4.26
+                  }
+                ],
+                "translate": [
+                  {
+                    "y": 21.02,
+                    "curve": 0.181,
+                    "c2": 0.29,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.5333,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.2,
+                    "y": 22.9,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.8667,
+                    "x": 10.18,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.5,
+                    "y": 22.9,
+                    "curve": 0.29,
+                    "c2": 0.02,
+                    "c3": 0.887,
+                    "c4": 0.74
+                  },
+                  {
+                    "time": 2.6333,
+                    "y": 21.02
+                  }
+                ]
+              },
+              "super win_leaf_6_R2_additive": {
+                "rotate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6667,
+                    "angle": -7.8,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9667,
+                    "angle": -7.8,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3,
+                    "x": 20.35,
+                    "y": -17.81,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ]
+              },
+              "super win_leaf_6_R3_additive": {
+                "rotate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "angle": 10.76,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6667,
+                    "y": 22.9,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.9667,
+                    "y": 22.9,
+                    "curve": 0.399,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333
+                  }
+                ]
+              }
+            },
+            "deform": {
+              "default": {
+                "super win_S": {
+                  "super win_S": [
+                    {
+                      "time": 0.3
+                    },
+                    {
+                      "time": 0.9667,
+                      "vertices": [
+                        45.33328,
+                        -12.4313,
+                        -45.33334,
+                        -12.4313,
+                        -45.33331,
+                        12.43134,
+                        45.33331,
+                        12.43134
+                      ]
+                    },
+                    {
+                      "time": 1.3,
+                      "curve": "stepped",
+                      "vertices": [
+                        73.8664,
+                        -20.25566,
+                        -73.86643,
+                        -20.25566,
+                        -73.86643,
+                        20.25568,
+                        73.86642,
+                        20.25568
+                      ]
+                    },
+                    {
+                      "time": 1.3667,
+                      "vertices": [
+                        73.8664,
+                        -20.25566,
+                        -73.86643,
+                        -20.25566,
+                        -73.86643,
+                        20.25568,
+                        73.86642,
+                        20.25568
+                      ]
+                    },
+                    {
+                      "time": 1.6333
+                    },
+                    {
+                      "time": 2.3,
+                      "vertices": [
+                        45.33328,
+                        -12.4313,
+                        -45.33334,
+                        -12.4313,
+                        -45.33331,
+                        12.43134,
+                        45.33331,
+                        12.43134
+                      ]
+                    },
+                    {
+                      "time": 2.6333,
+                      "vertices": [
+                        73.8664,
+                        -20.25566,
+                        -73.86643,
+                        -20.25566,
+                        -73.86643,
+                        20.25568,
+                        73.86642,
+                        20.25568
+                      ]
+                    }
+                  ]
+                },
+                "super win_W2": {
+                  "super win_W": [
+                    {
+                      "time": 0.4
+                    },
+                    {
+                      "time": 1.0333,
+                      "vertices": [
+                        44.10588,
+                        -15.89302,
+                        -44.1059,
+                        -15.89302,
+                        -44.10589,
+                        15.89302,
+                        44.10591,
+                        15.89302
+                      ]
+                    },
+                    {
+                      "time": 1.3333,
+                      "vertices": [
+                        65.39458,
+                        -25.02115,
+                        -65.39459,
+                        -25.02115,
+                        -65.39462,
+                        25.02113,
+                        65.39461,
+                        25.02113
+                      ]
+                    },
+                    {
+                      "time": 1.4333,
+                      "curve": "stepped"
+                    },
+                    {
+                      "time": 1.8
+                    },
+                    {
+                      "time": 2.3667,
+                      "vertices": [
+                        44.10588,
+                        -15.89302,
+                        -44.1059,
+                        -15.89302,
+                        -44.10589,
+                        15.89302,
+                        44.10591,
+                        15.89302
+                      ]
+                    },
+                    {
+                      "time": 2.6333,
+                      "vertices": [
+                        65.39458,
+                        -25.02115,
+                        -65.39459,
+                        -25.02115,
+                        -65.39462,
+                        25.02113,
+                        65.39461,
+                        25.02113
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

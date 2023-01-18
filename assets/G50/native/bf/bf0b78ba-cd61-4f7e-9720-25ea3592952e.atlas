@@ -1,0 +1,34 @@
+
+BigWin.webp
+size: 804,172
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+big win_B
+  rotate: false
+  xy: 366, 2
+  size: 321, 166
+  orig: 321, 168
+  offset: 0, 1
+  index: -1
+big win_W
+  rotate: false
+  xy: 2, 7
+  size: 362, 161
+  orig: 362, 161
+  offset: 0, 0
+  index: -1
+big win_leaf_1
+  rotate: false
+  xy: 689, 101
+  size: 113, 67
+  orig: 113, 67
+  offset: 0, 0
+  index: -1
+big win_leaf_2
+  rotate: false
+  xy: 689, 53
+  size: 113, 46
+  orig: 113, 46
+  offset: 0, 0
+  index: -1

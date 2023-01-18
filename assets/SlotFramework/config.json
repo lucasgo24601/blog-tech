@@ -1,0 +1,44 @@
+{
+    "paths": {
+        "42jKO471VP3ItiIQ1waAQb": [
+            "Common/Socket/SDK/Slot_GameClient.d",
+            "cc.TextAsset"
+        ],
+        "aaMHXh8aNNwpBAF2NBs5Wa": [
+            "README",
+            "cc.TextAsset"
+        ],
+        "19E74YpdxIvbg4w1PKF8/C": [
+            "Resources/pl_3",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f3Fu3O5LpO2Kfu5xZAuo5K": [
+            "Resources/pl_3",
+            "cc.Texture2D"
+        ]
+    },
+    "uuids": [
+        "19E74YpdxIvbg4w1PKF8/C",
+        "42jKO471VP3ItiIQ1waAQb",
+        "aaMHXh8aNNwpBAF2NBs5Wa",
+        "f3Fu3O5LpO2Kfu5xZAuo5K"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {
+        "05cc55e2b": [
+            "19E74YpdxIvbg4w1PKF8/C",
+            "42jKO471VP3ItiIQ1waAQb",
+            "aaMHXh8aNNwpBAF2NBs5Wa",
+            "f3Fu3O5LpO2Kfu5xZAuo5K"
+        ]
+    },
+    "name": "SlotFramework",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}

@@ -1,0 +1,174 @@
+
+LD_MG_BG.webp
+size: 2036,976
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+H1
+  rotate: true
+  xy: 612, 49
+  size: 54, 69
+  orig: 54, 69
+  offset: 0, 0
+  index: -1
+H2
+  rotate: true
+  xy: 699, 121
+  size: 62, 75
+  orig: 62, 75
+  offset: 0, 0
+  index: -1
+H3
+  rotate: true
+  xy: 699, 48
+  size: 71, 75
+  orig: 71, 75
+  offset: 0, 0
+  index: -1
+N1
+  rotate: false
+  xy: 1173, 345
+  size: 73, 86
+  orig: 73, 86
+  offset: 0, 0
+  index: -1
+W_wood
+  rotate: false
+  xy: 2, 185
+  size: 841, 246
+  orig: 841, 247
+  offset: 0, 0
+  index: -1
+back_leaf_L
+  rotate: true
+  xy: 1848, 2
+  size: 330, 184
+  orig: 330, 184
+  offset: 0, 0
+  index: -1
+bg_bird_1
+  rotate: false
+  xy: 776, 59
+  size: 64, 47
+  orig: 64, 47
+  offset: 0, 0
+  index: -1
+bg_bird_2
+  rotate: false
+  xy: 1032, 334
+  size: 49, 33
+  orig: 49, 33
+  offset: 0, 0
+  index: -1
+bottom_flower_1
+  rotate: true
+  xy: 418, 99
+  size: 84, 99
+  orig: 84, 99
+  offset: 0, 0
+  index: -1
+bottom_flower_2
+  rotate: true
+  xy: 519, 98
+  size: 85, 91
+  orig: 85, 91
+  offset: 0, 0
+  index: -1
+bottom_flower_3
+  rotate: false
+  xy: 776, 108
+  size: 56, 75
+  orig: 56, 75
+  offset: 0, 0
+  index: -1
+bottom_leaf
+  rotate: false
+  xy: 2, 433
+  size: 1252, 540
+  orig: 1252, 540
+  offset: 0, 0
+  index: -1
+bottom_leaf_1
+  rotate: false
+  xy: 845, 349
+  size: 185, 82
+  orig: 185, 82
+  offset: 0, 0
+  index: -1
+bottom_leaf_2
+  rotate: false
+  xy: 295, 62
+  size: 121, 121
+  orig: 121, 121
+  offset: 0, 0
+  index: -1
+bottom_leaf_3
+  rotate: false
+  xy: 1032, 369
+  size: 139, 62
+  orig: 139, 62
+  offset: 0, 0
+  index: -1
+bottom_leaf_4
+  rotate: false
+  xy: 156, 100
+  size: 137, 83
+  orig: 137, 83
+  offset: 0, 0
+  index: -1
+bottom_leaf_5
+  rotate: true
+  xy: 612, 105
+  size: 78, 85
+  orig: 78, 85
+  offset: 0, 0
+  index: -1
+leaf_FL
+  rotate: false
+  xy: 1383, 47
+  size: 463, 285
+  orig: 463, 285
+  offset: 0, 0
+  index: -1
+leaf_FR
+  rotate: false
+  xy: 845, 79
+  size: 536, 253
+  orig: 536, 267
+  offset: 0, 3
+  index: -1
+petal3
+  rotate: false
+  xy: 1083, 359
+  size: 20, 8
+  orig: 20, 8
+  offset: 0, 0
+  index: -1
+petal4
+  rotate: false
+  xy: 1124, 354
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+petal5
+  rotate: false
+  xy: 1105, 355
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
+tree
+  rotate: true
+  xy: 1256, 334
+  size: 639, 769
+  orig: 639, 769
+  offset: 0, 0
+  index: -1
+wave
+  rotate: true
+  xy: 2, 48
+  size: 135, 152
+  orig: 135, 152
+  offset: 0, 0
+  index: -1

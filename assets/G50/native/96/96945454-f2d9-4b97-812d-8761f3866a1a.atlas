@@ -1,0 +1,139 @@
+
+MG_to_FG.webp
+size: 2016,1148
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Star_04
+  rotate: false
+  xy: 144, 1115
+  size: 28, 28
+  orig: 32, 32
+  offset: 2, 2
+  index: -1
+black
+  rotate: false
+  xy: 58, 1107
+  size: 84, 36
+  orig: 84, 36
+  offset: 0, 0
+  index: -1
+cup_botton
+  rotate: true
+  xy: 1690, 532
+  size: 611, 322
+  orig: 611, 322
+  offset: 0, 0
+  index: -1
+cup_top
+  rotate: true
+  xy: 1078, 596
+  size: 547, 610
+  orig: 547, 610
+  offset: 0, 0
+  index: -1
+lizi2
+  rotate: false
+  xy: 961, 749
+  size: 115, 112
+  orig: 115, 112
+  offset: 0, 0
+  index: -1
+petal_07
+  rotate: false
+  xy: 2, 1079
+  size: 54, 64
+  orig: 64, 64
+  offset: 5, 0
+  index: -1
+ts_flower_1
+  rotate: 180
+  xy: 285, 3
+  size: 369, 290
+  orig: 370, 290
+  offset: 0, 0
+  index: -1
+ts_flower_2
+  rotate: false
+  xy: 2, 42
+  size: 123, 226
+  orig: 123, 226
+  offset: 0, 0
+  index: -1
+ts_leaf_1
+  rotate: false
+  xy: 914, 1043
+  size: 156, 100
+  orig: 157, 100
+  offset: 0, 0
+  index: -1
+ts_leaf_2
+  rotate: false
+  xy: 655, 3
+  size: 305, 181
+  orig: 306, 181
+  offset: 0, 0
+  index: -1
+ts_water
+  rotate: false
+  xy: 2, 700
+  size: 1075, 443
+  orig: 1075, 443
+  offset: 0, 0
+  index: -1
+word_free
+  rotate: false
+  xy: 1078, 389
+  size: 575, 205
+  orig: 575, 205
+  offset: 0, 0
+  index: -1
+word_free_FX1
+  rotate: false
+  xy: 1362, 182
+  size: 423, 205
+  orig: 575, 205
+  offset: 0, 0
+  index: -1
+word_free_FX2
+  rotate: false
+  xy: 469, 283
+  size: 451, 204
+  orig: 575, 205
+  offset: 62, 1
+  index: -1
+word_free_FX3
+  rotate: true
+  xy: 1787, 105
+  size: 425, 203
+  orig: 575, 205
+  offset: 150, 1
+  index: -1
+word_game
+  rotate: false
+  xy: 483, 489
+  size: 593, 214
+  orig: 593, 214
+  offset: 0, 0
+  index: -1
+word_game_FX1
+  rotate: false
+  xy: 2, 270
+  size: 431, 213
+  orig: 593, 214
+  offset: 0, 1
+  index: -1
+word_game_FX2
+  rotate: false
+  xy: 2, 485
+  size: 465, 213
+  orig: 593, 214
+  offset: 64, 1
+  index: -1
+word_game_FX3
+  rotate: false
+  xy: 922, 186
+  size: 438, 201
+  orig: 593, 214
+  offset: 155, 12
+  index: -1

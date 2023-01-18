@@ -38,8 +38,8 @@
   <!--<link rel="apple-touch-icon" href=".png" />-->
   <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
 
-  <link rel="stylesheet" type="text/css" href="style-mobile.bdd80.css" />
-  <link rel="icon" href="a3spo-o9t4v-001.3471b.ico" />
+  <link rel="stylesheet" type="text/css" href="style-mobile.css" />
+  <link rel="icon" href="a3spo-o9t4v-001.ico" />
 </head>
 
 <body>
@@ -47,19 +47,19 @@
   <div id="splash">
     <div>
 
-      <img src="./KK_LOGO_01_c.ebedf.png" id="logo"></img>
+      <img src="./KK_LOGO_01_c.png" id="logo"></img>
     </div>
 
     <div>
-      <img src="./giphy2.71e28.gif" id="gif"></img>
+      <img src="./giphy2.gif" id="gif"></img>
     </div>
     <div class="progress-bar stripes">
       <span style="width: 0%"></span>
     </div>
   </div>
 
-  <script src="src/settings.5a84e.js" charset="utf-8"></script>
-  <script src="main.271af.js" charset="utf-8"></script>
+  <script src="src/settings.js" charset="utf-8"></script>
+  <script src="main.js" charset="utf-8"></script>
 
   <script type="text/javascript">
     (function () {
@@ -86,9 +86,9 @@
         // document.getElementById("GameCanvas").focus();
       }
 
-      loadScript(debug ? 'cocos2d-js.b7e79.js' : 'cocos2d-js-min.js', function () {
+      loadScript(debug ? 'cocos2d-js.js' : 'cocos2d-js-min.js', function () {
         if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
-          loadScript(debug ? 'physics.9d2de.js' : 'physics-min.js', window.boot);
+          loadScript(debug ? 'physics.js' : 'physics-min.js', window.boot);
         }
         else {
           window.boot();

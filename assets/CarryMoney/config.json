@@ -1,0 +1,228 @@
+{
+    "paths": {
+        "aeABQFPbBKB6UManpa0IVj": [
+            "Image/g0_cl_pl_9",
+            "cc.SpriteFrame",
+            1
+        ],
+        "48Ty95TMVK8Ih5zJaHtgXv": [
+            "Image/g0_com_btn_3",
+            "cc.SpriteFrame",
+            1
+        ],
+        "bcHJnvZRFCCJC1YFvpnYNl": [
+            "Image/g0_com_btn_6_off",
+            "cc.SpriteFrame",
+            1
+        ],
+        "890oSJONRF0p2GhDRZ8Dcc": [
+            "Image/g0_com_btn_7_on",
+            "cc.SpriteFrame",
+            1
+        ],
+        "bfFH9ym2tDS4mRzc/opMIs": [
+            "Image/g0_com_pl_1",
+            "cc.SpriteFrame",
+            1
+        ],
+        "81Xj4S3ORDaY6VUYmt6eoJ": [
+            "Image/g0_com_pl_2",
+            "cc.SpriteFrame",
+            1
+        ],
+        "78Zpcm6XFCKa+/4o1v5AYZ": [
+            "Image/g0_com_pl_3",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b3/U7NjelMJ6wb7+k80Ebi": [
+            "Image/g0_lb_img_4_mus1",
+            "cc.SpriteFrame",
+            1
+        ],
+        "afzjcQXpFNoKPrs77xaGmF": [
+            "Image/g0_lb_img_4_mus2",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f4PozurMNOTYnzZ2Nfrwye": [
+            "Image/g0_lb_img_5",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7269UpV+lMmLB5h9Y8rU6L": [
+            "Image/g0_rec_img_6",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7b3cUKrsNEX50H3Zf9YzRz": [
+            "Image/g6_as_btn_1",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f2jrxyTzRKy7eFCdcFcopw": [
+            "Image/g6_as_pl_2",
+            "cc.SpriteFrame",
+            1
+        ],
+        "5a39K07OFJ8K5f7bYCLQP7": [
+            "Image/g6_com_pl_19",
+            "cc.SpriteFrame",
+            1
+        ],
+        "e3FIM8uX5GBZlHr6Ge0G5p": [
+            "Localize/zh-cn/g0_com_btn_10",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f0d4gU+h9LZ6Ds8vCWIxpF": [
+            "Localize/zh-cn/g0_com_btn_4",
+            "cc.SpriteFrame",
+            1
+        ],
+        "07f/MzT2lDEK3OTUkeIizx": [
+            "Localize/zh-cn/g0_com_btn_4_off",
+            "cc.SpriteFrame",
+            1
+        ],
+        "1fzWQqAcBGvJQ0Q3yxymsC": [
+            "Localize/zh-cn/g6_as_btn_2",
+            "cc.SpriteFrame",
+            1
+        ],
+        "47jpciAUVCAZdBvNHxjIfb": [
+            "Localize/zh-cn/g6_as_btn_3",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b5YSZWe+9DPJydsC2yS5du": [
+            "Localize/zh-cn/g6_as_btn_4",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b3xkOa2cxEP7GELnu7mVmU": [
+            "Localize/zh-cn/g6_as_btn_5",
+            "cc.SpriteFrame",
+            1
+        ],
+        "addPBPrBlFRr44eCL1oCZA": [
+            "Lossless/g0_com_pl_2",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d4L6JqnRZGvbZrxIaoll5Q": [
+            "Lossless/g6_as_pl_1",
+            "cc.SpriteFrame",
+            1
+        ],
+        "09kcRy3CtIuqKE1/gSZFxV": [
+            "Prefab/Carry Money Enter Panel",
+            "cc.Prefab"
+        ],
+        "7aik7u/tJNL5GzSiAiCDgd": [
+            "Prefab/Carry Money Info Panel",
+            "cc.Prefab"
+        ],
+        "e1AEXAL8NHXKklILQx8XA8": [
+            "Prefab/Carry Money Panel",
+            "cc.Prefab"
+        ],
+        "7dL9e8WwZOZqTW2iJ0g+Hu": [
+            "carryMoneyAtlas",
+            "cc.SpriteAtlas"
+        ]
+    },
+    "uuids": [
+        "07f/MzT2lDEK3OTUkeIizx",
+        "09kcRy3CtIuqKE1/gSZFxV",
+        "13ca882fd",
+        "1fzWQqAcBGvJQ0Q3yxymsC",
+        "29FYIk+N1GYaeWH/q1NxQO",
+        "47jpciAUVCAZdBvNHxjIfb",
+        "48Ty95TMVK8Ih5zJaHtgXv",
+        "5a39K07OFJ8K5f7bYCLQP7",
+        "7269UpV+lMmLB5h9Y8rU6L",
+        "78Zpcm6XFCKa+/4o1v5AYZ",
+        "7aik7u/tJNL5GzSiAiCDgd",
+        "7b3cUKrsNEX50H3Zf9YzRz",
+        "7dL9e8WwZOZqTW2iJ0g+Hu",
+        "81Xj4S3ORDaY6VUYmt6eoJ",
+        "890oSJONRF0p2GhDRZ8Dcc",
+        "a2MjXRFdtLlYQ5ouAFv/+R",
+        "addPBPrBlFRr44eCL1oCZA",
+        "aeABQFPbBKB6UManpa0IVj",
+        "afzjcQXpFNoKPrs77xaGmF",
+        "b3xkOa2cxEP7GELnu7mVmU",
+        "b3/U7NjelMJ6wb7+k80Ebi",
+        "b5YSZWe+9DPJydsC2yS5du",
+        "bcHJnvZRFCCJC1YFvpnYNl",
+        "bfFH9ym2tDS4mRzc/opMIs",
+        "d4L6JqnRZGvbZrxIaoll5Q",
+        "e1AEXAL8NHXKklILQx8XA8",
+        "e3FIM8uX5GBZlHr6Ge0G5p",
+        "e7q6FL+VZEgLJUjVeDLic/",
+        "e97GVMl6JHh5Ml5qEDdSGa",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "f0BIwQ8D5Ml7nTNQbh1YlS",
+        "f0d4gU+h9LZ6Ds8vCWIxpF",
+        "f2jrxyTzRKy7eFCdcFcopw",
+        "f4PozurMNOTYnzZ2Nfrwye"
+    ],
+    "scenes": {},
+    "redirect": [
+        "29FYIk+N1GYaeWH/q1NxQO",
+        0,
+        "a2MjXRFdtLlYQ5ouAFv/+R",
+        0,
+        "e7q6FL+VZEgLJUjVeDLic/",
+        0,
+        "e97GVMl6JHh5Ml5qEDdSGa",
+        0,
+        "ecpdLyjvZBwrvm+cedCcQy",
+        1,
+        "f0BIwQ8D5Ml7nTNQbh1YlS",
+        0
+    ],
+    "deps": [
+        "CommonResources",
+        "internal"
+    ],
+    "packs": {
+        "0511ab362": [
+            "7b3cUKrsNEX50H3Zf9YzRz",
+            "aeABQFPbBKB6UManpa0IVj",
+            "e3FIM8uX5GBZlHr6Ge0G5p"
+        ],
+        "05c778ad0": [
+            "48Ty95TMVK8Ih5zJaHtgXv",
+            "addPBPrBlFRr44eCL1oCZA",
+            "d4L6JqnRZGvbZrxIaoll5Q",
+            "f0d4gU+h9LZ6Ds8vCWIxpF"
+        ],
+        "05f1e67e1": [
+            "07f/MzT2lDEK3OTUkeIizx",
+            "09kcRy3CtIuqKE1/gSZFxV",
+            "890oSJONRF0p2GhDRZ8Dcc",
+            "afzjcQXpFNoKPrs77xaGmF",
+            "b3/U7NjelMJ6wb7+k80Ebi",
+            "bcHJnvZRFCCJC1YFvpnYNl",
+            "f2jrxyTzRKy7eFCdcFcopw",
+            "f4PozurMNOTYnzZ2Nfrwye"
+        ],
+        "0f0304bbf": [
+            "1fzWQqAcBGvJQ0Q3yxymsC",
+            "47jpciAUVCAZdBvNHxjIfb",
+            "5a39K07OFJ8K5f7bYCLQP7",
+            "7269UpV+lMmLB5h9Y8rU6L",
+            "7aik7u/tJNL5GzSiAiCDgd",
+            "b3xkOa2cxEP7GELnu7mVmU",
+            "b5YSZWe+9DPJydsC2yS5du"
+        ]
+    },
+    "name": "CarryMoney",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}

@@ -1,0 +1,41 @@
+
+MegaWin.webp
+size: 536,536
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mega win_M
+  rotate: false
+  xy: 2, 364
+  size: 529, 167
+  orig: 529, 167
+  offset: 0, 0
+  index: -1
+mega win_W
+  rotate: false
+  xy: 2, 201
+  size: 361, 161
+  orig: 363, 161
+  offset: 1, 0
+  index: -1
+mega win_flower_1
+  rotate: false
+  xy: 2, 76
+  size: 163, 123
+  orig: 163, 123
+  offset: 0, 0
+  index: -1
+mega win_leaf_1
+  rotate: true
+  xy: 167, 87
+  size: 112, 67
+  orig: 113, 67
+  offset: 0, 0
+  index: -1
+ts_flower_2
+  rotate: false
+  xy: 365, 136
+  size: 125, 226
+  orig: 125, 226
+  offset: 0, 0
+  index: -1

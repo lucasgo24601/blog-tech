@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "1990ffcce"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "JACKPOT",
+      "rect": [
+        3,
+        3,
+        979,
+        992
+      ],
+      "offset": [
+        -6.5,
+        0
+      ],
+      "originalSize": [
+        996,
+        996
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

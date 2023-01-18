@@ -1,0 +1,35 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.TextAsset",
+      [
+        "_name",
+        "text"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "G50_GameClient.d",
+      "import { FastChoseRoomData, BaseGameSpinResponeData, JackpotNoticeData } from '../../../../Game/script/G50_CommonData';\r\n\r\ndeclare class G50_GameClient extends Slot_GameClient {\r\n\r\n    /** 機台列表的新消息 */\r\n    public roomsInfo(): Promise<void>\r\n\r\n////////////////////////////////\r\n    /** 初始滾輪表 */\r\n    public setOnGetInitialReelInfoEvent(): Promise<GetInitialReelInfoData>\r\n\r\n    /** 房間列表 */\r\n    public setOnGetRoomListEvent(): Promise<GetRoomListData>\r\n    \r\n    /** 選擇機台 */\r\n    public setOnChoseRoomEvent(roomId : string): Promise<void>\r\n\r\n    /** 通知快速選擇房間 */\r\n    public setOnFastChoseRoomEvent(): Promise<FastChoseRoomData>\r\n\r\n    /** 通知Spin */\r\n    // public setOnSpinBaseGameEvent({baseGameSpinRequestData : BaseGameSpinRequestData}): Promise<BaseGameSpinResponeData>\r\n    public setOnSpinBaseGameEvent(multiple : number): Promise<BaseGameSpinResponeData>\r\n\r\n    /** 離開房間 */\r\n    public setOnLeaveEvent(): Promise<void>\r\n\r\n    /** 錯誤訊息 */\r\n    public setOnErrorEvent(callback: (errCode: number, errMsg: string) => void): void\r\n    \r\n    /** 玩家進入消息 */\r\n    public setSelfEnterEvent(callback: (data: { balance: number }) => void) : void;\r\n\r\n    /** 廣播獎池最新金額 */\r\n    public setOnRefreshJackpotNotice(callback: (data: JackpotNoticeData) => void)\r\n}"
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

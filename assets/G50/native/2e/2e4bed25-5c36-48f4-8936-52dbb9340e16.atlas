@@ -1,0 +1,62 @@
+
+SuperWin.webp
+size: 1228,172
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+super win_S
+  rotate: false
+  xy: 2, 3
+  size: 609, 167
+  orig: 609, 167
+  offset: 0, 0
+  index: -1
+super win_W
+  rotate: false
+  xy: 613, 10
+  size: 362, 160
+  orig: 362, 161
+  offset: 0, 1
+  index: -1
+super win_leaf_1
+  rotate: true
+  xy: 1090, 87
+  size: 83, 78
+  orig: 83, 78
+  offset: 0, 0
+  index: -1
+super win_leaf_1a
+  rotate: true
+  xy: 977, 2
+  size: 42, 39
+  orig: 42, 39
+  offset: 0, 0
+  index: -1
+super win_leaf_5
+  rotate: false
+  xy: 1090, 18
+  size: 59, 67
+  orig: 59, 67
+  offset: 0, 0
+  index: -1
+super win_leaf_5a
+  rotate: false
+  xy: 1151, 18
+  size: 59, 67
+  orig: 59, 67
+  offset: 0, 0
+  index: -1
+super win_leaf_6
+  rotate: true
+  xy: 977, 46
+  size: 124, 111
+  orig: 124, 111
+  offset: 0, 0
+  index: -1
+super win_leaf_6a
+  rotate: true
+  xy: 1170, 108
+  size: 62, 56
+  orig: 62, 56
+  offset: 0, 0
+  index: -1
